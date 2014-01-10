@@ -7,9 +7,13 @@
 				{
 					"type": "optional boolean",
 					"name": "value"
+				},
+				{
+					"type": "optional boolean",
+					"name": "dontshowalert"
 				}
 			],
-			"description": "Disables 'Targeting', 'Cavebot' and 'Looting' if <i>value</i> is <i>true</i> and enables if it's <i>false</i>. If no value is passed, it will simply toggle the current state of these sections.",
+			"description": "Disables 'Targeting', 'Cavebot' and 'Looting' if <i>value</i> is <i>true</i> and enables if it's <i>false</i>. If no value is passed, it will simply toggle the current state of these sections. By default, a message will be printed in WindBot console saying which script called this function. If you don't want to show this warning, set dontshowalert to true.",
 			"ex": "if $cavebot or $targeting or $looting then\n\tpausebot(true)\nelse\n\tpausebot(false)\nend",
 			"exDescription": "Pauses the bot if the 'Cavebot' or 'Targeting' or 'Looting' is currently running, and unpause it otherwise."
 		}
