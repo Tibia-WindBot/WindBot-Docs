@@ -1,0 +1,12 @@
+{
+	"name": "getposition",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [],
+			"description": "Returns a table with the <i>x</i> and <i>y</i> coordinates of the display.",
+			"ex": "local pos = getposition()\ndrawtext('x: ' ..pos.x.. ', y:' ..pos.y, 0, 0)",
+			"exDescription": "Will draw a texting showing the current position x, y of your HUD script."
+		}
+	]
+}

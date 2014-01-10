@@ -1,0 +1,21 @@
+{
+	"name": "closewindows",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "onlyone"
+				}
+			],
+			"description": "Closes all windows that fit the description of <i>locationname</i>. If <i>locationname</i> is not specified, all windows are closed. If <i>onlyone</i> is specified as true, then only one matching window is closed.",
+			"ex": "closewindows('yellow backpack', true)",
+			"exDescription": "Will close the first 'yellow backpack'."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "tile",
+	"name": "tile",
+	"description": "A tile holds information about a tile on your screen. So you can read each item on a tile."
+}

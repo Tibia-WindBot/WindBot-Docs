@@ -1,0 +1,5 @@
+{
+	"id": "bot-control",
+	"name": "Bot Control",
+	"description": "These functions are used to modify settings of the bot."
+}

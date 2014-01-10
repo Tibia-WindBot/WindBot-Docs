@@ -1,0 +1,11 @@
+{
+	"name": "$cursed",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is cursed, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $cursed and $vocation == 'paladin' then\n\tcast('exana mort') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are cursed and you are a 'paladin'. If so, it cast 'cure curse' spell."
+		}
+	]
+}

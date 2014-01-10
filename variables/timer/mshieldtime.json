@@ -1,0 +1,11 @@
+{
+	"name": "$mshieldtime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds remaining on the magic shield spell.",
+			"ex": "auto(200)\nif $mshieldtime <= 2000 then\n\tcast('utamo vita') wait(300, 500)\nend",
+			"exDescription": "Will cast 'magic shield' spell if you have less than 2 seconds left of magic shield."
+		}
+	]
+}

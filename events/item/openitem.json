@@ -1,0 +1,65 @@
+{
+	"name": "openitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional boolean",
+					"name": "opennew"
+				},
+				{
+					"type": "optional number",
+					"name": "index"
+				}
+			],
+			"description": "Opens the item <i>itemname</i>. If you pass 0 for <i>itemid</i>, any openable item will be opened. You can optionally pass a location string for the <i>locationfrom</i> parameter to indicate where to look for the item to be opened if you don't want it to be looked for in all open windows. You can optionally pass <i>true</i> as the <i>opennew</i> parameter to indicate opening the item in a new window. You can also optionally specify which item to open in sequence by passing the <i>index</i> parameter (1st item, 2nd item... etc).",
+			"ex": "openitem('bag', ground($posx, $posy - 1, $posz)) wait(300, 500)\neatfood()\nclosewindows('bag', true)",
+			"exDescription": "Will open a 'bag' on the SQM north of you, eat food from it and close it."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional boolean",
+					"name": "opennew"
+				},
+				{
+					"type": "optional number",
+					"name": "index"
+				}
+			],
+			"description": "Opens item of id <i>itemid</i>. If you pass 0 for <i>itemid</i>, any openable item will be opened. You can optionally pass a location string for the <i>locationfrom</i> parameter to indicate where to look for the item to be opened if you don't want it to be looked for in all open windows. You can optionally pass <i>true</i> as the <i>opennew</i> parameter to indicate opening the item in a new window. You can also optionally specify which item to open in sequence by passing the <i>index</i> parameter (1st item, 2nd item... etc).",
+			"ex": "openitem(0, ground($posx, $posy, $posz))\nmoveitems('magic plate armor', '0')",
+			"exDescription": "Will open the container in the SQM you're standing and move all 'magic plate armors' inside to your container of index 0."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'depot'"
+				}
+			],
+			"description": "Opens a depot box next to you (since depots have different ids, this will make things easier).",
+			"ex": "",
+			"exDescription": ""
+		}
+	]
+}

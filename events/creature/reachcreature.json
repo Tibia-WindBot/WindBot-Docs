@@ -1,0 +1,37 @@
+{
+	"name": "reachcreature",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				}
+			],
+			"description": "Will try to reach the creature with name <i>creaturename</i>",
+			"ex": "reachcreature('Dove')\nsay('hi') wait(2000, 2500)\nnpcsay('trade')\nwait(1000, 1300)",
+			"exDescription": "Will try to reach the creature named 'Dove', then say 'hi' and wait a while for the NPC Channel to open, and say 'trade'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "creatureid"
+				}
+			],
+			"description": "Will try to reach the creature with id <i>creatureid</i>"
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Will try to reach the creature <i>creaturepointer</i>"
+		}
+	]
+}

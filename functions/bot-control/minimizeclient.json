@@ -1,0 +1,10 @@
+{
+	"name": "minimizeclient",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Minimizes the client."
+		}
+	]
+}

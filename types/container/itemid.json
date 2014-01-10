@@ -1,0 +1,9 @@
+{
+	"name": ".itemid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the container's item id."
+		}
+	]
+}

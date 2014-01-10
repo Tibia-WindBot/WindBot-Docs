@@ -1,0 +1,11 @@
+{
+	"name": "$timems",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds since the bot has started.",
+			"ex": "init start\n\tlocal timestart = $timems\ninit end\nauto(100)\nlistas($timems-timestart)",
+			"exDescription": "Will show how many milliseconds has passed since you started this script."
+		}
+	]
+}

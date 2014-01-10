@@ -1,0 +1,9 @@
+{
+	"name": ".ignored",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

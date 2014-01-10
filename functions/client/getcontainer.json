@@ -1,0 +1,17 @@
+{
+	"name": "getcontainer",
+	"invocations": [
+		{
+			"rettype": "container",
+			"args": [
+				{
+					"type": "number",
+					"name": "containerindex"
+				}
+			],
+			"description": "Returns a pointer to the <i>container</i> datastructure for the specificed container with index <i>containerindex</i> ranging from 0-15. If you need more info about the container data structure, access <a href=\"docs.html#types-container\">this</a>",
+			"ex": "print(getcontainer(0).name)",
+			"exDescription": "Will print the name of the first container."
+		}
+	]
+}

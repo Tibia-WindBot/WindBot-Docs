@@ -1,0 +1,9 @@
+{
+	"name": "$shifttime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that the shift key was physically held for by the bot."
+		}
+	]
+}

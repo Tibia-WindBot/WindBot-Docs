@@ -1,0 +1,9 @@
+{
+	"name": ".content",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the content of the animated text."
+		}
+	]
+}

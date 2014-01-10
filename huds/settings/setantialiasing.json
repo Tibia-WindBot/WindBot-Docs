@@ -1,0 +1,15 @@
+{
+	"name": "setantialiasing",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "boolean",
+					"name": "enabled"
+				}
+			],
+			"description": "Choose whether to enable or disable the anti-aliased painting of rounded shapes to make them appear smoother. Keep in mind that this slows down rendering a little."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$battlesigned",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is battle signed, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif not $battlesigned then\n\tlogout()\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are battle signed. If not, it will cast logout."
+		}
+	]
+}

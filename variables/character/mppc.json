@@ -1,0 +1,11 @@
+{
+	"name": "$mppc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's mana percentage.",
+			"ex": "auto(200)\nif $mppc < 60 then\n\tuseoncreature('great mana potion', $self) wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have less than 60% of mana. If so, it will use a 'great mana potion' on yourself."
+		}
+	]
+}

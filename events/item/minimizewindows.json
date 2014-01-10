@@ -1,0 +1,21 @@
+{
+	"name": "minimizewindows",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "onlyone"
+				}
+			],
+			"description": "Minimizes all windows that fit the description of <i>locationname</i>. If <i>locationname</i> is not specified, all windows are minimized. If <i>onlyone</i> is specified as <i>true</i>, then only one matching window is minimized. You may specify 'equip' as <i>locationtype</i> to indicate that you want the equipment window minimized.",
+			"ex": "minimizewindows('equip')",
+			"exDescription": "Will minimize your equipment window."
+		}
+	]
+}

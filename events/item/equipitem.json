@@ -1,0 +1,53 @@
+{
+	"name": "equipitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "string",
+					"name": "equipslot"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional number",
+					"name": "count"
+				}
+			],
+			"description": "Equips the item <i>itemname</i> to inventory slot <i>equipslot</i>. Slot is a location string and can be 'rhand', 'ring', 'belt', etc.. Optionally, you can specify a source for the items in <i>locationfrom</i> if you don't want it to be all open windows. Also, you can provide how many items to move by providing the <i>count</i> parameter.",
+			"ex": "auto(1000)\nif $rhand.count < 10\n\tequipitem('assassin star', 'rhand', 'blue backpack', 100)\nend",
+			"exDescription": "Each 1 second, will reequip 'assassin stars' if you're with low ammo."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "string",
+					"name": "equipslot"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional number",
+					"name": "count"
+				}
+			],
+			"description": "Equips item of id <i>itemid</i> to inventory slot <i>equipslot</i>. Optionally, you can specify a source for the items in <i>locationfrom</i> if you don't want it to be all open windows. Also, you can provide how many items to move by providing the <i>count</i> parameter.",
+			"ex": "auto(1000)\nif $target.name == 'Ghost' and $rhand.id ~= 3280\n\tequipitem(3280, 'rhand') wait(200, 300)\nelseif $rhand.id == 3280\n\tequipitem(7386, 'rhand')\nend",
+			"exDescription": "Each second, will equip a item with id 3280 (fire sword) if you're attacking a Ghost and doesn't have one equipped already. Else, it will equip a item with id 7386 (mercenary sword)."
+		}
+	]
+}

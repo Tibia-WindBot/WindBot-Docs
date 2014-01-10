@@ -1,0 +1,5 @@
+{
+	"id": "client",
+	"name": "Client Information",
+	"description": "These variables are used to access information about the client."
+}

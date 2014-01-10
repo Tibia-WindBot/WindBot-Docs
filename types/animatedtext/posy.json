@@ -1,0 +1,9 @@
+{
+	"name": ".posy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the position <i>y</i> where the animated text happened."
+		}
+	]
+}

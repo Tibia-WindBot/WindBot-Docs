@@ -1,0 +1,9 @@
+{
+	"name": "$chardb",
+	"invocations": [
+		{
+			"rettype": "database",
+			"description": "Used to access the character's database (/data/chars/yourcharname.db)."
+		}
+	]
+}

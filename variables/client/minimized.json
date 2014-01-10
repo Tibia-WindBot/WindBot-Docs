@@ -1,0 +1,9 @@
+{
+	"name": "$minimized",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the Tibia Client is minimized, <i>false</i> otherwise."
+		}
+	]
+}

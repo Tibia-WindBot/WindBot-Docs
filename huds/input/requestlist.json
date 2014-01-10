@@ -1,0 +1,25 @@
+{
+	"name": "requestlist",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "requestid"
+				},
+				{
+					"type": "string",
+					"name": "question"
+				},
+				{
+					"type": "number",
+					"name": "defaultindex"
+				}
+			],
+			"description": "Requests a text string out of a list from the user. This can only be called from the <i>inputevents(table e)</i> function. The <i>question</i> parameter is the question to ask the user and the <i>defaultindex</i> parameter is the default index in the list to be shown. A request id can be specified in the <i>requestid</i> parameter. This request id will be passed to the <i>inputevents</i> function as the <i>e.value1</i> parameter to identify later on what was requested. The <i>e.type</i> parameter will be IEVENT_REQUESTLIST and <i>e.value2</i> will represent the chosen or written text string. List items must be added using the <a href=\"#requestlistitem\">requestlistitem</a> function.",
+			"ex": "init start\n\tlocal reqID = 5\n\tfunction inputevents(e)\n\t\t...\n\t\t\trequestlist(reqID, 'Please, choose an item from the list', 0)\n\t\t\trequestlistitem('item1')\n\t\t\trequestlistitem('item2')\n\t\t\trequestlistitem('item3')\n\t\t...\n\t\tif e.type == IEVENT_REQUESTLIST then\n\t\t\tprint('The item selected was: ' .. e.value2)\n\t\tend\n\tend\ninit end\n...",
+			"exDescription": "This example works just like the <a href=\"#requestint\">requestint</a> example, but it requests a value based on a pre-made list. Also notice that some parts of the example was ommited to make the example smaller."
+		}
+	]
+}

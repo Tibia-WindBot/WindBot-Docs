@@ -1,0 +1,11 @@
+{
+	"name": "$pzone",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is inside a protection zone, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $pzone then\n\tcloseclient()\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are inside a protection zone. If so, it will close the client."
+		}
+	]
+}

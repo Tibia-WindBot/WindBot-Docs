@@ -1,0 +1,5 @@
+{
+	"id": "projectile",
+	"name": "projectile",
+	"description": "A projectile holds information about projectiles on the screen. Like when you shoot a missile rune in a creature."
+}

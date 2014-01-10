@@ -1,0 +1,9 @@
+{
+	"name": ".maxcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the container's capacity."
+		}
+	]
+}

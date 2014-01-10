@@ -1,0 +1,17 @@
+{
+	"name": "setrefilling",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "boolean",
+					"name": "value"
+				}
+			],
+			"description": "Sets the variable <a href=\"lua-variables.html#$refilling\">$refilling</a> to <i>value</i> which can be <i>true</i> or <i>false</i>.",
+			"ex": "setrefilling(true)",
+			"exDescription": "Will set the variable <a href=\"lua-variables.html#$refilling\">$refilling</a> to <i>true</i>."
+		}
+	]
+}

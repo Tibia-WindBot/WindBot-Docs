@@ -1,0 +1,37 @@
+{
+	"name": "useoncreature",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Uses the item <i>itemname</i> on creature creature. If the item is found in a hotkey with an appropriate action, it will be pressed. Otherwise, it will be clicked in the inventory if present.",
+			"ex": "useoncreature('mana potion', $followed)",
+			"exDescription": "Will use a 'mana potion' on the creature you're following."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Uses item of id <i>itemid</i> on creature creature. If the item is found in a hotkey with an appropriate action, it will be pressed. Otherwise, it will be clicked in the inventory if present.",
+			"ex": "useoncreature(itemid('sudden death rune'), $target)",
+			"exDescription": "Will use a 'sudden death rune' on your target."
+		}
+	]
+}

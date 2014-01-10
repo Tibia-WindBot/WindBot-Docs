@@ -1,0 +1,19 @@
+{
+	"name": "scriptlistcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "scripttype"
+				},
+				{
+					"type": "number",
+					"name": "index"
+				}
+			],
+			"description": "Returns the list color of the script with type <i>scripttype</i> and index <i>index</i>. The list color is the default color of scripts, or the custom color passed to the <a href=\"#listcolor\">listcolor</a> function."
+		}
+	]
+}

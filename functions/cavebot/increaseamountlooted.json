@@ -1,0 +1,34 @@
+{
+	"name": "increaseamountlooted",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items <i>itemname</i> you looted by <i>amount</i> units. This function can be used to count loots fished in water elementals for example, or rust armors and legs. The internal loot counter only counts items you actually looted, so some exceptions has to be made.",
+			"ex": "-- Check FishWaterElemental.lua, in /luascripts/ folder --"
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items with id <i>itemid</i> you looted by <i>amount</i> units."
+		}
+	]
+}

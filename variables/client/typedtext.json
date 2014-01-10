@@ -1,0 +1,9 @@
+{
+	"name": "$typedtext",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the currently typed text in the chat window."
+		}
+	]
+}

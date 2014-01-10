@@ -1,0 +1,12 @@
+{
+	"name": "clearlastonto",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Clears the last onto index so that 'moveitemsonto(...)' starts putting items on the first backpack again. See <b>$lastonto</b> for more information.",
+			"ex": "if $lastonto > 20 then\n\tclearlastonto()\nend",
+			"exDescription": "Will clear the last <i>onto</i> container if the current <i>onto</i> index is higher than 20."
+		}
+	]
+}

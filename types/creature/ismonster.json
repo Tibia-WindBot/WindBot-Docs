@@ -1,0 +1,9 @@
+{
+	"name": ".ismonster",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

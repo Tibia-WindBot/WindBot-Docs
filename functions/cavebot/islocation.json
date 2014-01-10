@@ -1,0 +1,17 @@
+{
+	"name": "islocation",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "range"
+				}
+			],
+			"description": "Returns <i>true</i> if the action script is executed at the location where the action waypoint was set and </i>false</i> otherwise. If the optional parameter <i>range</i> is specified, return <i>true/false</i> if you are standing within <i>range</i> tiles of the waypoint location in x or y.",
+			"ex": "if not islocation(3) then\n\tgotolabel($wptid-1)\nend",
+			"exDescription": "If used as a cavebot action, it will go to the previous waypoint if you're not in 3 sqms close to the action's location."
+		}
+	]
+}

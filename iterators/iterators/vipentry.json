@@ -1,0 +1,10 @@
+{
+	"name": "vipentry",
+	"invocations": [
+		{
+			"varName": "v",
+			"param": null,
+			"description": "Iterates through all the vip entries in your VIP list, the value is stored in the variable <i>v</i>. For more information about vip entries visit <a href=\"docs.html#types-vipentry\">this</a>."
+		}
+	]
+}

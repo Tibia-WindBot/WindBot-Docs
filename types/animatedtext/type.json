@@ -1,0 +1,9 @@
+{
+	"name": ".type",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the type of the animated text."
+		}
+	]
+}

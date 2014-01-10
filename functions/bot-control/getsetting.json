@@ -1,0 +1,15 @@
+{
+	"name": "getsetting",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "settingpath"
+				}
+			],
+			"description": "Gets the value of any setting in the bot as a string representation. The string <i>settingpath</i> must contain the full path of the setting such as 'Healer/SpellHealer/Enabled'. You can copy the complete invocation of this function, by right-clicking on any setting of the bot and selecting 'Copy getsetting'."
+		}
+	]
+}

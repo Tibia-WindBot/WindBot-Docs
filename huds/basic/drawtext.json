@@ -1,0 +1,25 @@
+{
+	"name": "drawtext",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				}
+			],
+			"description": "Draws a text with the previously specified font style to the current display, at position <i>x</i> and <i>y</i>. This position is relative to the display's position (check <a href=\"#setposition\">setposition</a> for more information).",
+			"ex": "setposition(30, 30)\ndrawtext('x: '..$posx.. ', y: ' ..$posy.. ', z: ' ..$posz, 5, 5)",
+			"exDescription": "Draws a text displaying your character's current position at position 35x35 of your screen."
+		}
+	]
+}

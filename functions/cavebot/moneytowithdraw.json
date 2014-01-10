@@ -1,0 +1,17 @@
+{
+	"name": "moneytowithdraw",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional string",
+					"name": "supplycategories"
+				}
+			],
+			"description": "Will calculate how much money you have to withdraw to buy supplies, the value will be rounded up to the closest number. It will also include a random extra cash value (for travels, etc.), this value can be set in Supply options. If you pass the <i>supplycategories</i> parameter it will calculate money only for the supplies that has the category you chose. You may want to use this if you some of your supplies aren't bought at an NPC, but taken from the depot or from a tile in your house.",
+			"ex": "say('hi') wait(1500, 3000)\nnpcsay('withdraw '..moneytowithdraw('a')) wait(500, 700)\nnpcsay('yes') wait(500, 700)",
+			"exDescription": "Will calculate how much money you need to withdraw to buy items from the category 'a'."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "item",
+	"name": "item",
+	"description": "A container holds information about an item. Items can be found in your inventory, containers and tiles."
+}

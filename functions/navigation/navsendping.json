@@ -1,0 +1,25 @@
+{
+	"name": "navsendping",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Will send a ping signal at position <i>posx</i>, <i>posy</i>, <i>posz</i> to all of your allies connected to the Navigation. You can access it using foreach navping.",
+			"ex": "navping($posx, $posy, $posz)",
+			"exDescription": "Will send a ping signal at your character's position, so your friends can see where you are in the minimap."
+		}
+	]
+}

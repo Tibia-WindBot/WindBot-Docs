@@ -1,0 +1,12 @@
+{
+	"name": "focusclient",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Gives focus to the client window.",
+			"ex": "auto(200)\nif $pattacked.id > 0 then\n\tfocusclient()\nend",
+			"exDescription": "Will make the client focus if there's someone attacking you."
+		}
+	]
+}

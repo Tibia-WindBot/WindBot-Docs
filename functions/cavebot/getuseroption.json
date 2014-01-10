@@ -1,0 +1,17 @@
+{
+	"name": "getuseroption",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "string",
+					"name": "useoptionname"
+				}
+			],
+			"description": "Will get the value of the user option in Cavebot tab. Each widget type returns one type of value. <i>combo boxes</i> return <i>strings</i>, <i>check boxes</i> return <i>booleans</i>, <i>line edits</i> return <i>strings</i>, <i>spinboxes</i> and <i>double spinboxes</i> return <i>numbers</i> and <i>range spinboxes</i> return <i>tables with from and to</i> members.",
+			"ex": "local hasgates = getuseroption('hasyalahargates')\nif hasgates then\n\tgotolabel('leavethroughgates')\nelse\n\tgotolabel('leavethroughnpc')\nend",
+			"exDescription": "Will check if the 'hasyalahargates' checkbox is checked, and store its value in <i>hasgates</i> variable. Then it will pick a way to leave the cave depending on the checkbox value."
+		}
+	]
+}

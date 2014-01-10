@@ -1,0 +1,17 @@
+{
+	"name": "windowcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				}
+			],
+			"description": "Returns the count of windows that are currently open. Optionally, you can specify which windows to consider by providing the <i>locationname</i> parameter.",
+			"ex": "auto(200)\nif windowcount() == 0 then\n\tplaysound('monster.wav')\n\tflashclient()\nend",
+			"exDescription": "Will play an alert if you don't have any opened containers."
+		}
+	]
+}

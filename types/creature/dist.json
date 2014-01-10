@@ -1,0 +1,9 @@
+{
+	"name": ".dist",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

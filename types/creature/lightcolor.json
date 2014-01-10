@@ -1,0 +1,9 @@
+{
+	"name": ".lightcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "$clientctrltime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that the control key has been held for in the client."
+		}
+	]
+}

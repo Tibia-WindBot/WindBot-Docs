@@ -1,0 +1,11 @@
+{
+	"name": "$lastonto",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the last container which had space during the last moveitemsonto(...) event. To reset, after you have emptied/shuffled the relevant containers, call 'clearlastonto()'.",
+			"ex": "if $lastonto > 20 then\n\tclearlastonto()\nend",
+			"exDescription": "Clears the last <i>onto</i> container if the current <i>onto</i> index is higher than 20."
+		}
+	]
+}

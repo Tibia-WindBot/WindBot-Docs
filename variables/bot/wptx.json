@@ -1,0 +1,11 @@
+{
+	"name": "$wptx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the current waypoint position <i>x</i>.",
+			"ex": "if $posx == $wptx and $posy == $posy and $posz == $wptz then\n\tgotolabel($wptid+1)\nelse\n\tgotolabel($wptid-1)\nend",
+			"exDescription": "Goes to the next waypoint if you are exactly at the waypoint's position, otherwise it goes to the previous one."
+		}
+	]
+}

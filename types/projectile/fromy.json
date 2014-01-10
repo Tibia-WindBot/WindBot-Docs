@@ -1,0 +1,9 @@
+{
+	"name": ".fromy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the position <i>y</i> from there the projectile was shot."
+		}
+	]
+}

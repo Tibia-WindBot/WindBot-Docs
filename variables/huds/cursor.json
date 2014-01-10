@@ -1,0 +1,11 @@
+{
+	"name": "$cursor",
+	"invocations": [
+		{
+			"rettype": "point",
+			"description": "Returns your cursor's position. You can access it's position <i>x</i> and <i>y</i>.",
+			"ex": "setposition($cursor.x, $cursor.y)\ndrawtext('Here is your mouse')",
+			"exDescription": "Adds a text that follow your cursor."
+		}
+	]
+}

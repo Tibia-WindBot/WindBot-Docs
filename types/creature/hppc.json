@@ -1,0 +1,9 @@
+{
+	"name": ".hppc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the creature's current health percentage."
+		}
+	]
+}

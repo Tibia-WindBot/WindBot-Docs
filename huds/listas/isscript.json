@@ -1,0 +1,19 @@
+{
+	"name": "isscript",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "scripttype"
+				},
+				{
+					"type": "number",
+					"name": "index"
+				}
+			],
+			"description": "Returns <i>true</i> if the script of type <i>scripttype</i> and index <i>index</i> is currently running, <i>false</i> otherwise. Possible value for <i>scripttype</i> are: 'hotkey', 'persistent', 'cavebot' and 'display'."
+		}
+	]
+}

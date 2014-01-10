@@ -1,0 +1,9 @@
+{
+	"name": ".toy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the position <i>y</i> to where the projectile was shot."
+		}
+	]
+}

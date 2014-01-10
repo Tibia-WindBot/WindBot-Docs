@@ -1,0 +1,9 @@
+{
+	"name": ".speed",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the character's speed."
+		}
+	]
+}

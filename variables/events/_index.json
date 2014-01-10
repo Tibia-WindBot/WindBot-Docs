@@ -1,0 +1,5 @@
+{
+	"id": "events",
+	"name": "Events",
+	"description": "These variables are used to keep acquire information about the input events queue."
+}

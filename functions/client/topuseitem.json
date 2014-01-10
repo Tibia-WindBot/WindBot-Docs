@@ -1,0 +1,23 @@
+{
+	"name": "topuseitem",
+	"invocations": [
+		{
+			"rettype": "item",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Same as topitem, but it will get the item that will be used if you right click on that tile."
+		}
+	]
+}

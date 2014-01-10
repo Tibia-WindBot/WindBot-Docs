@@ -1,0 +1,9 @@
+{
+	"name": ".headcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

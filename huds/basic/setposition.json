@@ -1,0 +1,21 @@
+{
+	"name": "setposition",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				}
+			],
+			"description": "Sets the top-left corner of the display to position <i>x</i> and <i>y</i>. Use this to define the placement of the display on the screen. All elements added will be situated relatively to this position.",
+			"ex": "setposition(300, 500)\ndrawtext('My HP: ' ..$hp, 5, 5)",
+			"exDescription": "Will draw a text showing your current health at position x: 305, y: 505."
+		}
+	]
+}

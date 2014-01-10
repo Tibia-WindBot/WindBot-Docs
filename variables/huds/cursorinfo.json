@@ -1,0 +1,11 @@
+{
+	"name": "$cursorinfo",
+	"invocations": [
+		{
+			"rettype": "mouseinfo",
+			"description": "Returns information about your cursor's position. This can be used to check the item ID of items.",
+			"ex": "auto(200)\n\nlocal info = $cursorinfo\nlistas('x: '..info.x..', y: '..info.y..', z:'..info.z..'. ID: '..info.id..' ('..info.count..')')",
+			"exDescription": "Will show in a 'list as' HUD information about your cursor."
+		}
+	]
+}

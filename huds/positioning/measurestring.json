@@ -1,0 +1,17 @@
+{
+	"name": "measurestring",
+	"invocations": [
+		{
+			"rettype": "number, number, number, number",
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				}
+			],
+			"description": "Calculates and returns the size that a text element will take using the currently set font, font size and font width. This returns 4 values: <i>width</i>, <i>height</i> and <i>left</i>, <i>right</i>, because sometimes fonts that are very decorated draw beyond the designated rectangle and at negative values.",
+			"ex": "local textToBeDrawn = 'Testing measure string'\nlocal w, h = measurestring(textToBeDrawn)\ndrawtext(textToBeDrawn, 200 - w, 20 - h*0.5)",
+			"exDescription": "Will draw a text aligning it to the left relatively to the position x: 200, and centering it vertically in the middle of an imaginary rectangle of height 20."
+		}
+	]
+}

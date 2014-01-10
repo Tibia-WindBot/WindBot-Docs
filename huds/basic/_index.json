@@ -1,0 +1,5 @@
+{
+	"id": "basic",
+	"name": "Basic",
+	"description": "The following functions are used to provide basic functionality to HUDs, like changing the display's position and drawing things."
+}

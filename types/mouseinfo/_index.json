@@ -1,0 +1,5 @@
+{
+	"id": "mouseinfo",
+	"name": "mouseinfo",
+	"description": "Holds information about the item in-game that your mouse is currently pointing to."
+}

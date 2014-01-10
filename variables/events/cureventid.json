@@ -1,0 +1,9 @@
+{
+	"name": "$cureventid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the id of the current running event."
+		}
+	]
+}

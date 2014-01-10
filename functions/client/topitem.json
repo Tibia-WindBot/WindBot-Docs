@@ -1,0 +1,25 @@
+{
+	"name": "topitem",
+	"invocations": [
+		{
+			"rettype": "item",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns the data structure of the tile's top item at position x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>. You can access its id or count by appending the .id or .count properties. Any information accessing on the item datastructure must be performed right away or stored elsewhere because a call to wait() or any script event may invalidate it.",
+			"ex": "auto(200)\nif topitem($posx, $posy, $posz).id == 3031 then\n\tmoveitems(3031, '0-15', 'ground')\nend",
+			"exDescription": "Will move any gold coin found under you to an empty slot on your opened containers."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "huds",
+	"name": "HUDs",
+	"description": "These variables are to be used with HUDs. They return informations about the screen, so that you can position your HUDs in the desired position."
+}

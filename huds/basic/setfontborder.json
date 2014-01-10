@@ -1,0 +1,19 @@
+{
+	"name": "setfontborder",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "bordersize"
+				},
+				{
+					"type": "number",
+					"name": "bordercolor"
+				}
+			],
+			"description": "Sets the font border to <i>bordersize</i> and <i>bordercolor</i>"
+		}
+	]
+}

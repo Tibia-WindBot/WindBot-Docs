@@ -1,0 +1,29 @@
+{
+	"name": "drawcircle",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "width"
+				},
+				{
+					"type": "number",
+					"name": "height"
+				}
+			],
+			"description": "Draws an ellipsis with horizontal diameter <i>width</i> and vertical diameter <i>height</i>.",
+			"ex": "drawcircle(0, 0, 30, 50)",
+			"exDescription": "Draws an ellipsis with diameter 30x50."
+		}
+	]
+}

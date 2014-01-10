@@ -1,0 +1,21 @@
+{
+	"name": "setsetting",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "settingpath"
+				},
+				{
+					"type": "string",
+					"name": "value"
+				}
+			],
+			"description": "Sets any setting of the bot to the value specified by value. The string <i>settingpath</i> must contain the full path of the setting such as 'Healer/SpellHealer/Enabled' and value must be one of the possible values for that field typed in exactly as it appears in the settings, in this case either 'yes' or 'no'. You can copy the complete invocation of this function, including the current value, by right-clicking on any setting of the bot and selecting 'Copy setsetting'.",
+			"ex": "if getsetting('Cavebot/Enabled') == 'yes' then\n\tsetsetting('Cavebot/Enabled', 'no')\nend",
+			"exDescription": "Disables the cavebot if it's currently enabled."
+		}
+	]
+}

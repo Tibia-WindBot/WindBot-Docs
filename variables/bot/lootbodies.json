@@ -1,0 +1,11 @@
+{
+	"name": "$lootbodies",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of loot bodies on the looting queue.",
+			"ex": "setposition(100, 200)\ndrawtext('Loot Bodies: ' .. $lootbodies, 0, 0)",
+			"exDescription": "A simple HUD to show how many bodies are yet to be looted."
+		}
+	]
+}

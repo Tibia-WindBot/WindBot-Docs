@@ -1,0 +1,15 @@
+{
+	"name": "setfontsize",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "size"
+				}
+			],
+			"description": "Sets the font size to <i>size</i>"
+		}
+	]
+}

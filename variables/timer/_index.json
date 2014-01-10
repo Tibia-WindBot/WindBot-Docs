@@ -1,0 +1,5 @@
+{
+	"id": "timer",
+	"name": "Timer",
+	"description": "These variables can be used to check the time between some actions, or how long some condition has been satisfied."
+}

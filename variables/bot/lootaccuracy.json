@@ -1,0 +1,11 @@
+{
+	"name": "$lootaccuracy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the percentage of bodies that was successfully looted by the looting system.",
+			"ex": "auto(200)\nlistas('Looting accuracy: ' .. $lootaccuracy)",
+			"exDescription": "Will show the looting accuracy in a 'list as' HUD."
+		}
+	]
+}

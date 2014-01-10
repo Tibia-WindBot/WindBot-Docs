@@ -1,0 +1,9 @@
+{
+	"name": ".posx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the position <i>x</i> where the animated text happened."
+		}
+	]
+}

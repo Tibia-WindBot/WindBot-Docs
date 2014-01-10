@@ -1,0 +1,11 @@
+{
+	"name": "$looting",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the cavebot is enabled, <i>false</i> otherwise.",
+			"ex": "if $looting then\n\tsetsetting('Looting/Enabled', 'no')\nelse\n\tsetsetting('Looting/Enabled', 'yes')\nend",
+			"exDescription": "Will toggle the looting state. In other words, if the looting is enabled, it will disable it. If it's disabled, it will enable it."
+		}
+	]
+}

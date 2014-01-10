@@ -1,0 +1,11 @@
+{
+	"name": "$bleeding",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is bleeding, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $bleeding and (vocation == 'knight' or vocation == 'druid') then\n\tcast('exana kor')\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are bleeding, and you are a 'knight' or a 'druid'. If so, it will cast 'cure bleeding' spell."
+		}
+	]
+}

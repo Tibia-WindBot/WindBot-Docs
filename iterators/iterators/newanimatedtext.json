@@ -1,0 +1,12 @@
+{
+	"name": "newanimatedtext",
+	"invocations": [
+		{
+			"varName": "t",
+			"param": null,
+			"description": "Iterates through animated texts in game, the values are stored in the variable <i>t</i>. For more information about animated texts, visit <a href=\"docs.html#types-animatedtext\">this</a>.",
+			"ex": "init start\n\tlocal totalExp\ninit end\nauto(200)\nlistas('Total Exp: ' .. totalExp)\nforeach newanimatedtext t do\n\tif t.type == 215 and t.posx == $posx and t.posy == $posy then\n\t\ttotalExp = totalExp + tonumber(t.content)\n\tend\nend",
+			"exDescription": "Will show the sum of experience animated texts that appears on the top of your character."
+		}
+	]
+}

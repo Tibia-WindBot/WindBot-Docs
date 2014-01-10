@@ -1,0 +1,11 @@
+{
+	"name": "$self",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns your character's creature. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "auto(200)\nif $self.lightintensity == 0 then\n\tcast('utevo gran lux') wait(300, 500)\nend",
+			"exDescription": "Will cast 'great light' spell if you're not emitting any light."
+		}
+	]
+}

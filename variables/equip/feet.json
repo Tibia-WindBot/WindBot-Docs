@@ -1,0 +1,9 @@
+{
+	"name": "$feet",
+	"invocations": [
+		{
+			"rettype": "item",
+			"description": "Returns the item in your feet slot. If you need more info about the item data structure, access <a href=\"docs.html#types-item\">this</a>."
+		}
+	]
+}

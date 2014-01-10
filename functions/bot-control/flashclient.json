@@ -1,0 +1,12 @@
+{
+	"name": "flashclient",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Flashes the client window. Useful for alerts.",
+			"ex": "auto(200)\nif maround(7) > 0 then\n\tplaysound('monster.wav')\n\tflashclient()\nend",
+			"exDescription": "Will play an alert and flash the client if there's a monster on your screen."
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "listas",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				}
+			],
+			"description": "Sets the name for the script to <i>text</i> for appearance when active. To prevent a script from being listed, invoke it as follows: listas('dontlist').",
+			"ex": "auto(200)\nlistas('Anti-Poison script on standby')\nif $poisoned then\n\tlistas('Casting \"Antidote Spell\"')\n\tcast('exana pox')\nend",
+			"exDescription": "Will set the 'list as' text to show what the script is doing in each step."
+		}
+	]
+}

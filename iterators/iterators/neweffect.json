@@ -1,0 +1,12 @@
+{
+	"name": "neweffect",
+	"invocations": [
+		{
+			"varName": "e",
+			"param": null,
+			"description": "Iterates through effects in game, the values are stored in the variable <i>e</i>. For more information about an effect, visit <a href=\"docs.html#types-effect\">this</a>.",
+			"ex": "auto(200)\nforeach neweffect e do\n\tif e.type == 13 and e.posx == $attacked.posx and e.posy == $attacked.posy then\n\t\tplaysound('monster.wav')\n\tend\nend",
+			"exDescription": "Will play an alarm if a 'healing effect' happened at the same position as the creature you are currently attacking."
+		}
+	]
+}

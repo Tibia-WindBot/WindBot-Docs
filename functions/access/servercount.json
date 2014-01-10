@@ -1,0 +1,17 @@
+{
+	"name": "servercount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the count of item with name <i>itemname</i> as seen in the latest 'Using one of <i>itemname</i>...' message. It's called a server count because the server is counting the items for you while they don't have to be visible.",
+			"ex": "auto(200)\nlistas('Mana Potions: ' ..servercount('mana potion')",
+			"exDescription": "Will show how many 'mana potions' you still have, based on the 'Using one of X mana potions...' message."
+		}
+	]
+}

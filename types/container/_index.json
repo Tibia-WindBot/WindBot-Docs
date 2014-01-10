@@ -1,0 +1,5 @@
+{
+	"id": "container",
+	"name": "container",
+	"description": "A container holds information about a container. That way you can check if a container is open or not, what items it has inside, etc."
+}

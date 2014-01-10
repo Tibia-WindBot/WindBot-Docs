@@ -1,0 +1,9 @@
+{
+	"name": ".bottom",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the bottom edge of the rectangle."
+		}
+	]
+}

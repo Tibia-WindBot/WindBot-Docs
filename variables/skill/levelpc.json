@@ -1,0 +1,9 @@
+{
+	"name": "$levelpc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the percentage learnt of your character's level."
+		}
+	]
+}

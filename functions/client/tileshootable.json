@@ -1,0 +1,25 @@
+{
+	"name": "tileshootable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns <i>true</i> if nothing is obstructing the throw/shoot path between you and the tile at location x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>, <i>false</i> otherwise..",
+			"ex": "if tileshootable($attacked.posx, $attacked.posy, $attacked.posz) then\n\tuseoncreature('sudden death rune', $attacked)\nend",
+			"exDescription": "Will shoot a 'sudden death rune' on the current attacked creature if there's nothing obstructing the path."
+		}
+	]
+}

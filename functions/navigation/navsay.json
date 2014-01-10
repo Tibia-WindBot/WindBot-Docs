@@ -1,0 +1,17 @@
+{
+	"name": "navsay",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "msg"
+				}
+			],
+			"description": "Will broadcast a message with content <i>msg</i> at your current navigation channel. You must be in a navi channel to use this function.",
+			"ex": "navsay('healme')",
+			"exDescription": "Will send everyone a message containing the message 'healme', possibly asking someone to heal you."
+		}
+	]
+}

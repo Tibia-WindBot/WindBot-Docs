@@ -1,0 +1,12 @@
+{
+	"name": "eatfood",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Eats a food item available out of one of your open backpacks.",
+			"ex": "auto(60000, 120000)\nfor i = 1, 5 do\n\teatfood()\nend",
+			"exDescription": "Each 60 ~ 120 seconds, will try to eat food 5 times."
+		}
+	]
+}

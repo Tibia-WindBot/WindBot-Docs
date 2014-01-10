@@ -1,0 +1,11 @@
+{
+	"name": "$cavebot",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the cavebot is enabled, <i>false</i> otherwise.",
+			"ex": "if $cavebot then\n\tsetsetting('Cavebot/Enabled', 'no')\nelse\n\tsetsetting('Cavebot/Enabled', 'yes')\nend",
+			"exDescription": "Will toggle the cavebot state. In other words, if the cavebot is enabled, it will disable it. If it's disabled, it will enable it."
+		}
+	]
+}

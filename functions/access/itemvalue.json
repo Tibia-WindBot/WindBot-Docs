@@ -1,0 +1,27 @@
+{
+	"name": "itemvalue",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns how 'sell price' of the item named <i>itemname</i> to a NPC. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(itemvalue('knight legs'))",
+			"exDescription": "Will print '5000' on the console."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns the 'sell price' of the item with id <i>itemid</i> to a NPC. This value is the same as in the file '/tibiadata/items.xml'."
+		}
+	]
+}

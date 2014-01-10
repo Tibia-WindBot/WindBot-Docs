@@ -1,0 +1,9 @@
+{
+	"name": ".issummon",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

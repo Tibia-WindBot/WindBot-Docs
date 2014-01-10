@@ -1,0 +1,21 @@
+{
+	"name": "messagebox",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "title"
+				},
+				{
+					"type": "string",
+					"name": "msg"
+				}
+			],
+			"description": "Shows a message box with window title <i>title</i> and text <i>msg</i>.",
+			"ex": "messagebox('Hello guys', 'Welcome to WindBot!')",
+			"exDescription": "Will display a message box containing the message: 'Hello guys, welcome to WindBot'."
+		}
+	]
+}

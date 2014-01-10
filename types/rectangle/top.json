@@ -1,0 +1,9 @@
+{
+	"name": ".top",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the top edge of the rectangle."
+		}
+	]
+}

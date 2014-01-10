@@ -1,0 +1,33 @@
+{
+	"name": "setpriority",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "priority"
+				},
+				{
+					"type": "number",
+					"name": "overridepriority"
+				},
+				{
+					"type": "number",
+					"name": "expiretime"
+				},
+				{
+					"type": "number",
+					"name": "lifetime"
+				},
+				{
+					"type": "number",
+					"name": "type"
+				}
+			],
+			"description": "Sets the priority settings for every subsequent event created by the script. If this function is not called, the default settings defined in the bot apply. <i>type</i> can be 0 (regular event) or 1 (urgent event).",
+			"ex": "init start\n\tsetpriority(80, 65, 3000, 10000, 0)\ninit end\nauto(200, 400)\nif $hp < 50 then\n\tcast('exura')\nend",
+			"exDescription": "Will set a priority of 80, override priority of 65, an expiration time of 3000ms and a life time of 10000 to the events called by this script. In this example, the event <i>cast</i> will have the priorities chosen."
+		}
+	]
+}

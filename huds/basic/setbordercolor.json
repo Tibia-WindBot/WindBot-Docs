@@ -1,0 +1,17 @@
+{
+	"name": "setbordercolor",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "color"
+				}
+			],
+			"description": "Will set the ARGB color for the border to be drawn around shapes. If you don't want a border for shapes pass -1 as the color. This function also sets the border color for texts, if a border width has been specified in the <a href=\"#setfontstyle\">setfontstyle</a> function.",
+			"ex": "setbordercolor(0xFFFFFF)\ndrawshape('rect', 0, 0, 40, 40)",
+			"exDescription": "Will draw a rectangle with a white border."
+		}
+	]
+}

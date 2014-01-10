@@ -1,0 +1,37 @@
+{
+	"name": "follow",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				}
+			],
+			"description": "Follows a creature with name <i>creaturename</i>",
+			"ex": "if $followed.id == 0 then\n\tfollow('Bubble')\nend",
+			"exDescription": "Will follow 'Bubble' if you are not currently following any creature."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "creatureid"
+				}
+			],
+			"description": "Follows a creature with id <i>creatureid</i>"
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Follows the creature <i>creaturepointer</i>"
+		}
+	]
+}

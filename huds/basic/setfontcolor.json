@@ -1,0 +1,15 @@
+{
+	"name": "setfontcolor",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "color"
+				}
+			],
+			"description": "Sets the font coor to <i>color</i>"
+		}
+	]
+}

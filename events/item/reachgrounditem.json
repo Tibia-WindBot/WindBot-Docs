@@ -1,0 +1,29 @@
+{
+	"name": "reachgrounditem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Moves your character to stand next to the closest item of id <i>itemid</i> found on the screen.",
+			"ex": "reachgrounditem(itemid('gold coin')) wait(300, 500)\nmoveitems('gold coin', '0', 'ground')",
+			"exDescription": "Will reach a pile of 'gold coins' on the ground and pick it up."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'depot'"
+				}
+			],
+			"description": "Reaches the closest depot box (since depots have different ids, this will make things easier).",
+			"ex": "reachgrounditem('depot')\nopenitem('depot')",
+			"exDescription": "Will reach a depot and open it."
+		}
+	]
+}

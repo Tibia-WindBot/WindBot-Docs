@@ -1,0 +1,9 @@
+{
+	"name": ".skull",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

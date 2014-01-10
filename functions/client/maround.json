@@ -1,0 +1,29 @@
+{
+	"name": "maround",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "range"
+				},
+				{
+					"type": "optional string",
+					"name": "name1"
+				},
+				{
+					"type": "optional string",
+					"name": "name2"
+				},
+				{
+					"type": "",
+					"name": "..."
+				}
+			],
+			"description": "Returns the amount of monsters around you within distance <i>range</i>. If range is 0 or not specified, the entire screen is considered. Optionally, you can specify as many names as you want to only be considered as the following <i>namex</i> parameters.",
+			"ex": "auto(200)\nif maround(0, 'rat', 'cave rat') > 0 then\n\tcloseclient()\nend",
+			"exDescription": "Will close the client if there are any rats or cave rats around you."
+		}
+	]
+}

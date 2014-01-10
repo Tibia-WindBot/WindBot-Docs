@@ -1,0 +1,45 @@
+{
+	"name": "setfontstyle",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "fontname"
+				},
+				{
+					"type": "number",
+					"name": "size"
+				},
+				{
+					"type": "number",
+					"name": "fontweight"
+				},
+				{
+					"type": "number",
+					"name": "color"
+				},
+				{
+					"type": "optional number",
+					"name": "bordersize"
+				},
+				{
+					"type": "optional number",
+					"name": "bordercolor"
+				},
+				{
+					"type": "optional number",
+					"name": "glowradius"
+				},
+				{
+					"type": "optional number",
+					"name": "glowcolor"
+				}
+			],
+			"description": "Sets properties to the texts that will be drawn by the script. <i>fontname</i> is the name of the font. <i>fontsize</i> is the size of the font. <i>color</i> is the color of the font. <i>fontweight</i> is use to determine if you want to draw it as <i>bold</i>. <i>semi-bold</i> or <i>normal</i>. <i>bordersize</i> is the width of the border that will be drawn around the texts. <i>bordercolor</i> is the color of that border. <i>glowradius</i> is used to draw texts with a glowing effect. <i>glowcolor</i> is the color used on the effect.",
+			"ex": "setfontstyle('MS Serif', 10, 100, 0xFFFFFF)\ndrawtext('My MP: ' ..$mp, 0, 0)",
+			"exDescription": "Will draw a text displaying your current mana using the font 'MS Serif', with size 10, color white and bold text."
+		}
+	]
+}

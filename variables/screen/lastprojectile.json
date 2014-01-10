@@ -1,0 +1,11 @@
+{
+	"name": "$lastprojectile",
+	"invocations": [
+		{
+			"rettype": "projectile",
+			"description": "Returns the data structure of the latest projectile received in the client. If you need more info about the projectile data structure, access <a href=\"docs.html#types-projectile\">this</a>.",
+			"ex": "auto(100)\nif $lastprojectile.tox == $attacked.posx and $lastprojectile.toy == $attacked.posy and $lastprojectile.fromx == $posx and $lastprojectile.fromy == $posy then\n\tcast('exori vis')\nend",
+			"exDescription": "Will cast 'energy strike' on the current attacked creature right after a projectile was shot from you in the direction of your target. Useful to synchronize wands and spell attacks, and to avoid getting skulls by casting spells at another players."
+		}
+	]
+}

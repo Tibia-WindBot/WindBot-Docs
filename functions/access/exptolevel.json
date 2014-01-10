@@ -1,0 +1,17 @@
+{
+	"name": "exptolevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "level"
+				}
+			],
+			"description": "If <i>level</i> is not specified, returns the amount of exp left for next level (same as <b>$exptonextlevel</b>). Otherwise, returns the amount of exp left for level <i>level</i>.",
+			"ex": "auto(2000)\nlistas(exptolevel())",
+			"exDescription": "Will show how much of experience is left to the next level."
+		}
+	]
+}

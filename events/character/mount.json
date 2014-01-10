@@ -1,0 +1,12 @@
+{
+	"name": "mount",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Mounts your character on the creature that is set as your mount in the client.",
+			"ex": "auto(1000,2500)\nif not ($inpz or $mounted) then\n\tmount()\nend",
+			"exDescription": "Each 1000~2500 milliseconds, it will check you are not inside a protection zone and not mounted. If so, it will mount on the last mounted animal."
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+	"name": "setfillstyle",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'color'"
+				},
+				{
+					"type": "number",
+					"name": "color"
+				}
+			],
+			"description": "Fills the drawn shapes with color <i>color</i>.",
+			"ex": "setfillstyle('color', 0xCCCCCC)\ndrawshape('circle', 0, 0, 40, 40)",
+			"exDescription": "Draws a circle with diameter 40px. It will be filled with a 'light grey' color."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'image'"
+				},
+				{
+					"type": "string",
+					"name": "imagename"
+				}
+			],
+			"description": "Fills the drawn shapes with image <i>imagename</i> (ex: image.png) located in the /images/ folder.",
+			"ex": "setfillstyle('image', 'mypicture.png')\ndrawshape('rect', 0, 0, 60, 60)",
+			"exDescription": "Will draw a 60x60 rectangle filled with the image 'mypicture.png'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'map'"
+				},
+				{
+					"type": "number",
+					"name": "startx"
+				},
+				{
+					"type": "number",
+					"name": "starty"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				},
+				{
+					"type": "number",
+					"name": "transparency"
+				},
+				{
+					"type": "number",
+					"name": "zoom"
+				}
+			],
+			"description": "Fills the drawn shapes with minimap data starting at <i>startx</i>, <i>starty</i> and transparency level <i>transparency</i> (255 is fully transparent). The <i>zoom</i> parameter may be specified to draw the minimap closer or further, a <i>zoom</i> value of 1.0 will make it draw 1 SQM/pixel, value of 0.5 will make it draw 2 SQMs/pixel, and so on.",
+			"ex": "setfillstyle('map', $posx-50, $posy-50, $posz, 123, 1)\ndrawrect(0, 0, 100, 100)",
+			"exDescription": "Will draw a 100x100 semi-transparent rectangle filled with the minimap data from your current position offset'ed by 50 SQMs to the left and 50 SQMs to the top."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'gradient'"
+				},
+				{
+					"type": null,
+					"name": "'linear'"
+				},
+				{
+					"type": "number",
+					"name": "spreadtype"
+				},
+				{
+					"type": "number",
+					"name": "startx"
+				},
+				{
+					"type": "number",
+					"name": "starty"
+				},
+				{
+					"type": "number",
+					"name": "finalx"
+				},
+				{
+					"type": "number",
+					"name": "finaly"
+				}
+			],
+			"description": "Fills the drawn shapes with a linear gradient. <i>spreadtype</i> can be 0 (PadSpread), 1 (ReflectSpread) or 2 (RepeatSpread).",
+			"ex": "addgradcolors(0.0, 0xE691CD, 0.33, 0xE566B1, 0.66, 0xE5004f, 1.0, 0xEE0000)\nsetfillstyle('gradient', 'linear', 1, 0, 0, 50, 50)\ndrawshape('rect', 0, 0, 100, 100)",
+			"exDescription": "Draws a 100x100 rectangle using gradients drawn diagonally, the colors will go from a 'light pink' to 'red'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'gradient'"
+				},
+				{
+					"type": null,
+					"name": "'radial'"
+				},
+				{
+					"type": "number",
+					"name": "spreadtype"
+				},
+				{
+					"type": "number",
+					"name": "centerx"
+				},
+				{
+					"type": "number",
+					"name": "centery"
+				},
+				{
+					"type": "number",
+					"name": "focalx"
+				},
+				{
+					"type": "number",
+					"name": "focaly"
+				},
+				{
+					"type": "number",
+					"name": "radius"
+				}
+			],
+			"description": "Fills the drawn shapes with a radial gradient."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
+					"name": "'gradient'"
+				},
+				{
+					"type": null,
+					"name": "'conical'"
+				},
+				{
+					"type": "number",
+					"name": "spreadtype"
+				},
+				{
+					"type": "number",
+					"name": "centerx"
+				},
+				{
+					"type": "number",
+					"name": "centery"
+				},
+				{
+					"type": "number",
+					"name": "angle"
+				}
+			],
+			"description": "Fills the drawn shapes with a conical gradient."
+		}
+	]
+}

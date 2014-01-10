@@ -1,0 +1,9 @@
+{
+	"name": "$deathdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last death damage you have taken."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$standtime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that your character is standing at the same position.",
+			"ex": "auto(100)\nif $standtime >= 30000 then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Will play an alarm your character is standing at the same position for more than 30 seconds. Good to detect a broken path on your waypoint, or if someone is blocking your way."
+		}
+	]
+}

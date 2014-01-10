@@ -1,0 +1,11 @@
+{
+	"name": "$strenghtentime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds remaining on the strenghten spell.",
+			"ex": "auto(200)\nif $strenghtentime <= 2000 then\n\tcast('utito tempo san') wait(300, 500)\nend",
+			"exDescription": "Will cast 'sharpshooter' spell if you have less than 2 seconds left of strength."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "creature",
+	"name": "creature",
+	"description": "A creature holds information about a creature in game, such as its health, name, etc."
+}

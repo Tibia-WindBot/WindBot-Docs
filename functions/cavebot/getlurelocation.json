@@ -1,0 +1,12 @@
+{
+	"name": "getlurelocation",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [],
+			"description": "Returns a table containing the coordinates of the current lure location (<i>.x</i>, <i>.y</i> and <i>.z</i>).",
+			"ex": "local lure = getlurelocation()\nlocal lurecoordinates = getobjectarea(lure.x, lure.y, lure.z)\nsetposition(0, 0)\ndrawtext('Lure', lurecoordinates.left, lurecoordinates.top)",
+			"exDescription": "Will draw the text 'Lure' at the current lure coordinates' position."
+		}
+	]
+}

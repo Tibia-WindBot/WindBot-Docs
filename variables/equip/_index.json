@@ -1,0 +1,5 @@
+{
+	"id": "equip",
+	"name": "Equipment",
+	"description": "These variables are used to access your character's equipment slots."
+}

@@ -1,0 +1,37 @@
+{
+	"name": "sellitems",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "count"
+				}
+			],
+			"description": "Sells <i>count</i> amount of items named <i>itemname</i>, which must be exactly the way it appears in the trade list. A trade window must be open.",
+			"ex": "sellitems('plate armor', tradecount('sell', 'plate armor'))",
+			"exDescription": "Will sell all your 'plate armors'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "count"
+				}
+			],
+			"description": "Sells <i>count</i> amount of items with id <i>itemid</i>. A trade window must be open.",
+			"ex": "while tradecount('sell', 285) > 100 do\n\tnpcsay('vial') wait(200, 300)\n\tnpcsay('yes') wait(200, 300)\nend\nsellitems(285, tradecount('sell', 285))",
+			"exDescription": "Will get a lottery ticket for your vials while you have more than 100 of them. When it drops below that number, will sell the remaining vials."
+		}
+	]
+}

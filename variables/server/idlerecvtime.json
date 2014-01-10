@@ -1,0 +1,11 @@
+{
+	"name": "$idlerecvtime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds since the last packet was received from the server.",
+			"ex": "auto(100)\nif $idlerecvtime >= 2500 then\n\tplaysound('freeze.wav')\nend",
+			"exDescription": "Will play an alarm if the last packet was received more than 2.5 seconds ago."
+		}
+	]
+}

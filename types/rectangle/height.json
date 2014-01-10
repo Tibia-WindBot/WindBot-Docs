@@ -1,0 +1,9 @@
+{
+	"name": ".height",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the height of the rectangle."
+		}
+	]
+}

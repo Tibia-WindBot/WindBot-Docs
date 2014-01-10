@@ -1,0 +1,9 @@
+{
+	"name": "$physicaldmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last physical damage you have taken."
+		}
+	]
+}

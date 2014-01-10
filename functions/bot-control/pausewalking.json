@@ -1,0 +1,17 @@
+{
+	"name": "pausewalking",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "timems"
+				}
+			],
+			"description": "Prevents the bot from walking for <i>timems</i> milliseconds. You can use this for example to skin/stake bodies. This does not pause walking if it was issued by script commands such as reachgrounditem or moveto. The bot will resume walking after the specified delay has expired or if 0 is passed as <i>timems</i>.",
+			"ex": "pausewalking(20000)\nreachlocation(33222, 33222, 7)\nuseitemon('obsidian knife', topitem(33222, 33222, 7).id, 'ground 33222 33222 7')\npausewalking(0)",
+			"exDescription": "Will pause cavebot's walking, reach location 33222, 33222, 33222 and use an 'obsidian knife' on the item no top."
+		}
+	]
+}

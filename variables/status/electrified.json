@@ -1,0 +1,11 @@
+{
+	"name": "$electrified",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is burning, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $electrified and $mp >= 30 and $vocation == 'druid' then\n\tcast('exana vis') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are burning, and you're a 'druid' and you have more than 30 of mana. If so, it will cast 'cure electrification' spell."
+		}
+	]
+}

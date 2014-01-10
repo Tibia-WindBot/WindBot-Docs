@@ -1,0 +1,17 @@
+{
+	"name": "pauseinput",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "timems"
+				}
+			],
+			"description": "Prevents the bot from sending input in the form of mouse clicks/moves and key presses for <i>timems</i> milliseconds. You can use this if the bot is stubbornly trying to do something and you want it to stop while you can do something else. Be careful as this will pause healing aswell! The bot will resume sending input after the specified delay has expired or if 0 is passed as <i>timems</i>.",
+			"ex": "pauseinput(20000)",
+			"exDescription": "The bot will stop sending any mouse clicks/moves and key presses for 20 seconds."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$invistime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds remaining on the invisibility spell.",
+			"ex": "auto(200)\nif $invistime <= 2000 then\n\tcast('utana vid') wait(300, 500)\nend",
+			"exDescription": "Will cast 'invisibility' spell if you have less than 2 seconds left of invisibility."
+		}
+	]
+}

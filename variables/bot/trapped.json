@@ -1,0 +1,11 @@
+{
+	"name": "$trapped",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the targeting system is trapped, <i>false</i> otherwise. Note: currently, the targeting system must be running for it to work.",
+			"ex": "auto(100)\nif $trapped then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Will play an alarm if you are currently trapped."
+		}
+	]
+}

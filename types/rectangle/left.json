@@ -1,0 +1,9 @@
+{
+	"name": ".left",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the left edge of the rectangle."
+		}
+	]
+}

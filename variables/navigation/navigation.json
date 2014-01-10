@@ -1,0 +1,9 @@
+{
+	"name": "$navigation",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if you are currently logged in to a Navigation room, <i>false</i> otherwise."
+		}
+	]
+}

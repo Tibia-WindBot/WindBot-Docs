@@ -1,0 +1,9 @@
+{
+	"name": ".centerx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the horizontal center of the rectangle."
+		}
+	]
+}

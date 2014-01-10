@@ -1,0 +1,15 @@
+{
+	"name": "setfontweight",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "weight"
+				}
+			],
+			"description": "Sets the font weight to <i>weight</i>. A weight of 50 stands for normal thickness, 75 is bold, and maximum value is 99."
+		}
+	]
+}

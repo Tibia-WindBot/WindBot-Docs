@@ -1,0 +1,5 @@
+{
+	"id": "screen",
+	"name": "Screen Information",
+	"description": "These variables are used to access information about the game screen, such as messages, effects, projectiles and animated texts."
+}

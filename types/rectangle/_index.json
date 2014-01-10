@@ -1,0 +1,5 @@
+{
+	"id": "rectangle",
+	"name": "rectangle",
+	"description": "A rectangle is used to hold information about $screenwin, $clientwin and $worldwin."
+}

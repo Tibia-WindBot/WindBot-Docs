@@ -1,0 +1,9 @@
+{
+	"name": "$openmenuname",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the name of the currently open menu/window. If it's a context menu (with options like Attack/Use/Open etc), it will return 'Context'."
+		}
+	]
+}

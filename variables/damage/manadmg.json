@@ -1,0 +1,9 @@
+{
+	"name": "$manadmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last damage that you have taken on your mana shield."
+		}
+	]
+}

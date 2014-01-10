@@ -1,0 +1,11 @@
+{
+	"name": "$mattacker",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns the monster that has last attacked you within 3 seconds. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "auto(200) if $mattacker.id ~= 0 then\n\tplaysound('monster.wav') wait(3000)\nend",
+			"exDescription": "Will play an alarm if a monster attacked you in the last 3 seconds."
+		}
+	]
+}

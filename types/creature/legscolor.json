@@ -1,0 +1,9 @@
+{
+	"name": ".legscolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

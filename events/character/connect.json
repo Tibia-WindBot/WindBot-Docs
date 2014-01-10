@@ -1,0 +1,25 @@
+{
+	"name": "connect",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "account"
+				},
+				{
+					"type": "string",
+					"name": "password"
+				},
+				{
+					"type": "string",
+					"name": "charname"
+				}
+			],
+			"description": "Connects you to the game world on the specified <i>account</i>, <i>password</i> and <i>charname</i>.",
+			"ex": "connect('123456', '654321', 'Bubble')",
+			"exDescription": "Will log in to the account/password: 123456/654321, and then choose the character 'Bubble' and enter the game world."
+		}
+	]
+}

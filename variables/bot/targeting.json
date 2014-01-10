@@ -1,0 +1,11 @@
+{
+	"name": "$targeting",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the cavebot is enabled, <i>false</i> otherwise.",
+			"ex": "if $targeting then\n\tsetsetting('Targeting/Enabled', 'no')\nelse\n\tsetsetting('Targeting/Enabled', 'yes')\nend",
+			"exDescription": "Will toggle the targeting state. In other words, if the targeting is enabled, it will disable it. If it's disabled, it will enable it."
+		}
+	]
+}

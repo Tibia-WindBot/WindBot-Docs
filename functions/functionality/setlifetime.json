@@ -1,0 +1,17 @@
+{
+	"name": "setlifetime",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "lifetime"
+				}
+			],
+			"description": "Just a convenient function to change only the <i>lifetime</i> of a script. The life time is how long an event can take to be executed. If you don't pass a <i>lifetime</i>, it will set the life time to the default.",
+			"ex": "setlifetime(25000)\nconnect('123456', '654321pass', 'Bubble')",
+			"exDescription": "Will connect your character to the game-world. Once started, the script can take up to 25 seconds to be executed."
+		}
+	]
+}

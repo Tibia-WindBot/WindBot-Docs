@@ -1,0 +1,11 @@
+{
+	"name": "$curscript",
+	"invocations": [
+		{
+			"rettype": "table",
+			"description": "Returns a table containing the <i>name</i> and <i>type</i> of the current script.",
+			"ex": "print($curscript.name)",
+			"exDescription": "Will print the name of the current script on the console."
+		}
+	]
+}

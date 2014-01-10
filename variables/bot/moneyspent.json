@@ -1,0 +1,11 @@
+{
+	"name": "$moneyspent",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how much money was spent already. To increase this value, check <i>increasemoneyspent</i> function.",
+			"ex": "auto(200)\nlistas('Money spent: ' .. $moneyspent)",
+			"exDescription": "Will show how much money you have spent in a 'list as' HUD."
+		}
+	]
+}

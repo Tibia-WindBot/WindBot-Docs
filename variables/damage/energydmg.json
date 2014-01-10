@@ -1,0 +1,9 @@
+{
+	"name": "$energydmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last energy damage you have taken."
+		}
+	]
+}

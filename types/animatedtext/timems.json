@@ -1,0 +1,9 @@
+{
+	"name": ".timems",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds when the animated text was shot."
+		}
+	]
+}

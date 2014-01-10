@@ -1,0 +1,11 @@
+{
+	"name": "$posz",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's position <i>z</i>.",
+			"ex": "auto(200)\nif $posx == 33222 and $posy == 33222 and $posz == 7 then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Each 200 milliseconds, it will check if your position is equals to x:33222, y:33222, z:7. If so, it will play an alert with file name: 'monster.wav'"
+		}
+	]
+}

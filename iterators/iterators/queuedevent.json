@@ -1,0 +1,10 @@
+{
+	"name": "queuedevent",
+	"invocations": [
+		{
+			"varName": "m",
+			"param": null,
+			"description": "Iterates through all the events in the bot's queue, the value is stored as a table in the variable <i>m</i>."
+		}
+	]
+}

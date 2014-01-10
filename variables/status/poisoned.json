@@ -1,0 +1,11 @@
+{
+	"name": "$poisoned",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is poisoned, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $poisoned and $mp >= 30 then\n\tcast('exana pox') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are poisoned and you have more than 30 of mana. If so, it will cast 'antidote' spell."
+		}
+	]
+}

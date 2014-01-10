@@ -1,0 +1,69 @@
+{
+	"name": "contextmenu",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "menuitem"
+				},
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional number",
+					"name": "index"
+				}
+			],
+			"description": "Opens a context menu on item id <i>itemid</i> and clicks on the menu item with text <i>menuitem</i>. If you pass 0 for <i>itemid</i> and <i>sourcelocation</i> is a ground location, any item at that location will have the context menu opened on it. You can also optionally specify which item to open in sequence by passing the <i>index</i> parameter (1st item, 2nd item... etc) for items located in container windows.",
+			"ex": "contextmenu('Look', 0, ground($posx, $posy + 1, $posz))",
+			"exDescription": "Will right click the SQM south of you, and click 'Look'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "menuitem"
+				},
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				},
+				{
+					"type": "optional boolean",
+					"name": "usebattlelist"
+				}
+			],
+			"description": "Opens a context menu on creature <i>creaturepointer</i> and clicks on the menu item with text <i>menuitem</i>. It will use the the battle list if <i>usebattlelist</i> is set to <i>true</i> (recommended, since no need to press ctrl key).",
+			"ex": "contextmenu('Look', $followed)",
+			"exDescription": "Will right click the character you're following and click 'Look'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "menuitem"
+				},
+				{
+					"type": "string",
+					"name": "creaturename"
+				},
+				{
+					"type": "optional boolean",
+					"name": "usebattlelist"
+				}
+			],
+			"description": "Opens a context menu on creature with name <i>creaturename</i> and clicks on the menu item with text <i>menuitem</i>. It will use the the battle list if <i>usebattlelist</i> is set to <i>true</i> (recommended, since no need to press ctrl key).",
+			"ex": "contextmenu('Copy Name', 'Cachero', true)",
+			"exDescription": "Will right click the player named 'Cachero' through the battlelist, and click 'Copy Name'."
+		}
+	]
+}

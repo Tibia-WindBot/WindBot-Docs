@@ -1,0 +1,17 @@
+{
+	"name": "tohex",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "num"
+				}
+			],
+			"description": "Returns a string representation of number <i>num</i> in hexadecimal format.",
+			"ex": "print(tohex(123))",
+			"exDescription": "Will print 0x7B on the console."
+		}
+	]
+}

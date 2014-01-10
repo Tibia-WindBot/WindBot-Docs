@@ -1,0 +1,29 @@
+{
+	"name": "drawline",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "width"
+				},
+				{
+					"type": "number",
+					"name": "height"
+				}
+			],
+			"description": "Draws a line with width <i>width</i> and height <i>height</i> starting at position <i>x</i> and <i>y</i>.",
+			"ex": "drawline(0, 0, 50, 0)",
+			"exDescription": "Will draw an horizontal line of width 50."
+		}
+	]
+}

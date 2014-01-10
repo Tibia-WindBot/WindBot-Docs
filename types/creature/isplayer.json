@@ -1,0 +1,9 @@
+{
+	"name": ".isplayer",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

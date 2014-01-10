@@ -1,0 +1,9 @@
+{
+	"name": "$dazzled",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is dazzled, <i>false</i> otherwise."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "$pvpsecurity",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your current pvp security mode. It can be 'secure' and 'normal'."
+		}
+	]
+}

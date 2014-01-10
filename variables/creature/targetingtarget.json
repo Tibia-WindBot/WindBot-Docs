@@ -1,0 +1,11 @@
+{
+	"name": "$targetingtarget",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns the creature being targetted by the Targeting System. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "if $targetingtarget.id ~= 0 and $targetingtarget.isshootable then\n\tuseoncreature('sudden death rune', $targetingtarget) wait(300, 500)\nend",
+			"exDescription": "Will shoot a 'sudden death rune' on the targeting creature."
+		}
+	]
+}

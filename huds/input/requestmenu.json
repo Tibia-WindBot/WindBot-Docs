@@ -1,0 +1,15 @@
+{
+	"name": "requestmenu",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "requestid"
+				}
+			],
+			"description": "Requests a text string out of a popup menu from the user. This can only be called from the <i>inputevents(table e)</i> function. A request id can be specified in the <i>requestid</i> parameter. This request id will be passed to the <i>inputevents</i> function as the <i>e.value1</i> parameter to identify later on what was requested. The <i>e.type</i> parameter will be IEVENT_REQUESTMENU and <i>e.value2</i> will represent the chosen text string. Menu items must be added using the <a href=\"#requestmenuitem\">requestmenuitem</a> function."
+		}
+	]
+}

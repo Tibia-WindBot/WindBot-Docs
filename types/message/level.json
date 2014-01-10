@@ -1,0 +1,9 @@
+{
+	"name": ".level",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the level of the player who sent the message."
+		}
+	]
+}

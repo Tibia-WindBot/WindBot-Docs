@@ -1,0 +1,12 @@
+{
+	"name": "reconnect",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Reconnects you to the game world on last character played.",
+			"ex": "auto(2500)\nif not $connected then\n\treconnect()\nend",
+			"exDescription": "Each 2500 milliseconds, it will check if you are connected. If not, it will reconnect to the last character you logged in."
+		}
+	]
+}

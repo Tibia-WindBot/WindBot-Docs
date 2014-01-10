@@ -1,0 +1,9 @@
+{
+	"name": "$lootsaround",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how many loot bodies are around. You can use this to avoid performing some action with bodies around you."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$hp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's current health.",
+			"ex": "auto(200)\nif $hp < 50 then\n\tcast('exura') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if your health is below 50. If it is, it will cast 'light healing' spell."
+		}
+	]
+}

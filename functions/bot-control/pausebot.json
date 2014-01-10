@@ -1,0 +1,17 @@
+{
+	"name": "pausebot",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional boolean",
+					"name": "value"
+				}
+			],
+			"description": "Disables 'Targeting', 'Cavebot' and 'Looting' if <i>value</i> is <i>true</i> and enables if it's <i>false</i>. If no value is passed, it will simply toggle the current state of these sections.",
+			"ex": "if $cavebot or $targeting or $looting then\n\tpausebot(true)\nelse\n\tpausebot(false)\nend",
+			"exDescription": "Pauses the bot if the 'Cavebot' or 'Targeting' or 'Looting' is currently running, and unpause it otherwise."
+		}
+	]
+}

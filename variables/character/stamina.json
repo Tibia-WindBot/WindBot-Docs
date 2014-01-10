@@ -1,0 +1,11 @@
+{
+	"name": "$stamina",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's stamina in minutes.",
+			"ex": "auto(200)\nif $stamina < 15*60 then\n\tcloseclient()\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have less than 15 hours left of stamina. If so, it will close the client."
+		}
+	]
+}

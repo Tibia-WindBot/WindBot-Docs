@@ -1,0 +1,9 @@
+{
+	"name": "$healdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last healing animation that happened above your character."
+		}
+	]
+}

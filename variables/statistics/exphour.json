@@ -1,0 +1,11 @@
+{
+	"name": "$exphour",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the experience rate you're currently doing. It's the same value shown in your skill window.",
+			"ex": "setposition(200, 200)\ndrawtext('Exp/Hour: ' .. $exphour, 0, 0)",
+			"exDescription": "Shows in a HUD how much of experience/hour you are currently making."
+		}
+	]
+}

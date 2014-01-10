@@ -1,0 +1,35 @@
+{
+	"name": "drawpie",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "width"
+				},
+				{
+					"type": "number",
+					"name": "height"
+				},
+				{
+					"type": "number",
+					"name": "startangle"
+				},
+				{
+					"type": "number",
+					"name": "spanangle"
+				}
+			],
+			"description": "Draws a pie that starts at <i>startangle</i> and goes for <i>spanangle</i> degrees."
+		}
+	]
+}

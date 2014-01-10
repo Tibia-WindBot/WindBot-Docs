@@ -1,0 +1,15 @@
+{
+	"name": "requestmenuitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				}
+			],
+			"description": "Adds the text option to a request popup menu. This must be called after calling <a href=\"#requestmenu\">requestmenu</a>."
+		}
+	]
+}

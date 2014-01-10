@@ -1,0 +1,9 @@
+{
+	"name": "$botdb",
+	"invocations": [
+		{
+			"rettype": "database",
+			"description": "Used to access the general bot database (/data/windbot.db)."
+		}
+	]
+}

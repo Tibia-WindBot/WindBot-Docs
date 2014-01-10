@@ -1,0 +1,41 @@
+{
+	"name": "attack",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				}
+			],
+			"description": "Attacks a creature with name <i>creaturename</i>",
+			"ex": "if $attacked.id == 0 then\n\tattack('Monk')\nend",
+			"exDescription": "Will attack a 'Monk' if you are not currently attacking any creature."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "creatureid"
+				}
+			],
+			"description": "Attacks a creature with id <i>creatureid</i>",
+			"ex": "if $attacked.id == 0 then\n\tattack($target.id)\nend",
+			"exDescription": "Will attack the last creature you have attacked if you lost its target."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Attacks the creature <i>creaturepointer</i>",
+			"ex": "if $attacked.id == 0 then\n\tforeach creature m 'ms' do\n\t\tattack(m) break\n\tend\nend",
+			"exDescription": "Will attack the first creature it finds on the foreach iteration if you are not currently attacking any creature."
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "lootingitem",
+	"invocations": [
+		{
+			"varName": "m",
+			"param": "category",
+			"description": "Iterates through the loot items at the currently selected looting profile, the value is stored in the variable <i>m</i>. For more information about looting items visit <a href=\"docs.html#types-lootingitem\">this</a>."
+		}
+	]
+}

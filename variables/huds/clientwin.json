@@ -1,0 +1,11 @@
+{
+	"name": "$clientwin",
+	"invocations": [
+		{
+			"rettype": "rectangle",
+			"description": "Returns the rectangle containing the measurements of the client window. If you need more info about the rectangle data structure, access <a href=\"docs.html#types-rectangle\">this</a>.",
+			"ex": "setposition($clientwin.left + 20, $clientwin.top + 10)\ndrawtext('Hello world!', 0, 0)",
+			"exDescription": "Adds a text 20 pixels to the right of the left edge of the client window, and 10 pixels below the top edge of the client window."
+		}
+	]
+}

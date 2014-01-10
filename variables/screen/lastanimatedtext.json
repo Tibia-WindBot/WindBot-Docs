@@ -1,0 +1,11 @@
+{
+	"name": "$lastanimatedtext",
+	"invocations": [
+		{
+			"rettype": "effect",
+			"description": "Returns the data structure of the latest animated text received in the client. If you need more info about the animated text data structure, access <a href=\"docs.html#types-animatedtext\">this</a>.",
+			"ex": "auto(100)\nif $lastanimatedtext.color == 155 and $lastanimatedtext.posx == $posx and $lastanimatedtext.posy == $posy then\n\tprint($lastanimatedtext.content)\nend",
+			"exDescription": "Will print on the console the content of the last animated text, if that text has the same color as 'energy damages' and happens above your character."
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "showbot",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional boolean",
+					"name": "show"
+				}
+			],
+			"description": "Toggles the bot's visibility. Optionally you can pass the <i>show</i> parameter to force the bot to show or hide.",
+			"ex": "showbot(true)",
+			"exDescription": "Shows the bot."
+		}
+	]
+}

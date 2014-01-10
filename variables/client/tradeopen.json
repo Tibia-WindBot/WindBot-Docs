@@ -1,0 +1,11 @@
+{
+	"name": "$tradeopen",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the 'trade window' is open, <i>false</i> otherwise.",
+			"ex": "if not $tradeopen then\n\tsay('hi') wait(1700, 2300)\n\tnpcsay('trade') wait(500, 1000)\nend",
+			"exDescription": "Used as an action waypoint. Will check if the trade window is open. If it's not, say: 'hi', wait some time for the NPC channel to be open, then say 'trade'."
+		}
+	]
+}

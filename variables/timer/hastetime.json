@@ -1,0 +1,11 @@
+{
+	"name": "$hastetime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds remaining on the haste spell.",
+			"ex": "auto(200)\nif $hastetime <= 2000 then\n\tcast('utani gran hur') wait(300, 500)\nend",
+			"exDescription": "Will cast 'strong haste' spell if you have less than 2 seconds left of haste."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$exp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's current experience.",
+			"ex": "auto(200)\nif $exp >= 4200 then\n\tcloseclient()\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have more than 4200 of experience. If so, it will close the client."
+		}
+	]
+}

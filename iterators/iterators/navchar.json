@@ -1,0 +1,12 @@
+{
+	"name": "navchar",
+	"invocations": [
+		{
+			"varName": "p",
+			"param": null,
+			"description": "Iterates through the navigation players that the bot currently has information about, the values are stored in the variable <i>p</i>. For more information about nav players visit, visit <a href=\"docs.html#types-player\">this</a>.",
+			"ex": "foreach navchar p do\n\tprint(p.name, p.team)\nend",
+			"exDescription": "Will print the name and the team of all the navigation players the bot has information about."
+		}
+	]
+}

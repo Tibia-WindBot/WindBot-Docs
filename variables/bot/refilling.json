@@ -1,0 +1,11 @@
+{
+	"name": "$refilling",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if you're currently refilling. This variable can be used to turn alerts off if you're currently going to the city, for example.",
+			"ex": "auto(200)\nif not $refilling and paround(0) > 0 then\n\tplaysound('playeronscreen.wav')\nend",
+			"exDescription": "Will play the sound 'playeronscreen.wav' only if you're not currently refilling and there are players around you."
+		}
+	]
+}

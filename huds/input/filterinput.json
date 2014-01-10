@@ -1,0 +1,29 @@
+{
+	"name": "filterinput",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "boolean",
+					"name": "keys"
+				},
+				{
+					"type": "boolean",
+					"name": "mouseclicks"
+				},
+				{
+					"type": "boolean",
+					"name": "mousemoves"
+				},
+				{
+					"type": "boolean",
+					"name": "stealfocus"
+				}
+			],
+			"description": "Enables or disables the filtering of input events through the <i>inputevents(table e)</i> function which must be defined in the init block of the current script. If <i>keys</i> is set to <i>true</i>, key presses on a HUD will call the input function with <i>e.type</i> IEVENT_KEYDOWN or IEVENT_KEYUP and <i>e.value1</i> set to the virtual key code of the key. If <i>mouseclicks</i> or <i>mousemoves</i> is set to <i>true</i>, mouse clicks or moves on a HUD will call the input function with <i>e.type</i> IEVENT_LMOUSEDOWN, IEVENT_LMOUSEUP, IEVENT_RMOUSEDOWN, IEVENT_RMOUSEUP, IEVENT_MMOUSEDOWN, IEVENT_MMOUSEUP, IEVENT_MOUSEMOVE, IEVENT_MOUSEENTER or IEVENT_MOUSELEAVE and <i>e.value1</i> & <i>e.value2</i> will contain the local <i>x</i>, <i>y</i> positions of the event within the HUD, except for the last 2. For mouse clicks, <i>e.elementid</i> will contain the unique element id hit by the click which is returned by the <a href=\"#drawshape\">drawshape</a> function for each shape. If <i>e.type</i> is IEVENT_MOUSEWHEEL, <i>e.value1</i> contains packed coordinates of the event and <i>e.value2</i> contains a negative or positive delta value of the distance the wheel has traveled in either direction. If <i>stealfocus</i> is <i>true</i>, the HUD window will become focused after being clicked on and the client will lose keyboard focus. Focus is necessary to be able to capture keys.",
+			"ex": "init start\n\tlocal rectid = -1\n\tlocal ellipsisid = -1\n\n\tfunction inputevents(e)\n\t\tif e.type == IEVENT_LMOUSEUP then\n\t\t\tif e.elementid == rectid then\n\t\t\t\tprint('Clicked on rect')\n\t\t\telseif e.elementid == ellipsisid then\n\t\t\t\tprint('Clicked on ellipsis')\n\t\t\tend\n\t\tend\n\tend\ninit end\nauto(200)\nfilterinput(false, true, false, false)\nsetposition(200, 200)\n\nrectid = drawshape('rect', 0, 0, 50, 50)\nellipsisid = drawshape('circle', 50, 110, 50, 50)",
+			"exDescription": "Will a rectangle and an ellipsis on your screen, and set input events for them. If you click in any of them, a message will be printed on the console saying which one was clicked."
+		}
+	]
+}

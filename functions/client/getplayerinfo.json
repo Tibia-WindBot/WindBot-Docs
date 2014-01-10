@@ -1,0 +1,29 @@
+{
+	"name": "getplayerinfo",
+	"invocations": [
+		{
+			"rettype": "playerinfo",
+			"args": [
+				{
+					"type": "number",
+					"name": "playerid"
+				}
+			],
+			"description": "Returns a pointer to the <i>playerinfo</i> identified by the id <i>playerid</i>. To identify the player info you must first look at him (shift+mouse click), or add the player info manually in the Relations lists table, in Navigation tab. If you need more info about the player info data structure, access <a href=\"docs.html#types-playerinfo\">this</a>",
+			"ex": "print(getplayerinfo($attacked.id).vocshort)",
+			"exDescription": "Will print the vocation of your currently attacked creature."
+		},
+		{
+			"rettype": "playerinfo",
+			"args": [
+				{
+					"type": "name",
+					"name": "playername"
+				}
+			],
+			"description": "Returns a pointer to the <i>playerinfo</i> named <i>playername</i>. To identify the player info you must first look at him (shift+mouse click), or add the player info manually in the Relations lists table, in Navigation tab. If you need more info about the player info data structure, access <a href=\"docs.html#types-playerinfo\">this</a>",
+			"ex": "print(getplayerinfo('Bubble').level)",
+			"exDescription": "Will print Bubble's level."
+		}
+	]
+}

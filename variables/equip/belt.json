@@ -1,0 +1,11 @@
+{
+	"name": "$belt",
+	"invocations": [
+		{
+			"rettype": "item",
+			"description": "Returns the item in your belt slot. If you need more info about the item data structure, access <a href=\"docs.html#types-item\">this</a>.",
+			"ex": "auto(200)\nif $belt.count < 10 then\n\tequipitem($belt.id, 'belt') wait(300, 500)\nend",
+			"exDescription": "Will refill your ammo if you have less than 10 units on the belt slot."
+		}
+	]
+}

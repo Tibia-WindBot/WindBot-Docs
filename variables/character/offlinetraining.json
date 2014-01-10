@@ -1,0 +1,11 @@
+{
+	"name": "$offlinetraining",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's offline training time in minutes.",
+			"ex": "auto(200)\nif $offlinetraining >= 10*60 then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have more than 10 hours offline training. If so, it will play an alarm."
+		}
+	]
+}

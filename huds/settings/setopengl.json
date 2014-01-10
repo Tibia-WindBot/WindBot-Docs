@@ -1,0 +1,15 @@
+{
+	"name": "setopengl",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "boolean",
+					"name": "enabled"
+				}
+			],
+			"description": "Puts the HUD script into OpenGL rendering mode if <i>enabled</i> is <i>true</i>, or normal rendering mode otherwise. OpenGL should only be used for displays that refresh very quickly and/or are big in size, because it uses more memory and creating/resizing the display is slower. However, refreshing the display in OpenGL is much faster."
+		}
+	]
+}

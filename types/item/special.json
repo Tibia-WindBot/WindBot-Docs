@@ -1,0 +1,9 @@
+{
+	"name": ".special",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's special value. It's used for items such as liquid pools and liquid containers, to tell what kind of liquid it has inside."
+		}
+	]
+}

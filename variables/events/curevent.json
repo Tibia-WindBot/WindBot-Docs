@@ -1,0 +1,9 @@
+{
+	"name": "$curevent",
+	"invocations": [
+		{
+			"rettype": "table",
+			"description": "Returns a table containing information about the current running event."
+		}
+	]
+}

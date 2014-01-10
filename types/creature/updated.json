@@ -1,0 +1,9 @@
+{
+	"name": ".updated",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

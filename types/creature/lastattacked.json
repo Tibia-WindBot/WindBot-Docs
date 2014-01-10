@@ -1,0 +1,9 @@
+{
+	"name": ".lastattacked",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

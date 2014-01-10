@@ -1,0 +1,9 @@
+{
+	"name": ".id",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the creature's id. It is unique for each creature."
+		}
+	]
+}

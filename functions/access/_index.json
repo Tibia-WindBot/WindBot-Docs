@@ -1,0 +1,5 @@
+{
+	"id": "access",
+	"name": "Access",
+	"description": "These functions return values tracked internally by the bot."
+}

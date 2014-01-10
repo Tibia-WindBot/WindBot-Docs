@@ -1,0 +1,12 @@
+{
+	"name": "dismount",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Dismounts your character from your currently mounted animal.",
+			"ex": "if $mounted then\n\tdismount()\nend",
+			"exDescription": "Will check if you are currently mounting an animal. If so, it will dismount."
+		}
+	]
+}

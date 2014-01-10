@@ -1,0 +1,11 @@
+{
+	"name": "$manashielded",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is protected by mana shield, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif not $manashielded then\n\tcast('utamo vita') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are mana shielded. If not, it will cast 'magic shield' spell."
+		}
+	]
+}

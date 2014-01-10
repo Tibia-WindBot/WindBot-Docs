@@ -1,0 +1,9 @@
+{
+	"name": "$swordpc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the percentage learnt of your character's sword fighting skill."
+		}
+	]
+}

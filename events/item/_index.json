@@ -1,0 +1,5 @@
+{
+	"id": "item",
+	"name": "Item",
+	"description": "These functions issue an event related to item manipulations."
+}

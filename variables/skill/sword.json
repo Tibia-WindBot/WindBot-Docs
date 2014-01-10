@@ -1,0 +1,9 @@
+{
+	"name": "$sword",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's sword fighting skill."
+		}
+	]
+}

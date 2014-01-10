@@ -1,0 +1,17 @@
+{
+	"name": "turn",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "direction"
+				}
+			],
+			"description": "Faces your character to the specified direction. <i>direction</i> can be: 'n', 'e', 's' or 'w'.",
+			"ex": "turn('w') wait(100, 150)\ncast('exani hur up') wait(100, 150)",
+			"exDescription": "Will turn to the west and cast 'levitate' spell."
+		}
+	]
+}

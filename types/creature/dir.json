@@ -1,0 +1,9 @@
+{
+	"name": ".dir",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the direction which the creature is currently looking to. Direction can be 'n', 'e', 's' or 'w'."
+		}
+	]
+}

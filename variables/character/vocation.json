@@ -1,0 +1,11 @@
+{
+	"name": "$vocation",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your character's vocation. It can either be: 'none', 'no-vocation', 'knight', 'paladin', 'sorcerer' or 'druid'.",
+			"ex": "if $vocation == 'druid' then\n\tcast('exura sio \"' .. $name) wait(300, 500)\nelseif $vocation == 'sorcerer' then\n\tcast('exura vita') wait(300, 500)\nend",
+			"exDescription": "Will cast 'heal friend' on yourself if you are a 'druid'. And 'ultimate healing' if you are a 'sorcerer'."
+		}
+	]
+}

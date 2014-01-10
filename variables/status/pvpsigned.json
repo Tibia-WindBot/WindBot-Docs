@@ -1,0 +1,11 @@
+{
+	"name": "$pvpsigned",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is in a pvp battle, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif $pvpsigned then\n\tplaysound('playeronscreen.wav')\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are in a pvp battle (attacked someone). If so, it will play an alarm."
+		}
+	]
+}

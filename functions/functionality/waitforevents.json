@@ -1,0 +1,17 @@
+{
+	"name": "waitforevents",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "boolean",
+					"name": "wait"
+				}
+			],
+			"description": "Lets you select if you want to wait until the events you issue finishes, or to continue running the script. Remember to change it back afterwards if you don't want all your events in the current script to use that same setting.",
+			"ex": "waitforevents(true)\ncast('exura ico')\nuseoncreature('great health potion', $self)\nwaitforevents(false)",
+			"exDescription": "Will issue a 'cast exura ico' event and 'use great health potion on self' event at the same time, without waiting for the first event to finish."
+		}
+	]
+}

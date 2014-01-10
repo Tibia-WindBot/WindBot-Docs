@@ -1,0 +1,21 @@
+{
+	"name": "higherwindows",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "onlyone"
+				}
+			],
+			"description": "Shows higher window of all windows that fit the description of <i>locationname</i>. If <i>locationname</i> is not specified, all windows are shown their higher window. If <i>onlyone</i> is specified as <i>true</i>, then the higher container is shown only once for one window.",
+			"ex": "local firstBp = getcontainer(0)\nwhile firstBp.hashigher do\n\thigherwindows('0')\nend",
+			"exDescription": "Will show the highest window of your first opened backpack."
+		}
+	]
+}

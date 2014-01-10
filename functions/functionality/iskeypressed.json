@@ -1,0 +1,17 @@
+{
+	"name": "iskeypressed",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "key"
+				}
+			],
+			"description": "Returns <i>true</i> if the key <i>key</i> is pressed on your keyboard, <i>false</i>. A list of keys and their virtual keys can be found <a href=\"http://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx\">here</a>",
+			"ex": "auto(200)\nif iskeypressed(0x14) then\n\tprinterror('WARNING! Caps-Lock is pressed.')\nend",
+			"exDescription": "Will print a warning on the console if the Caps-Lock key is pressed."
+		}
+	]
+}

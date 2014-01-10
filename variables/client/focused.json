@@ -1,0 +1,9 @@
+{
+	"name": "$focused",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the Tibia Client is the window currently focused, <i>false</i> otherwise."
+		}
+	]
+}

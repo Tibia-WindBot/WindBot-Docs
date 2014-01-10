@@ -1,0 +1,9 @@
+{
+	"name": ".isshootable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".ispage",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the container has paginations enabled, <i>false</i> otherwise."
+		}
+	]
+}

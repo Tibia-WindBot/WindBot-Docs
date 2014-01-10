@@ -1,0 +1,9 @@
+{
+	"name": "$clubpc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the percentage learnt of your character's club fighting skill."
+		}
+	]
+}

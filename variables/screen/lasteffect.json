@@ -1,0 +1,11 @@
+{
+	"name": "$lasteffect",
+	"invocations": [
+		{
+			"rettype": "effect",
+			"description": "Returns the data structure of the latest effect received in the client. If you need more info about the effect data structure, access <a href=\"docs.html#types-effect\">this</a>.",
+			"ex": "auto(100)\nif $lasteffect.type == 3 and $lasteffect.posx == $attacked.posx and $lasteffect.posy == $attacked.posy then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Will play a sound if the last effect was 'poff' at the current attacked creature's location."
+		}
+	]
+}

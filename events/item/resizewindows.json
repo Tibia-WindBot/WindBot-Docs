@@ -1,0 +1,25 @@
+{
+	"name": "resizewindows",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional number",
+					"name": "size"
+				},
+				{
+					"type": "optional string",
+					"name": "locationname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "onlyone"
+				}
+			],
+			"description": "Resizes all windows that fit the description of <i>locationname</i> to the specified <i>size</i> (can be 0/omitted to be as small as possible, or some big value to be as big as possible). If <i>locationname</i> is not specified, all windows are resized. If <i>onlyone</i> is specified as true, then only one matching window is resized.",
+			"ex": "openitem(0, 'back')\nresizewindows(0, '0')",
+			"exDescription": "Opens your 'back' item and resize it to the smallest possible size."
+		}
+	]
+}

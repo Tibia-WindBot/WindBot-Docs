@@ -1,0 +1,17 @@
+{
+	"name": "getcreaturebyname",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				}
+			],
+			"description": "Returns a pointer to the <i>creature</i> with name <i>creaturename</i>. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>",
+			"ex": "local bubble = getcreaturebyname('Bubble')",
+			"exDescription": "Will store a pointer to the datastructure of 'Bubble' in the variable bubble."
+		}
+	]
+}

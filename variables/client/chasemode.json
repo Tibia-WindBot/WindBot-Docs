@@ -1,0 +1,9 @@
+{
+	"name": "$chasemode",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your current chase mode. It can be 'stand' and 'chase'."
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "resetlootcounter",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Will reset the loot counter: clearing amounts of items looted, amounts of items bought and amount of cash spent."
+		}
+	]
+}

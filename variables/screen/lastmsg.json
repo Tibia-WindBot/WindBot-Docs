@@ -1,0 +1,11 @@
+{
+	"name": "$lastmsg",
+	"invocations": [
+		{
+			"rettype": "message",
+			"description": "Returns the data structure of the latest message received in the client. If you need more info about the message data structure, access <a href=\"docs.html#types-message\">this</a>.",
+			"ex": "auto(100)\nif $lastmsg.content == 'heal me please' and $lastmsg.sender == 'Bubble' then\n\tcast('exura sio \"bubble')\nend",
+			"exDescription": "Will cast 'heal friend' on Bubble if she asks: 'heal me please'."
+		}
+	]
+}

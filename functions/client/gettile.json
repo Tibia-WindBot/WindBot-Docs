@@ -1,0 +1,45 @@
+{
+	"name": "gettile",
+	"invocations": [
+		{
+			"rettype": "tile",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns a pointer to the tile at position x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>. If you need more info about the tile data structure, access <a href=\"docs.html#types-tile\">this</a>",
+			"ex": "local tile = gettile($posx, $posy, $posz)\nfor i=1, tile.itemcount do\n\tprint(tile.items[i].id, tile.items[i].count)\nend",
+			"exDescription": "Will print the item id of each item on the tile you are standing at."
+		},
+		{
+			"rettype": "tile",
+			"args": [
+				{
+					"type": "number",
+					"name": "rx"
+				},
+				{
+					"type": "number",
+					"name": "ry"
+				},
+				{
+					"type": "number",
+					"name": "rz"
+				}
+			],
+			"description": "Returns the tile relative to the position of your character <i>rx</i>(-8, 9), <i>ry</i>(-6, 7) and <i>rz</i>(-2, 2).",
+			"ex": "for i=-8,9 do\n\tfor j=-6,7 do\n\t\tprint(i, j, gettile(i, j, 0).itemcount)\n\tend\nend",
+			"exDescription": "Will print how many items are on each tile of the screen."
+		}
+	]
+}

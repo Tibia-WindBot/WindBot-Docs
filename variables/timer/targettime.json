@@ -1,0 +1,11 @@
+{
+	"name": "$targettime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds since you have been targeting the same target.",
+			"ex": "auto(200)\nif $targettime > 30000 then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Will play an alarm if you have been targeting the same target for over 30 seconds."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "damage",
+	"name": "Damage",
+	"description": "These variables are used to tell you information about the damage you've taken. They're all based on the damage animation that appears high above your character after receiving a damage."
+}

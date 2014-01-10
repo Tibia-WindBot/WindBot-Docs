@@ -1,0 +1,17 @@
+{
+	"name": "openbrowser",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "url"
+				}
+			],
+			"description": "Will prompt the user if he wants to open the url <i>url</i>, if the user accepts the request, it will open the url in a browser.",
+			"ex": "openbrowser('www.tibiawindbot.com')",
+			"exDescription": "Will ask the user if he wants to open WindBot's main page."
+		}
+	]
+}

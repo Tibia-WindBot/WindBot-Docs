@@ -1,0 +1,17 @@
+{
+	"name": "time",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "times"
+				}
+			],
+			"description": "Returns a string representation of a time <i>times</i> (in seconds). Format: 'DD:hh:mm:ss'. For example: 60352 -> '16:45:52'",
+			"ex": "auto(200)\nlistas(time($timetonextlevel*60))",
+			"exDescription": "Will show how long it's gonna take to level up."
+		}
+	]
+}

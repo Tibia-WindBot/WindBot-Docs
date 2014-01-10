@@ -1,0 +1,11 @@
+{
+	"name": "$wptid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the current waypoint id. Keep in mind that you should also check the section to fully identify the waypoint.",
+			"ex": "gotolabel($wptid-1)",
+			"exDescription": "Goes to the previous waypoint."
+		}
+	]
+}

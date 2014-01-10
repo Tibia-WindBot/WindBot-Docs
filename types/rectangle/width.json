@@ -1,0 +1,9 @@
+{
+	"name": ".width",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the width of the rectangle."
+		}
+	]
+}

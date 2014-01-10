@@ -1,0 +1,19 @@
+{
+	"name": "clienttexthotkey",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				},
+				{
+					"type": "optional string",
+					"name": "type"
+				}
+			],
+			"description": "Looks for a hotkey in the game client which is bound to text <i>text</i> and returns it as a string representation of the keys in the format 'F1', 'Shift+F5', or 'Ctrl+F12'. Optionally, you can specify a type by passing 'manual' or 'automatic' as the type paramter if you're looking for a certain type specifically. Otherwise, any type will be looked for."
+		}
+	]
+}

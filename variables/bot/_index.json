@@ -1,0 +1,5 @@
+{
+	"id": "bot",
+	"name": "Bot State",
+	"description": "These variables are used to access some states of the bot."
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$exptonextlevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how much of experience you still need to get to achieve the next level.",
+			"ex": "setposition(200, 200)\ndrawtext('Exp Left: ' .. $expgained, 0, 26)",
+			"exDescription": "Shows in a HUD how much of experience left to the next level."
+		}
+	]
+}

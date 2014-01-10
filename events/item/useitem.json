@@ -1,0 +1,57 @@
+{
+	"name": "useitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "optional string",
+					"name": "locationitem"
+				}
+			],
+			"description": "Uses the item <i>itemname</i> at location <i>locationitem</i>. If <i>locationitem</i> is not specified, the item is searched for in all open hotkeys which is pressed if one is found. Otherwise, it will be clicked in the inventory if present. If a location for the item is specified, the item is clicked on at the designated location if found. Optionally, you can pass an <i>index</i> parameter, so that you can specify exactly where in the backpack the item you want to click is located, this is useful to make change gold scripts, which are supported in most OTServers.",
+			"ex": "useitem('torch', 'belt')",
+			"exDescription": "Will light up a 'torch' on your belt slot."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "optional string",
+					"name": "locationitem"
+				}
+			],
+			"description": "Uses item of id <i>itemid</i> at location <i>locationitem</i>. If <i>locationitem</i> is not specified, the item is searched for in all open hotkeys which is pressed if one is found. Otherwise, it will be clicked in the inventory if present. If a location for the item is specified, the item is clicked on at the designated location if found. Optionally, you can pass an <i>index</i> parameter, so that you can specify exactly where in the backpack the item you want to click is located, this is useful to make change gold scripts, which are supported in most OTServers.",
+			"ex": "useitem(0, ground($posx, $posy, $posz))",
+			"exDescription": "Will use the top item in the SQM you're standing on. This could be a ladder, for example."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "containerindex"
+				},
+				{
+					"type": "number",
+					"name": "itemindex"
+				}
+			],
+			"description": "Uses item of id <i>itemid</i> at container <i>containerindex</i> and at position <i>itemindex</i>. This is useful to make change gold scripts, which are supported in most OTServers.",
+			"ex": "auto(200, 300)\nfor i=0,15 do\n\tlocal cont = getcontainer(i)\n\tfor j=1,cont.itemcount do\n\t\tif cont.item[j].count == 100 and (cont.item[j].id == 3035 or cont.item[j].id == 3031) then\n\t\t\t useitem(cont.item[j].id, i, j)\n\t\tend\n\tend\nend",
+			"exDescription": "Will automatically use a full stack of gold when there is one. This is useful to make change gold scripts, which are supported in most OTServers."
+		}
+	]
+}

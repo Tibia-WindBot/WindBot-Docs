@@ -1,0 +1,5 @@
+{
+	"id": "point",
+	"name": "point",
+	"description": "Returns a point in the screen. Used for $cursor."
+}

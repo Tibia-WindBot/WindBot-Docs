@@ -1,0 +1,11 @@
+{
+	"name": "$soul",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's soul points.",
+			"ex": "auto(200)\nif $mp >= 400 and $soul >= 4 then\n\tcast('adura vita') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have mora than 400 of mana, and more than 4 soul points. If so, it will make an 'ultimate healing rune'."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$screenwin",
+	"invocations": [
+		{
+			"rettype": "rectangle",
+			"description": "Returns the rectangle containing the measurements of the desktop window. If you need more info about the rectangle data structure, access <a href=\"docs.html#types-rectangle\">this</a>.",
+			"ex": "print('Your resolution: ' ..$screenrect.width.. 'x' ..$screenrect.height)",
+			"exDescription": "Will print your resolution on the console."
+		}
+	]
+}

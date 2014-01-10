@@ -1,0 +1,9 @@
+{
+	"name": ".walkblock",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

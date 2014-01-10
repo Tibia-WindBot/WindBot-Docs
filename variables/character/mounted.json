@@ -1,0 +1,11 @@
+{
+	"name": "$mounted",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if you're currently mounting an animal, <i>false</i> otherwise.",
+			"ex": "auto(1000, 2500)\nif not ($inpz or $mounted) then \n\tmount()\nend",
+			"exDescription": "Each 1000~2500 milliseconds, it will check you are not inside a protection zone and not mounted. If so, it will mount on the last mounted animal."
+		}
+	]
+}

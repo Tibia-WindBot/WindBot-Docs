@@ -1,0 +1,11 @@
+{
+	"name": "$attackmode",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your current attack mode. It can be 'defensive', 'balanced' and 'offensive'.",
+			"ex": "auto(2000) if $attackmode ~= 'offensive' then\n\tsetattackmode('offensive', $chasemode) wait(1000)\nend",
+			"exDescription": "Will set the attack mode to offensive if it's not offensive yet."
+		}
+	]
+}

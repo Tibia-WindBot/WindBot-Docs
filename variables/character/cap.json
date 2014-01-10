@@ -1,0 +1,11 @@
+{
+	"name": "$cap",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's current capacity.",
+			"ex": "if $cap < 20 then\n\tgotolabel('godeposit')\nend",
+			"exDescription": "This action script will check if your cap is lower than 20.00oz. If so, it will go to label 'godeposit'."
+		}
+	]
+}

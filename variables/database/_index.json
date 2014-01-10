@@ -1,0 +1,5 @@
+{
+	"id": "database",
+	"name": "Database",
+	"description": "These variables are used to access and store information in the bot's databases."
+}

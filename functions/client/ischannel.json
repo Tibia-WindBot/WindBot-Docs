@@ -1,0 +1,17 @@
+{
+	"name": "ischannel",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "string",
+					"name": "channelname"
+				}
+			],
+			"description": "Returns <i>true</i> if channel with name <i>channelname</i> is opened and false otherwise. The channel name must be provided exactly as it appears in the client (ex: 'Bubble's private...').",
+			"ex": "if not ischannel('NPCs') then\n\tsay('hi')\nelse\n\tnpcsay('hi')\nend",
+			"exDescription": "Will say 'hi' in the NPCs channel if it's open, if not, it will say it in the 'Default Channel'."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$attacked",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns the current attacked creature (the one with a red square). If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "if $attacked.id ~= 0 and $attacked.isshootable then\n\tcast('exori flam') wait(300, 500)\nend",
+			"exDescription": "Will cast 'flame strike' spell if you're currently attacking a target, and it is shootable."
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": ".item",
+	"invocations": [
+		{
+			"rettype": "item",
+			"description": "Returns the item at index <i>itemindex</i>. The index ranges from 1 to <i>.itemcount</i>.",
+			"arg": {
+				"type": "number",
+				"name": "itemindex"
+			}
+		}
+	]
+}

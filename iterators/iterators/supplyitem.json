@@ -1,0 +1,10 @@
+{
+	"name": "supplyitem",
+	"invocations": [
+		{
+			"varName": "m",
+			"param": "category",
+			"description": "Iterates through the supply items at the currently selected supply profile, the value is stored in the variable <i>m</i>. For more information about supply items visit <a href=\"docs.html#types-supplyitem\">this</a>."
+		}
+	]
+}

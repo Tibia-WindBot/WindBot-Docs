@@ -1,0 +1,11 @@
+{
+	"name": "$followed",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns the current followed creature (the one with a green square). If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "if $followed.id == 0 then\n\tfollow('Bubble') wait(300, 500)\nend",
+			"exDescription": "Will follow the character 'Bubble' if you are not currently following anyone."
+		}
+	]
+}

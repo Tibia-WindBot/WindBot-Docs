@@ -1,0 +1,9 @@
+{
+	"name": ".isnpc",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

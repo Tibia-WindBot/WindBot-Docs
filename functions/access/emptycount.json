@@ -1,0 +1,17 @@
+{
+	"name": "emptycount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				}
+			],
+			"description": "Returns the count of empty/free slots in your open container windows. Optionally, you can specify which windows to consider by providing the <i>locationname</i> parameter.",
+			"ex": "auto(200)\nif emptycount('0-3') == 0 then\n\tplaysound('monster.wav')\n\tflashclient()\nend",
+			"exDescription": "Will play an alert if you don't have any empty slots on the containers '0-3'."
+		}
+	]
+}

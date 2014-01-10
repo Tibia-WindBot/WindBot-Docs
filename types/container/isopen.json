@@ -1,0 +1,9 @@
+{
+	"name": ".isopen",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the container is currently open, <i>false</i> otherwise."
+		}
+	]
+}

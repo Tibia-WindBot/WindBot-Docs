@@ -1,0 +1,25 @@
+{
+	"name": "ground",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns a formatted string for passing as a ground location to certain script events. It returns a string in the following format: 'ground <i>posx</i> <i>posy</i> <i>posz</i>'.",
+			"ex": "useitemon('rope', 0, ground(33222, 33222, 7))",
+			"exDescription": "Will use a 'rope' at location x:33222, y:33222, z:7."
+		}
+	]
+}

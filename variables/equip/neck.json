@@ -1,0 +1,11 @@
+{
+	"name": "$neck",
+	"invocations": [
+		{
+			"rettype": "item",
+			"description": "Returns the item in your neck slot. If you need more info about the item data structure, access <a href=\"docs.html#types-item\">this</a>.",
+			"ex": "auto(1000)\nif $neck.id ~= 3057 then\n\tprinterror('Be careful! You're not wearing an 'amulet of loss'.')\nend",
+			"exDescription": "Will print an error message warning you if you're not wearing an 'amulet of loss'."
+		}
+	]
+}

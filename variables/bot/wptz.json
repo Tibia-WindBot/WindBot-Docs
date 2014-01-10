@@ -1,0 +1,9 @@
+{
+	"name": "$wptz",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the current waypoint position <i>z</i>."
+		}
+	]
+}

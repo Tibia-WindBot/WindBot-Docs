@@ -1,0 +1,11 @@
+{
+	"name": "$balance",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the last bank balance amount reported by an NPC.",
+			"ex": "if $balance >= 2000 then\n\tnpcsay('withdraw' .. 2000)\nelse\n\tsetsetting('Cavebot/Enabled', 'no')\n\tsetsetting('Targeting/Enabled', 'no')\nend",
+			"exDescription": "Disables the cavebot and targeting if you don't have more than 2000 of gold on your account. If you do have it, it will withdraw these 2000 gold pieces."
+		}
+	]
+}

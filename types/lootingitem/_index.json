@@ -1,0 +1,5 @@
+{
+	"id": "lootingitem",
+	"name": "lootingitem",
+	"description": "Holds information about a looting item from your currently selected loot list."
+}

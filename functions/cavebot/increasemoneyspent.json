@@ -1,0 +1,17 @@
+{
+	"name": "increasemoneyspent",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of money you spent during your hunt by <i>amount</i>. This function can be used if you want to keep track exactly of how much money you used, so you could use it for travel actions, for example.",
+			"ex": "say('hi') wait(1500, 2500)\nnpcsay('venore') wait(300, 700)\nnpcsay('yes') wait(300, 700)\nincreasemoneyspent(130)",
+			"exDescription": "Will increase the amount of money you spent by 130 GPs, after you traveled from 'Carlin' to 'Venore'"
+		}
+	]
+}

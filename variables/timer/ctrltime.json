@@ -1,0 +1,9 @@
+{
+	"name": "$ctrltime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that the control key was physically held for by the bot."
+		}
+	]
+}

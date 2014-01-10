@@ -1,0 +1,10 @@
+{
+	"name": "deathtimer",
+	"invocations": [
+		{
+			"varName": "d",
+			"param": null,
+			"description": "Iterates through the death timers inside the bot, the value is stored in the variable <i>d</i>. Death timers stores the time when the bot saw a player dying, so you can know how long it will take for your PZ locked to go out. For more information, visit <a href=\"docs.html#types-deathtimer\">this</a>."
+		}
+	]
+}

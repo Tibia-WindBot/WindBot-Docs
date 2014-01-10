@@ -1,0 +1,33 @@
+{
+	"name": "auto",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "interval"
+				}
+			],
+			"description": "Puts the script into auto-mode for <i>interval</i> milliseconds. A script that is in auto-mode will execute itself every certain interval of time. If the command is executed in a hotkey, that hotkey, when pressed, will enable the repetitive execution and disable it if pressed again. If 0 is passed for <i>interval</i> and the hotkey is currently running on auto, the hotkey is taken off auto-mode.",
+			"ex": "auto(2500)\ncast('exura')",
+			"exDescription": "It will cast 'light healing' spell each 2.5 seconds."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "intervalfrom"
+				},
+				{
+					"type": "number",
+					"name": "intervalto"
+				}
+			],
+			"description": "Puts the script into auto-mode for a random interval between <i>intervalfrom</i> and <i>intervalto</i> milliseconds.",
+			"ex": "auto(200, 500)\neatfood()",
+			"exDescription": "It will try to eat a food each 200~500 milliseconds."
+		}
+	]
+}

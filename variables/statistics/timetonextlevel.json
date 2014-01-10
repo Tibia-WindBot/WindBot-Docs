@@ -1,0 +1,11 @@
+{
+	"name": "$timetonextlevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time left in minutes to achieve the next level, considering the current experience rate.",
+			"ex": "setposition(200, 200)\ndrawtext('Time To Level: ' .. time($timetonextlevel*60), 0, 39)",
+			"exDescription": "Shows in a HUD how long it's gonna take to achieve the next level."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$worldwin",
+	"invocations": [
+		{
+			"rettype": "rectangle",
+			"description": "Returns the rectangle containing the measurements of the world window. If you need more info about the rectangle data structure, access <a href=\"docs.html#types-rectangle\">this</a>.",
+			"ex": "setposition($worldwin.right - 200, $worldwin.bottom - 13)\ndrawtext('Hello world!', 0, 0)",
+			"exDescription": "Adds a text 200 pixels to the left of the right edge of the world window, and 13 pixels above the bottom edge of the world window."
+		}
+	]
+}

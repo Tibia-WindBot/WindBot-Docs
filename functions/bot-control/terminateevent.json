@@ -1,0 +1,15 @@
+{
+	"name": "terminateevent",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "eventid"
+				}
+			],
+			"description": "Terminates input event of id <i>eventid</i> and returns true if successful."
+		}
+	]
+}

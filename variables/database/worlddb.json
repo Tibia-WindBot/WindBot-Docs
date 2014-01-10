@@ -1,0 +1,9 @@
+{
+	"name": "$worlddb",
+	"invocations": [
+		{
+			"rettype": "database",
+			"description": "Used to access the world's database (/data/worlds/yourworldname.db)."
+		}
+	]
+}

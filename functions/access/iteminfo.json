@@ -1,0 +1,29 @@
+{
+	"name": "iteminfo",
+	"invocations": [
+		{
+			"rettype": "iteminformation",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns all the information the bot has has about the item with id <i>itemid</i>. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(iteminfo(3031).isenchantable)",
+			"exDescription": "Will print in the console whether 'gold coins' are enchantable or not."
+		},
+		{
+			"rettype": "iteminformation",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns all the information the bot has has about the item named <i>itemname</i>. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(iteminfo('wand of inferno').maxdmg)",
+			"exDescription": "Will print in the console the maximum range you can do with a 'wand of inferno', based on the database value."
+		}
+	]
+}

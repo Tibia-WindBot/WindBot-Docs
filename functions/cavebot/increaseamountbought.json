@@ -1,0 +1,35 @@
+{
+	"name": "increaseamountbought",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items <i>itemname</i> you bought by <i>amount</i> units. This function is used for the loot counter. Usually, this value is increased automatically by the bot when you buy an item, but only if you get a 'Bought 13x items' message. If you are getting it from the depot, for example, you should use it. Or if the OTServer you are playing at doesn't use the same message structure, so you should parse it manually.",
+			"ex": "moveitems('assassin star', 'orange backpack', 'depot chest', 100)\nincreaseamountbought('assassin star', 100)",
+			"exDescription": "Will increase the amount of 'assassin stars' you spent. It can be useful if you bought it before starting the bot, and you want to keep track of how many assassin stars you used."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items with id <i>itemid</i> you bought by <i>amount</i> units."
+		}
+	]
+}

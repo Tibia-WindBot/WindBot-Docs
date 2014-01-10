@@ -1,0 +1,37 @@
+{
+	"name": "getobjectarea",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Returns a table with the coordinates of the rectangular area (<i>.left</i>, <i>.right</i>, <i>.top</i>, <i>.bottom</i>, <i>.centerx</i> and <i>.centery</i>) for creature <i>creaturepointer</i>. It's position is relative to <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.left and <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.top.",
+			"ex": "setposition($worldwin.left, $worldwin.top)\nlocal r = getobjectarea($self)\nsetposition(r.left, r.top)\ndrawtext('Hey hey', 0, 0)",
+			"exDescription": "Will draw the text: 'Hey hey' at the top left edge of your character."
+		},
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns the rectangular area of the tile at the position x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>. It's position is relative to <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.left and <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.top.",
+			"ex": "setposition($worldwin.left, $worldwin.top)\nlocal r = getobjectarea($wptx, $wpty, $wptz)\ndrawtext('W', r.centerx, r.centery)",
+			"exDescription": "Will draw the letter 'W' at the center of the current waypoint."
+		}
+	]
+}

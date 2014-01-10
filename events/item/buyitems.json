@@ -1,0 +1,37 @@
+{
+	"name": "buyitems",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "count"
+				}
+			],
+			"description": "Buys <i>count</i> amount of items named <i>itemname</i>, which must be exactly the way it appears in the trade list. A trade window must be open.",
+			"ex": "buyitems('mana potion', 100)",
+			"exDescription": "Will buy 100 'mana potions'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "count"
+				}
+			],
+			"description": "Buys <i>count</i> amount of items with id <i>itemid</i>. A trade window must be open.",
+			"ex": "buyitems(268, 100)",
+			"exDescription": "Will buy 100 items of id 268 (mana potion)."
+		}
+	]
+}

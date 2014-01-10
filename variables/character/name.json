@@ -1,0 +1,11 @@
+{
+	"name": "$name",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your character's name.",
+			"ex": "cast('exura sio \"' .. $name)",
+			"exDescription": "Will cast 'heal friend', using your name."
+		}
+	]
+}

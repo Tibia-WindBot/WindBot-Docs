@@ -1,0 +1,17 @@
+{
+	"name": "listcolor",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "color"
+				}
+			],
+			"description": "Sets the color for the script to <i>color</i> for appearance when active. The color is given in the RGB format, there are several online tools that allows you to generate the color.",
+			"ex": "auto(200)\nlistcolor(0x3E5417)\nlistas('Script colors test')",
+			"exDescription": "Will set the 'list as' color to green, and the text to 'Script colors test'."
+		}
+	]
+}

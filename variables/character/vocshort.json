@@ -1,0 +1,11 @@
+{
+	"name": "$vocshort",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your character's vocation abbreviated to a short way. It can either be: 'NV', 'K', 'P', 'S' or 'D'.",
+			"ex": "auto(200)\nlistas($vocshort)",
+			"exDescription": "Will show your vocation abbreviated."
+		}
+	]
+}

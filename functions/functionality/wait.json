@@ -1,0 +1,33 @@
+{
+	"name": "wait",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "waittime"
+				}
+			],
+			"description": "Pauses the execution of the current script for <i>waittime</i> milliseconds and resumes once that interval has elapsed.",
+			"ex": "say('hi')\nwait(2500)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2.5 seconds and then say 'trade' on the NPC channel."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "waittimefrom"
+				},
+				{
+					"type": "number",
+					"name": "waittimeto"
+				}
+			],
+			"description": "Pauses the execution of the current script for a random interval between <i>waittimefrom</i> and <i>waittimeto</i> milliseconds and resumes once that interval has elapsed.",
+			"ex": "say('hi')\nwait(2000,3000)\nnpcsay('trade')",
+			"exDescription": "Will say 'hi', wait for 2~3 seconds and then say 'trade' on the NPC channel."
+		}
+	]
+}

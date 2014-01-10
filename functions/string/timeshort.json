@@ -1,0 +1,17 @@
+{
+	"name": "timeshort",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "timems"
+				}
+			],
+			"description": "Returns a string representation of a time <i>timems</i> (in milliseconds). Format: 'mm:ss.d'. For example: 10353 -> '10.3'",
+			"ex": "auto(200)\nlistas(timeshort($hastetime))",
+			"exDescription": "Shows how much time you have left before your haste stats goes out."
+		}
+	]
+}

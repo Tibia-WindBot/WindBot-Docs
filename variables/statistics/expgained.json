@@ -1,0 +1,11 @@
+{
+	"name": "$expgained",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how much of experience you have gained since the bot started.",
+			"ex": "setposition(200, 200)\ndrawtext('Exp Gained: ' .. $expgained, 0, 13)",
+			"exDescription": "Shows in a HUD how much of experience you have gained so far."
+		}
+	]
+}

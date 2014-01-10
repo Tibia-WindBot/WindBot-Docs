@@ -1,0 +1,17 @@
+{
+	"name": "move",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "direction"
+				}
+			],
+			"description": "Moves your character in the specified direction. <i>direction</i> can be: 'n', 'e', 's', 'w', 'ne', 'se', 'sw' or 'nw'.",
+			"ex": "auto(100)\nif not $inpz and paround(9) > 0 then\n\tmove('s') wait(300,500)\nend",
+			"exDescription": "Each 100 milliseconds, it will check if there's a player on screen and you are not inside a protection zone yet. If so, it will move to the south."
+		}
+	]
+}

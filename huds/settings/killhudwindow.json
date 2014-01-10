@@ -1,0 +1,15 @@
+{
+	"name": "killhudwindow",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "hudid"
+				}
+			],
+			"description": "Kills a previously spawned hud window of id <i>hudid</i> and returns <i>true</i> if successful."
+		}
+	]
+}

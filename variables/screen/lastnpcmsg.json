@@ -1,0 +1,11 @@
+{
+	"name": "$lastnpcmsg",
+	"invocations": [
+		{
+			"rettype": "message",
+			"description": "Returns the data structure of the latest NPC message received in the client. If you need more info about the message data structure, access <a href=\"docs.html#types-message\">this</a>.",
+			"ex": "auto(100)\nif $lastnpcmsg.content == 'You don't have enough money.' then\n\tsetsetting('Cavebot/Enabled', 'no')\nend",
+			"exDescription": "Will disable cavebot if you get a \"You don't have enough money\" message from a NPC."
+		}
+	]
+}

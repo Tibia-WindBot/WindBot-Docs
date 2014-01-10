@@ -1,0 +1,9 @@
+{
+	"name": ".sender",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the name of the player who sent the message."
+		}
+	]
+}

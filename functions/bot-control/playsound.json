@@ -1,0 +1,17 @@
+{
+	"name": "playsound",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "filename"
+				}
+			],
+			"description": "Plays the sound with file name <i>filename</i>. All the sound files must be in the bot's '/sounds' directory.",
+			"ex": "auto(200)\nif paround(7) > 0 then\n\tplaysound('playeronscreen.wav')\n\tflashclient()\nend",
+			"exDescription": "Will play the sound 'playeronscreen.wav' and flash the client if there's a player on your screen."
+		}
+	]
+}

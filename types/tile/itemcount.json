@@ -1,0 +1,9 @@
+{
+	"name": ".itemcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of items on the tile."
+		}
+	]
+}

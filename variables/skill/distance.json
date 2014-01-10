@@ -1,0 +1,9 @@
+{
+	"name": "$distance",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's distance fighting skill."
+		}
+	]
+}

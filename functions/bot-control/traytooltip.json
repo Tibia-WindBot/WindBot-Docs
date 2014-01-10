@@ -1,0 +1,17 @@
+{
+	"name": "traytooltip",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				}
+			],
+			"description": "Sets the system tray icon's tooltip to <i>text</i> which will appear when howevered on. This function must be called every 2000 ms or less because the default tooltip takes over after 2 seconds.",
+			"ex": "auto(2000)\ntraytooltip($name.. ' - ' ..$vocation.. ' ' ..$level.. '. Exp/H: '..$exphour)",
+			"exDescription": "Sets the tray tool tip text to show some information. For example: 'Bubble - knight 200. Exp/H: 20000'."
+		}
+	]
+}

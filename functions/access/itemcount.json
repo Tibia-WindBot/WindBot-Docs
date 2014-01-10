@@ -1,0 +1,37 @@
+{
+	"name": "itemcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "optional string",
+					"name": "locationname"
+				}
+			],
+			"description": "Returns the count of the item with id <i>itemid</i> that is present in your equipment and open windows. The bot counts it instantly by going through all the visible items and returns the count. Optionally, you can specify which windows to consider by providing the <i>locationname</i> parameter.",
+			"ex": "if itemcount(3031, 'golden backpack') >= 1800 then\n\topenitem('golden backpack', 'golden backpack')\nend",
+			"exDescription": "Will open the next container (golden backpack) if you have more than 1800 'gold coins' inside it."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "optional string",
+					"name": "locationname"
+				}
+			],
+			"description": "Returns the count of the item with name <i>itemname</i> that is present in your equipment and open windows. The bot counts it instantly by going through all the visible items and returns the count. Optionally, you can specify which windows to consider by providing the <i>locationname</i> parameter.",
+			"ex": "auto(200)\nlistas('' ..itemcount('knight legs', '0-15'))",
+			"exDescription": "Will show how many 'knight legs' are present inside your containers."
+		}
+	]
+}

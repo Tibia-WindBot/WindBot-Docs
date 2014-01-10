@@ -1,0 +1,9 @@
+{
+	"name": ".chestcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "$wpttype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the current waypoint type."
+		}
+	]
+}

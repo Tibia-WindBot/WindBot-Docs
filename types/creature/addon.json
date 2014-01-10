@@ -1,0 +1,9 @@
+{
+	"name": ".addon",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

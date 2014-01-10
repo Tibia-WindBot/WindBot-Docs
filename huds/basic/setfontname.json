@@ -1,0 +1,15 @@
+{
+	"name": "setfontname",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "fontname"
+				}
+			],
+			"description": "Sets the font name to <i>fontname</i>."
+		}
+	]
+}

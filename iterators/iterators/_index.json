@@ -1,0 +1,5 @@
+{
+	"id": "iterators",
+	"name": "Iterators",
+	"description": "Foreach iterators allows you to iterate through a list of data, like creatures, messages, effects, projectiles, etc."
+}

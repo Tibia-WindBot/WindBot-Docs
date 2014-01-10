@@ -1,0 +1,17 @@
+{
+	"name": "getnamearea",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturepointer"
+				}
+			],
+			"description": "Returns a table with the coordinates of the rectangular area (<i>.left</i>, <i>.right</i>, <i>.top</i>, <i>.bottom</i>, <i>.centerx</i> and <i>.centery</i>) where the name of the creature <i>creaturepointer</i> is drawn. It's position is relative to <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.left and <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.top.",
+			"ex": "init start\n\tuseworldhud(false)\ninit end\n\nforeach creature c 'xs' do\n\tlocal r = getnamearea(c)\n\tif ( r ) then\n\t\tdrawtext(c.name, r.left, r.top)\n\tend\nend",
+			"exDescription": "Will draw the player name right above the name drawn by Tibia. Try it yourself to understand it better."
+		}
+	]
+}

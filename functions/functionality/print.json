@@ -1,0 +1,25 @@
+{
+	"name": "print",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "any",
+					"name": "text1"
+				},
+				{
+					"type": "any",
+					"name": "text2"
+				},
+				{
+					"type": "",
+					"name": "..."
+				}
+			],
+			"description": "Will print on the console the texts passed as parameters sepparated by a comma. You can put as many texts as you want, and it accepts any kind of variable as input. This function is useful for debugging.",
+			"ex": "print('Hello WindBot!', 'I am awesome!', 13245)",
+			"exDescription": "Will print on the console the following text: \"Hello WindBot!, I am awesome!, 12345\"."
+		}
+	]
+}

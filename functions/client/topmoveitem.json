@@ -1,0 +1,23 @@
+{
+	"name": "topmoveitem",
+	"invocations": [
+		{
+			"rettype": "item",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Same as topitem, but it will get that you will move if you try to move something in that tile."
+		}
+	]
+}

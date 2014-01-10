@@ -1,0 +1,27 @@
+{
+	"name": "itemweight",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the weight of the item <i>itemname</i>. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(itemweight('dragon scale mail'))",
+			"exDescription": "Will print '114' on the console."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns the weight of the item with id <i>itemid</i>. This value is the same as in the file '/tibiadata/items.xml'."
+		}
+	]
+}

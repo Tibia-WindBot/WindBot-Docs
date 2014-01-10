@@ -1,0 +1,9 @@
+{
+	"name": "$club",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's club fighting skill."
+		}
+	]
+}

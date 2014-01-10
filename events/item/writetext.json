@@ -1,0 +1,29 @@
+{
+	"name": "writetext",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "string",
+					"name": "text"
+				},
+				{
+					"type": "optional string",
+					"name": "locationfrom"
+				},
+				{
+					"type": "optional number",
+					"name": "index"
+				}
+			],
+			"description": "Opens item of id <i>itemid</i> for text editing and writes text <i>text</i> into it. To indicate a new line, use the following two characters: '\\n' (ex: 'Bubble\\nVenore'). You can optionally pass a location string for the <i>locationfrom</i> parameter to indicate where to look for the item to be opened if you don't want it to be looked for in all open windows. You can also optionally specify which item to open in sequence by passing the <i>index</i> parameter (1st item, 2nd item... etc).",
+			"ex": "writetext(itemid('label'), 'Lord\\'Paulistinha\\nVenore')",
+			"exDescription": "Will write 'Lord'Paulistinha\nVenore' in a 'label'."
+		}
+	]
+}

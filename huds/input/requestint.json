@@ -1,0 +1,25 @@
+{
+	"name": "requestint",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "requestid"
+				},
+				{
+					"type": "string",
+					"name": "question"
+				},
+				{
+					"type": "number",
+					"name": "defaultvalue"
+				}
+			],
+			"description": "Requests an integer number from the user. This can only be called from the <i>inputevents(table e)</i> function. The <i>question</i> parameter is the question to ask the user and the <i>default</i> parameter is the default value to be shown. A request id can be specified in the <i>requestid</i> parameter. This request id will be passed to the <i>inputevents</i> function as the <i>e.value1</i> parameter to identify later on what was requested. The <i>e.type</i> parameter will be IEVENT_REQUESTINT and <i>e.value2</i> will represent the chosen integer number.",
+			"ex": "init start\n\tlocal reqid = 5\n\tlocal rectid = -1\n\n\tfunction inputevents(e)\n\t\tif e.type == IEVENT_LMOUSEUP then\n\t\t\tif e.elementid == rectid then\n\t\t\t\trequestint(reqid, 'Please, enter a value', 30)\n\t\t\tend\n\t\telseif e.type == IEVENT_REQUESTINT then\n\t\t\tprint('The user\\'s answer was: ' .. e.value2)\n\t\tend\n\tend\ninit end\nauto(200)\nfilterinput(false, true, false, false)\nsetposition(200, 200)\n\nrectid = drawshape('rect', 0, 0, 50, 50)",
+			"exDescription": "Will open an integer request when you click on the rectangle. When the user choose the value, it will print the value on the console."
+		}
+	]
+}

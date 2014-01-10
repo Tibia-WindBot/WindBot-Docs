@@ -1,0 +1,9 @@
+{
+	"name": "$cureventtype",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the type of the current running event."
+		}
+	]
+}

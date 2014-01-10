@@ -1,0 +1,5 @@
+{
+	"id": "effect",
+	"name": "effect",
+	"description": "An effect holds information about effects that shows up on your screen. Like the 'poof' when you miss a hit on a creature."
+}

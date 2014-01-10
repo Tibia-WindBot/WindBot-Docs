@@ -1,0 +1,9 @@
+{
+	"name": "$lastlabel",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the name of the last label that the cavebot has went through."
+		}
+	]
+}

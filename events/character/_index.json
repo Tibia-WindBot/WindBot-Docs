@@ -1,0 +1,5 @@
+{
+	"id": "character",
+	"name": "Character",
+	"description": "These functions issue an event related to your character's control."
+}

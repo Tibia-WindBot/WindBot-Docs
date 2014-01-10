@@ -1,0 +1,25 @@
+{
+	"name": "printerror",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "any",
+					"name": "text1"
+				},
+				{
+					"type": "any",
+					"name": "text2"
+				},
+				{
+					"type": "",
+					"name": "..."
+				}
+			],
+			"description": "Same as function print, but the messages will be printed with color 'red' and the console will pop-up once you call this function.",
+			"ex": "auto(200, 300)\nif not $connected then\n\tprinterror('Your character is disconnected')\n\tauto(0)\nend",
+			"exDescription": "If you are not connected to the game, it will pop-up the console and print a message saying that you got disconnected and then disable the script."
+		}
+	]
+}

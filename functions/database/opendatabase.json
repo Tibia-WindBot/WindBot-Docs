@@ -1,0 +1,17 @@
+{
+	"name": "opendatabase",
+	"invocations": [
+		{
+			"rettype": "database",
+			"args": [
+				{
+					"type": "string",
+					"name": "dbname"
+				}
+			],
+			"description": "Will open a database at your '/data/custom/' folders. This way you can load and save values to this custom database. Custom databases can only be opened from Hotkeys, Persistents, Cavebot, HUDs and Library scripts.",
+			"ex": "local db = opendatabase('necrosyalahar')\nlocal amountkilled = db:getvalue('counters', 'necroskilled')",
+			"exDescription": "This will retrieve the value stored in the database '/data/custom/necrosyalahar.db', in the location: 'counters/necroskilled', and save this value to the variable amount killed."
+		}
+	]
+}

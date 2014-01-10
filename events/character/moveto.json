@@ -1,0 +1,25 @@
+{
+	"name": "moveto",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				}
+			],
+			"description": "Moves your character to the specified coordinates <i>x</i>, <i>y</i> and <i>z</i>.",
+			"ex": "moveto(12345, 54321, 7)",
+			"exDescription": "Will move your character to the location x:12345, y:54321, z:7."
+		}
+	]
+}

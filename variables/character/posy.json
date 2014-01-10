@@ -1,0 +1,9 @@
+{
+	"name": "$posy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's position <i>y</i>."
+		}
+	]
+}

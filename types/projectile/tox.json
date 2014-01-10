@@ -1,0 +1,9 @@
+{
+	"name": ".tox",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the position <i>x</i> to where the projectile was shot."
+		}
+	]
+}

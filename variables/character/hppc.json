@@ -1,0 +1,11 @@
+{
+	"name": "$hppc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's health percentage.",
+			"ex": "auto(200)\nif $hppc < 60 then\n\tcast('exura san') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have less than 60% of health. If so, it will cast 'divine healing' spell."
+		}
+	]
+}

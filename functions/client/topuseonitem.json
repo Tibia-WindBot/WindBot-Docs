@@ -1,0 +1,23 @@
+{
+	"name": "topuseonitem",
+	"invocations": [
+		{
+			"rettype": "item",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Same as topitem, but it will get the item that you will use on if you are using a \"Use with...\" item."
+		}
+	]
+}

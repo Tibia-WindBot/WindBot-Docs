@@ -1,0 +1,25 @@
+{
+	"name": "traymessage",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "title"
+				},
+				{
+					"type": "string",
+					"name": "msg"
+				},
+				{
+					"type": "optional number",
+					"name": "timems"
+				}
+			],
+			"description": "Displays a message in the system tray with title <i>title</i> and text <i>text</i> which causes the bot to show up if clicked on. Title can be an empty string in which case it will take less space. You can specify how long the message should last in milliseconds in the <i>timems</i> parameter. If you don't, the message will last 10000 ms. Tray messages replace each other so only one can be shown at a time.",
+			"ex": "init start\n\tlocal curlevel = $level\ninit end\nauto(200)\nif $level ~= curlevel then\n\ttraymessage('Level Up!', 'Congratulations! You advanced from Level ' ..curlevel.. ' to Level ' ..$level, 5000)\n\tcurlevel = $level\nend",
+			"exDescription": "Will show a level up message on the system tray when you level up. This message will be showed for 5 seconds."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$ping",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the last calculated ping value, in milliseconds.",
+			"ex": "setposition(100, 200)\ndrawtext('Ping: ' .. $ping, 0, 13)",
+			"exDescription": "A simple HUD to show your current ping."
+		}
+	]
+}

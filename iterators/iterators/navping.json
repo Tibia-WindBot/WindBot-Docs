@@ -1,0 +1,10 @@
+{
+	"name": "navping",
+	"invocations": [
+		{
+			"varName": "p",
+			"param": null,
+			"description": "Iterates through navigation pings, the values are stored in the variable <i>p</i>. Navigation pings are sent using the command <a href=\"lua-functions.html#navsendping\">navsendping</a>, for more information about it, visit <a href=\"docs.html#types-navping\">this</a>."
+		}
+	]
+}

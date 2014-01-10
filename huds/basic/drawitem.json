@@ -1,0 +1,37 @@
+{
+	"name": "drawitem",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "zoom"
+				},
+				{
+					"type": "optional number",
+					"name": "amount"
+				},
+				{
+					"type": "optional number",
+					"name": "phase"
+				}
+			],
+			"description": "Draws an item from the game with id <i>id</i> at position x: <i>x</i>, y: <i>y</i>. The value <i>zoom</i> is used to resize the outfit, if you pass it as 100, it will draw without any resizing, 50 will draw it with 50% the size, and so on. You can also specify an <i>amount</i> to draw, for stackable items. If you set <i>phase</i> to -1 it will animate the image.",
+			"ex": "drawitem(3280, 30, 30, 100, 100, -1)",
+			"exDescription": "Draws an animated fire sword."
+		}
+	]
+}

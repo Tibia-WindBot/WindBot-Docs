@@ -1,0 +1,10 @@
+{
+	"name": "restoreclient",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Restores the client from the minimized state."
+		}
+	]
+}

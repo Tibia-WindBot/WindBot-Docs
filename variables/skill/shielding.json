@@ -1,0 +1,9 @@
+{
+	"name": "$shielding",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's shielding skill."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$strenghtened",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character is strenghtened, <i>false</i> otherwise.",
+			"ex": "auto(200)\nif not $strenghtened then\n\tcast('utito tempo') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you are strengthened. If not, it cast 'blood rage' spell."
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"name": "requestfloat",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "requestid"
+				},
+				{
+					"type": "string",
+					"name": "question"
+				},
+				{
+					"type": "number",
+					"name": "defaultvalue"
+				}
+			],
+			"description": "Requests a decimal point number from the user. This can only be called from the <i>inputevents(table e)</i> function. The <i>question</i> parameter is the question to ask the user and the <i>default</i> parameter is the default value to be shown. A request id can be specified in the <i>requestid</i> parameter. This request id will be passed to the <i>inputevents</i> function as the <i>e.value1</i> parameter to identify later on what was requested. The <i>e.type</i> parameter will be IEVENT_REQUESTFLOAT and <i>e.value2</i> will represent the chosen float number."
+		}
+	]
+}

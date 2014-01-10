@@ -1,0 +1,9 @@
+{
+	"name": ".posz",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the creature's current <i>z</i> position."
+		}
+	]
+}

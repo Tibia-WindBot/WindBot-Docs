@@ -1,0 +1,37 @@
+{
+	"name": "tradecount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "tradetype"
+				},
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns the count of item of type <i>tradetype</i> ('buy' or 'sell') with id <i>itemid</i>. This is the count available for purchase (limited by money/cap) or sale (amount carrying) given by the trade items window. If the trade window is closed, the return value is 0.",
+			"ex": "buyitems(268, tradecount('buy', 268))",
+			"exDescription": "Will buy as many 'mana potions' as you can."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "tradetype"
+				},
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the count of item of type <i>tradetype</i> ('buy' or 'sell') with name <i>itemname</i>. This is the count available for purchase (limited by money/cap) or sale (amount carrying) given by the trade items window. If the trade window is closed, the return value is 0.",
+			"ex": "auto(200)\nlocal count = tradecount('sell', 'plate armor')\nif count ~= 0 then\n\tlistas('You can sell: ' ..count.. ' plate armors')\nelse\n\tlistas('dontlist')\nend",
+			"exDescription": "Will show how many 'plate armors' you have available for sale. If you don't have any, it will hide the 'list as' message."
+		}
+	]
+}

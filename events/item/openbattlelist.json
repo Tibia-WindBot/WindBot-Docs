@@ -1,0 +1,17 @@
+{
+	"name": "openbattlelist",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional boolean",
+					"name": "close"
+				}
+			],
+			"description": "Opens the battle list. Optionally, you can pass the <i>close</i> parameter as <i>true</i> if you want to close the battle list instead.",
+			"ex": "auto(2000)\nopenbattlelist()",
+			"exDescription": "Each 2 segunds it will try to open the battle list (in case it's closed)."
+		}
+	]
+}

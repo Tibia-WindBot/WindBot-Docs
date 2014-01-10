@@ -1,0 +1,17 @@
+{
+	"name": "geteventbyid",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "number",
+					"name": "id"
+				}
+			],
+			"description": "Returns a table containing information about the input event with id <i>id</i>.",
+			"ex": "local eventid = moveitems(3031, 0)\nprint(geteventbyid(eventid))",
+			"exDescription": "Will print information about the event <i>eventid</i>, which is the moveitems event you called before."
+		}
+	]
+}

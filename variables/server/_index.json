@@ -1,0 +1,5 @@
+{
+	"id": "server",
+	"name": "Server Response",
+	"description": "These variables are used to identify possible problems on the connection between you and the Tibia server. Which may be useful to warn you about lags or freezes."
+}

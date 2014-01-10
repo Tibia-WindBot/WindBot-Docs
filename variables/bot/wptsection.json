@@ -1,0 +1,11 @@
+{
+	"name": "$wptsection",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the name of the current waypoint section.",
+			"ex": "if $wptsection == 'gotocity' and $standtime >= 10000 then\n\tgotolabel(0, 'hunt')\nend",
+			"exDescription": "If you are in the waypoint section named 'gotocity' and you are standing at the same SQM for longer than 10 seconds it will go to the first label of the section named 'hunt'."
+		}
+	]
+}

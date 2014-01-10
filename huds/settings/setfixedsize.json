@@ -1,0 +1,19 @@
+{
+	"name": "setfixedsize",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "width"
+				},
+				{
+					"type": "number",
+					"name": "height"
+				}
+			],
+			"description": "Sets a fixed size for the display to size <i>width</i> and <i>height</i>. The reason to set a fixed size is to speed up rendering for displays that doesn't get resized a lot. Usually, it is faster to draw to a larger display than to have it resized frequently. If you can predict the size that your display will take, it is better to set a fixed size for it."
+		}
+	]
+}

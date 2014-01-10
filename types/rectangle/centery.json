@@ -1,0 +1,9 @@
+{
+	"name": ".centery",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the vertical center of the rectangle."
+		}
+	]
+}

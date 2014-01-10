@@ -1,0 +1,17 @@
+{
+	"name": "getcreaturebyid",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "number",
+					"name": "creatureid"
+				}
+			],
+			"description": "Returns a pointer to the <i>creature</i> identified by the id <i>creatureid</i>. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>",
+			"ex": "local selfcreature = getcreaturebyid($id)",
+			"exDescription": "Will store a pointer to your character's data structure on the variable selfcreature."
+		}
+	]
+}

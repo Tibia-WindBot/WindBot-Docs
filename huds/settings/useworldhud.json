@@ -1,0 +1,12 @@
+{
+	"name": "useworldhud",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Will make the current hud script draw everything in the 'world hud' window. The 'world hud' window is refreshed in sync with the game's drawing. So if you are making a script that draws something in the world window you should use this, for example: magic wall timers, show great fireball areas, player information scripts, etc.",
+			"ex": "init start\n\tuseworldhud()\ninit end\n\nforeach creature c 'ps' do\n\tlocal r = getnamearea(c)\n\tif ( r ) then\n\t\tdrawtext(c.name, r.left, r.top)\n\tend\nend",
+			"exDescription": "Will draw the player name right above the player name drawn by Tibia."
+		}
+	]
+}

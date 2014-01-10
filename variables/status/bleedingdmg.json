@@ -1,0 +1,9 @@
+{
+	"name": "$bleedingdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last physical damage you have taken. When your bleeding stats goes out, this value is set to zero."
+		}
+	]
+}

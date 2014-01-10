@@ -1,0 +1,5 @@
+{
+	"id": "statistics",
+	"name": "Statistics",
+	"description": "These variables are used to access some bot statistics, such as experience rates, or time to next level."
+}

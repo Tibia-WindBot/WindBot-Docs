@@ -1,0 +1,11 @@
+{
+	"name": "$openmenutime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that a menu in the client has been open.",
+			"ex": "auto(100)\nif $openmenutime >= 5000 then\n\tplaysound('monster.wav')\nend",
+			"exDescription": "Will play an alarm if the time since a menu is open is higher than 5 seconds."
+		}
+	]
+}

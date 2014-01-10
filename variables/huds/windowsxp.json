@@ -1,0 +1,11 @@
+{
+	"name": "$windowsxp",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your operational system is Windows XP, <i>false</i> otherwise. This is useful because Windows XP system doesn't allow transparent window, so you can set a color to the background of yuor HUDs.",
+			"ex": "if $windowsxp then\n\tsetbkgcolorxp(0xFFFFFF)\nend",
+			"exDescription": "If you are using Windows XP, it will set the color of the background of the HUD to 'white'."
+		}
+	]
+}

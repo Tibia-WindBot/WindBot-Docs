@@ -1,0 +1,11 @@
+{
+	"name": "$id",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's id.",
+			"ex": "foreach creature m 's' do\n\tif m.id != $id then\n\t\tprint(m.name)\n\tend\nend",
+			"exDescription": "Will print on console the name of every creature on your screen, except yourself."
+		}
+	]
+}

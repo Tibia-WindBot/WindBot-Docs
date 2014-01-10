@@ -1,0 +1,29 @@
+{
+	"name": "drawrect",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "width"
+				},
+				{
+					"type": "number",
+					"name": "height"
+				}
+			],
+			"description": "Draws a rectangle starting at position <i>x</i>, <i>y</i>, with width <i>width</i> and height </i>height</i>. The rectangle will grow to the bottom and to the right.",
+			"ex": "drawrect(25, 25, 60, 40)",
+			"exDescription": "Draws a 60x40 rectangle, starting at position x: 25, y: 25."
+		}
+	]
+}

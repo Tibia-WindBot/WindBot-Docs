@@ -1,0 +1,11 @@
+{
+	"name": "$earthdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last poison damage you have taken.",
+			"ex": "auto(200)\nif $earthdmg > 15 and $poisoned then\n\tcast('exana pox') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you're poisoned, and the last poison damage that you have taken. If you are poisoned, and the damage was higher than 15, it will cast 'antidote' spell."
+		}
+	]
+}

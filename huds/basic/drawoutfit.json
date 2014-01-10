@@ -1,0 +1,61 @@
+{
+	"name": "drawoutfit",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "outfitid"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "zoom"
+				},
+				{
+					"type": "optional number",
+					"name": "dir"
+				},
+				{
+					"type": "optional number",
+					"name": "phase"
+				},
+				{
+					"type": "optional number",
+					"name": "headcolor"
+				},
+				{
+					"type": "optional number",
+					"name": "chestcolor"
+				},
+				{
+					"type": "optional number",
+					"name": "legscolor"
+				},
+				{
+					"type": "optional number",
+					"name": "feetcolor"
+				},
+				{
+					"type": "optional number",
+					"name": "addon"
+				},
+				{
+					"type": "optional number",
+					"name": "mountid"
+				}
+			],
+			"description": "Draws an outfit from the game with id <i>id</i> at position x: <i>x</i>, y: <i>y</i>. The value <i>zoom</i> is used to resize the outfit, if you pass it as 100, it will draw without any resizing, 50 will draw it with 50% the size, and so on. <i>dir</i> is the direction to where you want it to look to, ranges from 0 to 3. You may specify a phase <i>phase</i>, if you pass -1 to it, it will animate the drawing making it walk. You can also specify the <i>headcolor</i>, <i>chestcolor</i>, <i>legscolor</i>, <i>feetcolor</i> and <i>addon</i>. You can also specify a mount with id <i>mountid</i>",
+			"ex": "drawoutfit(304, 0, 0, 100, 2, -1)",
+			"exDescription": "Draws a worker golem looking to the south and makes a walking animation to it."
+		}
+	]
+}

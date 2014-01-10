@@ -1,0 +1,11 @@
+{
+	"name": "$pingaverage",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the average of the last 6 obtained ping values, in milliseconds.",
+			"ex": "for i=1,4 do\n\tuseitem('ham') wait($pingaverage*0.3, $pingaverage*0.4)\nend",
+			"exDescription": "Will eat 4 hams, waiting a random time based on your ping average."
+		}
+	]
+}

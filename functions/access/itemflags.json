@@ -1,0 +1,17 @@
+{
+	"name": "itemflags",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the properties of the item <i>itemname</i>. It's useful to determine if an item blocks your path, if it's a hole, etc.",
+			"ex": "print(bit32.band(itemflags('gold coin'), ITEMPROPERTIES_STACKABLE))",
+			"exDescription": "Will perform a bitwise operation to check if the STACKABLE bit is set on the item 'gold coin'."
+		}
+	]
+}

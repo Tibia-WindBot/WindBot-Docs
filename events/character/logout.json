@@ -1,0 +1,10 @@
+{
+	"name": "logout",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Logs you out by pressing CTRL+L."
+		}
+	]
+}

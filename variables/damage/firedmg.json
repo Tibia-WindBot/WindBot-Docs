@@ -1,0 +1,11 @@
+{
+	"name": "$firedmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last fire damage you have taken.",
+			"ex": "auto(200)\nif $firedmg >= 3 and $firedmg <= 10 and $burning and $vocation == 'druid' then\n\tcast('exana flam') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you're burning, and the last fire damage that you have taken. If you are burning, you're a 'druid', and the damage taken is between 3 and 10 (which could mean you're soul fired), it will cast 'cure burning' spell."
+		}
+	]
+}

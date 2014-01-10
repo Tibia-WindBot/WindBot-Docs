@@ -1,0 +1,9 @@
+{
+	"name": "$frozendmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value of the last ice damage you have taken. When your ice stats goes out, this value is set to zero."
+		}
+	]
+}

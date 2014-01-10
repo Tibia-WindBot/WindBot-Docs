@@ -1,0 +1,27 @@
+{
+	"name": "itemcost",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the 'buy price' of the item named <i>itemname</i> from a NPC. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(itemcost('mana potion'))",
+			"exDescription": "Will print '50' on the console."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns the 'buy price' of the item with id <i>itemid</i> from a NPC. This value is the same as in the file '/tibiadata/items.xml'."
+		}
+	]
+}

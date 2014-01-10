@@ -1,0 +1,11 @@
+{
+	"name": "$level",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's current level.",
+			"ex": "init start\n\tlocal curLevel = $level\ninit end\nauto(200)\nif $level > curLevel then\n\tscreenshot()\n\tcurLevel = $level\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you leveled up. If so, it will take a screenshot."
+		}
+	]
+}

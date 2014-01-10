@@ -1,0 +1,25 @@
+{
+	"name": "reachlocation",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "z"
+				}
+			],
+			"description": "Moves your character near the specified coordinates <i>x</i>, <i>y</i> and <i>z</i> without actually stepping on them.",
+			"ex": "reachlocation(12345, 54321, 7)",
+			"exDescription": "Will move your character close to the location x:12345, y:54321, z:7."
+		}
+	]
+}

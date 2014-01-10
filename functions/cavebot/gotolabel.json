@@ -1,0 +1,37 @@
+{
+	"name": "gotolabel",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "labelname"
+				},
+				{
+					"type": "optional string",
+					"name": "waypointsection"
+				}
+			],
+			"description": "Goes to the waypoint with the label <i>labelname</i>. If you don't pass a <i>waypointsection</i> parameter it will only search on the currently running section, otherwise, it will look for a label at section <i>waypointsection</i>.",
+			"ex": "if $cap < 100 then\n\tgotolabel('gotocity', 'refill')\nend",
+			"exDescription": "When passing through this waypoint action, it will check your cap. If your capacity is lower than 100Oz, it will go to label named 'gotocity', at section 'refill'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "waypointid"
+				},
+				{
+					"type": "optional string",
+					"name": "waypointsection"
+				}
+			],
+			"description": "Goes to waypoint with id <i>waypointid</i>. If you don't pass a <i>waypointsection</i> parameter it will only search on the currently running section, otherwise, it will look for a label at section <i>waypointsection</i>.",
+			"ex": "if itemcount(268) < 10 then\n\tgotolabel(0, 'refill')\nend",
+			"exDescription": "When passing through this waypoint action, it will how many 'mana potions' you have. If the amount is lower than 10, it will go to the first waypoint at section 'refill'."
+		}
+	]
+}

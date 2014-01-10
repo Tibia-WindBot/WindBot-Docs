@@ -1,0 +1,9 @@
+{
+	"name": "$fishing",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's fishing skill."
+		}
+	]
+}

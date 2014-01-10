@@ -1,0 +1,17 @@
+{
+	"name": "creatureinfo",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				}
+			],
+			"description": "Returns a table containing various information about the creature <i>creaturename</i> which can be the spell name or the incantation words as defined in the '/tibiadata/creatures.xml' file.",
+			"ex": "local c = creatureinfo('demon')\nfor i,j in pairs(c) do\n\tprint(i, j)\nend",
+			"exDescription": "Will print all of the information the bot has about the 'Demon'."
+		}
+	]
+}

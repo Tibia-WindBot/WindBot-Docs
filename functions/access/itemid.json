@@ -1,0 +1,17 @@
+{
+	"name": "itemid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the id of the item with name <i>itemname</i>. This value is the same as in the file '/tibiadata/items.xml'.",
+			"ex": "print(itemid('gold coin'))",
+			"exDescription": "Will print '3031' on the console."
+		}
+	]
+}

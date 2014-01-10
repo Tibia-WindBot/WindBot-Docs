@@ -1,0 +1,11 @@
+{
+	"name": "$maxhp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's maximum health.",
+			"ex": "auto(200)\nif $maxhp-$hp > 120 then\n\tcast('exura gran') wait(300, 500)\nend",
+			"exDescription": "Each 200 milliseconds, it will check if you have more than 60 hit points missing. If it is, it will cast 'intense healing' spell."
+		}
+	]
+}

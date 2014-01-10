@@ -1,0 +1,5 @@
+{
+	"id": "client",
+	"name": "Client Information",
+	"description": "The following functions return information gathered from the client."
+}

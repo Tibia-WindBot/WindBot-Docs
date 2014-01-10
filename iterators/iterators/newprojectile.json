@@ -1,0 +1,12 @@
+{
+	"name": "newprojectile",
+	"invocations": [
+		{
+			"varName": "p",
+			"param": null,
+			"description": "Iterates through projectiles shot in game, the values are stored in the variable <i>p</i>. For more information about a projectile, visit <a href=\"docs.html#types-projectile\">this</a>.",
+			"ex": "auto(200)\nforeach newprojectile p do\n\tif p.type == 32 and p.tox == $posx and p.toy == $posy then\n\t\tplaysound('playerattacking.wav')\n\tend\nend",
+			"exDescription": "Will play an alert if someone shot a missile of the same type as the 'sudden death rune' at you."
+		}
+	]
+}

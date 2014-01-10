@@ -1,0 +1,9 @@
+{
+	"name": ".right",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the coordinates of the right edge of the rectangle."
+		}
+	]
+}

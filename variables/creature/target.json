@@ -1,0 +1,11 @@
+{
+	"name": "$target",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns the creature that you have last attacked. If you need more info about the creature data structure, access <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "attack($target)",
+			"exDescription": "Will attack the last creature you have attacked."
+		}
+	]
+}

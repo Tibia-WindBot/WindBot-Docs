@@ -1,0 +1,10 @@
+{
+	"name": "spawnhudwindow",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Spawns a new hud window that belongs to the current hud display script and returns it's <i>id</i>. The hud can be drawn to by calling <a href=\"#setcurrenthud\">setcurrenthud</a>."
+		}
+	]
+}

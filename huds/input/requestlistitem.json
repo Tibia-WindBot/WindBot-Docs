@@ -1,0 +1,15 @@
+{
+	"name": "requestlistitem",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "text"
+				}
+			],
+			"description": "Adds the text option to a request list. This must be called after calling <a href=\"#requestlist\">requestlist</a>."
+		}
+	]
+}

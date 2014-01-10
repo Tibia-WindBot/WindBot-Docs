@@ -1,0 +1,9 @@
+{
+	"name": "$fistpc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the percentage learnt of your fist fighting skill."
+		}
+	]
+}

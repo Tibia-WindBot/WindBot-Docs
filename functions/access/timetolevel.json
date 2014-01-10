@@ -1,0 +1,17 @@
+{
+	"name": "timetolevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "level"
+				}
+			],
+			"description": "If <i>level</i> is not specified, returns the time left in minutes for the next level, based on the current exp rate (same as <b>$timetonextlevel</b>). Otherwise, returns the amount of time left in minutes for level <i>level</i>. Use the <b>time</b> function to convert into a legible time.",
+			"ex": "print(timetolevel())",
+			"exDescription": "Will print on the console the amount of time in minutes left before you achieve the next level, based on the current experience rate."
+		}
+	]
+}

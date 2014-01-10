@@ -1,0 +1,9 @@
+{
+	"name": "$writtentextinfo",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the author and message date in the currently open 'Edit text' window. The information is separated by colons (':')."
+		}
+	]
+}

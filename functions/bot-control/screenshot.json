@@ -1,0 +1,25 @@
+{
+	"name": "screenshot",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "filename"
+				},
+				{
+					"type": "optional boolean",
+					"name": "worldonly"
+				},
+				{
+					"type": "optional number",
+					"name": "quality"
+				}
+			],
+			"description": "Takes a screenshot of the entire client window. If <i>filename</i> is not specified, a filename with the character name and the current date and time will be created. Optionally, you can pass the <i>worldonly</i> parameter as <i>true</i> to only save the game world portion of the screen. Optionally, you can specify a quality level from 1-99 if you want the screenshot to be saved in JPEG format. On Windows Vista/7, the client does not need focus for the screenshot to work. On Windows XP, the client is made the topmost window before the screenshot is being taken and then it is returned to normal. In both cases, WindBot's HUDs will not be visible on the screenshot and the client must also not be minimized. The screenshot will be stored in the '/screenshots' folder.",
+			"ex": "init start\n\tlocal curlevel = $level\ninit end\nauto(200)\nif $level ~= curlevel then\n\tscreenshot()\n\tcurlevel = $level\nend",
+			"exDescription": "Takes a screenshot on level up."
+		}
+	]
+}

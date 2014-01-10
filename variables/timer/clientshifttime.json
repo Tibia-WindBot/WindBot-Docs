@@ -1,0 +1,9 @@
+{
+	"name": "$clientshifttime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds that the shift key has been held for in the client."
+		}
+	]
+}

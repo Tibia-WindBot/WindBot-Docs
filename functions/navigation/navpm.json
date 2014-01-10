@@ -1,0 +1,21 @@
+{
+	"name": "navpm",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "charname"
+				},
+				{
+					"type": "string",
+					"name": "msg"
+				}
+			],
+			"description": "Will send a private message with content <i>msg</i> using the navigation system to the character <i>charname</i>. The character must be in the same navigation channel as you, and you must be in a navi channel to use this function.",
+			"ex": "navpm('bubble', 'combo ' .. $attacked.name)",
+			"exDescription": "Will send a private message to Bubble asking him to issue a combo at your currently attacked creature."
+		}
+	]
+}

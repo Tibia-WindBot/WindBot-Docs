@@ -1,0 +1,25 @@
+{
+	"name": "setlurelocation",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Sets the current lure location to x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>.",
+			"ex": "setlurelocation(33222, 33222, 7)",
+			"exDescription": "Will set the current lure location to x:33222, y:33222, z:7."
+		}
+	]
+}

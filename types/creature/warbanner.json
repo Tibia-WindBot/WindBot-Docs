@@ -1,0 +1,9 @@
+{
+	"name": ".warbanner",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "$pvpmode",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your current pvp mode. It can be 'dove', 'white', 'yellow' and 'red'."
+		}
+	]
+}

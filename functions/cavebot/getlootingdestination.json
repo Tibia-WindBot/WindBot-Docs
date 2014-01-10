@@ -1,0 +1,17 @@
+{
+	"name": "getlootingdestination",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "destinationname"
+				}
+			],
+			"description": "Will get the container destination of the destination named <i>destinationname</i>. This is useful if you want to distribute your scripts and allow the user to edit how he want to setup the backpacks. You can setup the looting destinations at Looting Settings.",
+			"ex": "local destination = getlootingdestination('bpindp')\nforeach lootingitem i 'a' do\n\tmoveitemsonto(i.id, destination, 0)\nend",
+			"exDescription": "Will move the items with category 'a' in loot list to the destination set at 'bpindp'."
+		}
+	]
+}

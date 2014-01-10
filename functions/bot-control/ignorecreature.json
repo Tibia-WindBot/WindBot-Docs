@@ -1,0 +1,49 @@
+{
+	"name": "ignorecreature",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "creaturename"
+				},
+				{
+					"type": "optional bool",
+					"name": "unignore"
+				}
+			],
+			"description": "Instructs the Targeting system to ignore the creature with name <i>creaturename</i> completely. Optionally you can pass <i>true</i> as the second parameter to unignore a creature if it was previously ignored."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "creatureid"
+				},
+				{
+					"type": "optional bool",
+					"name": "unignore"
+				}
+			],
+			"description": "Instructs the Targeting system to ignore the creature with id <i>creatureid</i> completely. Optionally you can pass <i>true</i> as the second parameter to unignore a creature if it was previously ignored."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "creature",
+					"name": "creaturestruct"
+				},
+				{
+					"type": "optional bool",
+					"name": "unignore"
+				}
+			],
+			"description": "Instructs the Targeting system to ignore the creature <i>creaturestruct</i> completely. Optionally you can pass <i>true</i> as the second parameter to unignore a creature if it was previously ignored.",
+			"ex": "auto(200)\nif $followed.name == 'Slime' then\n\tignorecreature($followed)\n\tauto(0)\nend",
+			"exDescription": "Will ignore the currently followed creature if it is a Slime, and then turn this script off. It can be used to train with slimes."
+		}
+	]
+}

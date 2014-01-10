@@ -1,0 +1,21 @@
+{
+	"name": "restorewindows",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "locationname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "onlyone"
+				}
+			],
+			"description": "Restores all windows that fit the description of <i>locationname</i> from their minimized state. If <i>locationname</i> is not specified, all windows are restored. If <i>onlyone</i> is specified as true, then only one matching window is restored. You may specify 'equip' as <i>locationname</i> to indicate that you want the equipment window restored.",
+			"ex": "restorewindows('equip')",
+			"exDescription": "Will restore your equipment window."
+		}
+	]
+}

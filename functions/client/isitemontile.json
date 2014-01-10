@@ -1,0 +1,29 @@
+{
+	"name": "isitemontile",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Returns <i>true</i> if the item with id <i>itemid</i> can be found at position x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>, <i>false</i> otherwise.",
+			"ex": "if not isitemontile(3031, $posx, $posy, $posz) then\n\tmoveitems(3031, 'ground')\nend",
+			"exDescription": "Will throw all your 'gold coins' in to the ground if there isn't any 'gold coins' in that location."
+		}
+	]
+}

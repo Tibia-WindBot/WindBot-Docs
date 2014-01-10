@@ -1,0 +1,17 @@
+{
+	"name": "paround",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "optional number",
+					"name": "range"
+				}
+			],
+			"description": "Returns the amount of players around you within distance <i>range</i>. If range is 0 or not specified, the entire screen is considered.",
+			"ex": "auto(200)\nif paround() > 0 then\n\tlogout()\nend",
+			"exDescription": "Will make your character logout if there are any players on your screen."
+		}
+	]
+}

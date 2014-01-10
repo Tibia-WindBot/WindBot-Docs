@@ -1,0 +1,19 @@
+{
+	"name": "scriptlistname",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "scripttype"
+				},
+				{
+					"type": "number",
+					"name": "index"
+				}
+			],
+			"description": "Returns the list name of the script with type <i>scripttype</i> and index <i>index</i>. The list name is the name of the script, or the custom string passed to the <a href=\"#listas\">listas</a> function."
+		}
+	]
+}

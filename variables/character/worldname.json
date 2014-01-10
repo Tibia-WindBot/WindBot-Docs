@@ -1,0 +1,11 @@
+{
+	"name": "$worldname",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns your current world name.",
+			"ex": "print($worldname)",
+			"exDescription": "Will print on the console the name of the world you're currently playing at."
+		}
+	]
+}
