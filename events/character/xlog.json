@@ -7,7 +7,7 @@
                                 {
                                         "type": "optional boolean",
                                         "name": "dontshowalert"
-                                },
+                                }
                         ],
                         "description": "Closes your connection to the game server. By default, a message will be printed on WindBot console saying which script called this function. If you don't want to show this warning, set dontshowalert to true.",
                        }
