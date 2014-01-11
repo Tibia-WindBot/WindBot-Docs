@@ -1,0 +1,19 @@
+{
+	"name": "setuseroption",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "widgetname"
+				},
+				{
+					"type": "various",
+					"name": "value"
+				}
+			],
+			"description": "Sets the value of <i>User Options</i>' widget with name <i>widgetname</i> to <i>value</i>."
+		}
+	]
+}

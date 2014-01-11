@@ -1,0 +1,21 @@
+{
+	"name": "switchprofile",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "profiletype"
+				},
+				{
+					"type": "string",
+					"name": "profilename"
+				}
+			],
+			"description": "Switches to profile <i>profilename</i>. Possible values for <i>profiletype</i> are 'targeting', 'looting' and 'supplies'.",
+			"ex": "if $voc == VOC_KNIGHT then\n\tswitchprofile('knight', 'targeting')\nelse\n\tswitchprofile('all', 'targeting')\nend",
+			"exDescription": "Will switch to targeting profile named 'knight' if the current character's vocation is knight; else, will switch to profile 'all'."
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "showuseroption",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "widgetname"
+				},
+				{
+					"type": "boolean",
+					"name": "state"
+				}
+			],
+			"description": "Sets the visibility of <i>User Options</i>' widget with name <i>widgetname</i>. If <i>state</i> is false, hides it; otherwise, displays it.",
+			"ex": "if getuseroption('vocation') == 'Knight' then\n\tshowuseroption('weapontype', true)\nelse\n\tshowuseroption('weapontype', false)\nend",
+			"exDescription": "Will check if the <i>vocation</i> combobox has the value 'knight' selected. If so, shows 'weapontype' combobox, else hides it."
+		}
+	]
+}

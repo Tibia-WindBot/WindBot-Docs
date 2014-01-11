@@ -1,0 +1,9 @@
+{
+	"name": ".hasproperty(str)",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the userdata has the property <i>str</i>."
+		}
+	]
+}

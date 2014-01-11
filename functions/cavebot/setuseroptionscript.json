@@ -1,0 +1,15 @@
+{
+	"name": "setuseroptionscript",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "jsonscript"
+				}
+			],
+			"description": "Sets the <i>User Options</i> JSON Object to <i>jsonscript</i>. <b>This replaces the code entirely, not just part of it.</b>"
+		}
+	]
+}

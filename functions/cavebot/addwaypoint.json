@@ -1,0 +1,29 @@
+{
+	"name": "addwaypoint",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "wpttype"
+				},
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Adds a waypoint of type <i>wpttype</i> at position x: <i>posx</i>, y: <i>posy</i>, z: <i>posz</i>. Possible values for <i>wpttype</i> are 'Walk', 'Node', 'Stand', 'Shovel', 'Rope', 'Machete', 'Ladder', 'User', 'Action' and 'Lure'.",
+			"ex": "init start\n\tlocal lastPos = {$posx, $posy}\n\tlocal stepCount = 0\ninit end\n\nauto(100)\nif lastPos[1] ~= $posx or lastPos[2] ~= $posy then\n\tlastPos = {$posx, $posy}\n\tstepCount = stepCount + 1\n\n\tif stepCount == 10 then\n\t\taddwaypoint('Node', $posx, $posy, $posz)\n\t\tstepCount = 0\n\tend\nend",
+			"exDescription": "Will add a 'Node' waypoint on your current location for every 10 steps you take."
+		}
+	]
+}

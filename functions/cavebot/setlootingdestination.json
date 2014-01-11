@@ -1,0 +1,21 @@
+{
+	"name": "setlootingdestination",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "destinationname"
+				},
+				{
+					"type": "string",
+					"name": "value"
+				}
+			],
+			"description": "Will set the container destination of the destination named <i>destinationname</i> to <i>value</i>. This is useful if you want to distribute your scripts and allow the user to edit how he want to setup the backpacks. You can setup the looting destinations at Looting Settings.",
+			"ex": "auto(100)\nlocal mainBp = getuseroption('mainBp')\nsetlootingdestination('mainbp', mainBp)",
+			"exDescription": "Will set the container destionation of the destination named 'mainbp' to the value on the <i>User Options</i>' widget named 'mainBp'."
+		}
+	]
+}

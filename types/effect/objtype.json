@@ -1,0 +1,9 @@
+{
+	"name": ".objtype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns a string containing this userdata's type: 'effect'."
+		}
+	]
+}
