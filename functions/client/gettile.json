@@ -18,7 +18,7 @@
 				}
 			],
 			"description": "Returns a pointer to the tile at position x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>. If you need more info about the tile data structure, access <a href=\"docs.html#types-tile\">this</a>",
-			"ex": "local tile = gettile($posx, $posy, $posz)\nfor i=1, tile.itemcount do\n\tprint(tile.items[i].id, tile.items[i].count)\nend",
+			"ex": "local tile = gettile($posx, $posy, $posz)\nfor i=1, tile.itemcount do\n\tprint(tile.item[i].id, tile.item[i].count)\nend",
 			"exDescription": "Will print the item id of each item on the tile you are standing at."
 		},
 		{
