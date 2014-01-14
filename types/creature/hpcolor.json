@@ -3,7 +3,7 @@
         "invocations": [
                 {
                         "rettype": "number",
-                        "description": "Returns the color (in hex ARGB) of the creature's HP bar color.",
+                        "description": "Returns the color (in hex ARGB) of the creature's HP bar color."
                 }
         ]
 }
