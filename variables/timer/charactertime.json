@@ -1,9 +1,9 @@
 {
-        "name": "$charactertime",
-        "invocations": [
-                {
-                        "rettype": "number",
-                        "description": "Returns the time in milliseconds since you logged in on your current character."
-                }
-        ]
+	"name": "$charactertime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds since you logged in on your current character."
+		}
+	]
 }
