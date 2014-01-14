@@ -1,9 +1,9 @@
 {
-        "name": ".hpcolor",
-        "invocations": [
-                {
-                        "rettype": "number",
-                        "description": "Returns the color (in hex ARGB) of the creature's HP bar color."
-                }
-        ]
+	"name": ".hpcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the color (in hex ARGB) of the creature's HP bar color."
+		}
+	]
 }
