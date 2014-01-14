@@ -5,9 +5,9 @@
 			"rettype": null,
 			"args": [
 				{
-                                        "type": "optional boolean",
-                                        "name": "dontshowalert"
-                                }
+					"type": "optional boolean",
+					"name": "dontshowalert"
+				}
 			],
 			"description": "Closes your game client. By default, a message will be printed in WindBot console saying which script called this function. If you don't want to show this warning, set <i>dontshowalert</i> to true.",
 			"ex": "auto(100)\nif paround(9) > 0 then\n\tif $battlesigned then\n\t\tlogout()\n\telse\n\t\tcloseclient()\n\tend\nend",
