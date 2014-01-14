@@ -9,7 +9,7 @@
                                         "name": "dontshowalert"
                                 }
 			],
-			"description": "Closes your game client. By default, a message will be printed in WindBot console saying which script called this function. If you don't want to show this warning, set dontshowalert to true.",
+			"description": "Closes your game client. By default, a message will be printed in WindBot console saying which script called this function. If you don't want to show this warning, set <i>dontshowalert</i> to true.",
 			"ex": "auto(100)\nif paround(9) > 0 then\n\tif $battlesigned then\n\t\tlogout()\n\telse\n\t\tcloseclient()\n\tend\nend",
 			"exDescription": "Each 100 milliseconds, it will check if there's a player on your screen. If so, it will check if you are battle signed (can logout or not). If you can, it will simply logout, by pressing CTRL+L, otherwise, it will shut the client down."
 		}
