@@ -1,4 +1,4 @@
-[Raphael](http://forums.tibiawindbot.com/member.php?2-Raphael)
-[Leonardo](http://forums.tibiawindbot.com/member.php?31-Leonardo)
-[jakub](http://forums.tibiawindbot.com/member.php?55-jakub)
-[Colandus](http://forums.tibiawindbot.com/member.php?1569-Colandus)
+- [Raphael](http://forums.tibiawindbot.com/member.php?2-Raphael)
+- [Leonardo](http://forums.tibiawindbot.com/member.php?31-Leonardo)
+- [jakub](http://forums.tibiawindbot.com/member.php?55-jakub)
+- [Colandus](http://forums.tibiawindbot.com/member.php?1569-Colandus)
