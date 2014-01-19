@@ -7,11 +7,43 @@
 				{
 					"type": "number",
 					"name": "containerindex"
+				},
+				{
+					"type": "optional bool",
+					"name": "all"
 				}
 			],
-			"description": "Returns a pointer to the <i>container</i> datastructure for the specificed container with index <i>containerindex</i> ranging from 0-15. If you need more info about the container data structure, access <a href=\"docs.html#types-container\">this</a>",
+			"description": "Returns a pointer to the <i>container</i> datastructure for the specificed container with index <i>containerindex</i> ranging from 0-15. If <i>all</i> paramater is given it returns all the containers found with the first parameter. If you need more info about the container data structure, access <a href=\"docs.html#types-container\">this</a>.",
 			"ex": "print(getcontainer(0).name)",
 			"exDescription": "Will print the name of the first container."
+		},
+		{
+			"rettype": "container",
+			"args": [
+				{
+					"type": "string",
+					"name": "containername"
+				},
+				{
+					"type": "optional bool",
+					"name": "all"
+				}
+			],
+			"description": "Returns a pointer to the <i>container</i> datastructure for the specificed container with name <i>containername</i>. If <i>all</i> paramater is given it returns all the containers found with the first parameter. If you need more info about the container data structure, access <a href=\"docs.html#types-container\">this</a>."
+		},
+		{
+			"rettype": "container",
+			"args": [
+				{
+					"type": "number",
+					"name": "containerid"
+				},
+				{
+					"type": "optional bool",
+					"name": "all"
+				}
+			],
+			"description": "Returns a pointer to the <i>container</i> datastructure for the specificed container with id <i>containerid</i>. If <i>all</i> paramater is given it returns all the containers found with the first parameter. If you need more info about the container data structure, access <a href=\"docs.html#types-container\">this</a>."
 		}
 	]
 }
