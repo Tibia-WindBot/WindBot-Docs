@@ -1,0 +1,9 @@
+{
+        "name": ".curpage",
+        "invocations": [
+                {
+                        "rettype": "number",
+                        "description": "Returns the current page number of the container."
+                }
+        ]
+}
