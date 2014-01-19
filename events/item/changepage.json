@@ -1,0 +1,47 @@
+{
+        "name": "changepage",
+        "invocations": [
+                {
+                        "rettype": null,
+                        "args": [
+                                {
+                                        "type": "string",
+                                        "name": "containername"
+                                },
+                                {
+                                        "type": "number",
+                                        "name": "pagenum"
+                                }
+                        ],
+                        "description": "Switches to the page <i>pagenum</i> container page on container <i>containername</i>."
+                },
+                {
+                        "rettype": null,
+                        "args": [
+                                {
+                                        "type": "number",
+                                        "name": "containerid"
+                                },
+                                {
+                                        "type": "number",
+                                        "name": "pagenum"
+                                }
+                        ],
+                        "description": "Switches to the page <i>pagenum</i> container page on container <i>containerid</i>."
+                },
+                {
+                        "rettype": null,
+                        "args": [
+                                {
+                                        "type": "number",
+                                        "name": "containerindex"
+                                },
+                                {
+                                        "type": "number",
+                                        "name": "pagenum"
+                                }
+                        ],
+                        "description": "Switches to the page <i>pagenum</i> container page on container <i>containerindex</i>."
+                },
+        ]
+}
