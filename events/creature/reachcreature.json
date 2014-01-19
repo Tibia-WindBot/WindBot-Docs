@@ -7,9 +7,13 @@
 				{
 					"type": "string",
 					"name": "creaturename"
+				},
+				{
+					"type": "optional number",
+					"name": "dist"
 				}
 			],
-			"description": "Will try to reach the creature with name <i>creaturename</i>",
+			"description": "Will try to reach the creature with name <i>creaturename</i>. Optionally you can set a distance to keep from the creature given.",
 			"ex": "reachcreature('Dove')\nsay('hi') wait(2000, 2500)\nnpcsay('trade')\nwait(1000, 1300)",
 			"exDescription": "Will try to reach the creature named 'Dove', then say 'hi' and wait a while for the NPC Channel to open, and say 'trade'."
 		},
@@ -19,9 +23,13 @@
 				{
 					"type": "number",
 					"name": "creatureid"
+				},
+				{
+					"type": "optional number",
+					"name": "dist"
 				}
 			],
-			"description": "Will try to reach the creature with id <i>creatureid</i>"
+			"description": "Will try to reach the creature with id <i>creatureid</i>. Optionally you can set a distance to keep from the creature given."
 		},
 		{
 			"rettype": null,
@@ -29,9 +37,13 @@
 				{
 					"type": "creature",
 					"name": "creaturepointer"
+				},
+				{
+					"type": "optional number",
+					"name": "dist"
 				}
 			],
-			"description": "Will try to reach the creature <i>creaturepointer</i>"
+			"description": "Will try to reach the creature <i>creaturepointer</i>. Optionally you can set a distance to keep from the creature given."
 		}
 	]
 }
