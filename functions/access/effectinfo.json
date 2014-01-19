@@ -1,0 +1,17 @@
+{
+	"name": "effectinfo",
+	"invocations": [
+		{
+			"rettype": "itemdata",
+			"args": [
+				{
+					"type": "number",
+					"name": "effectid"
+				}
+			],
+			"description": "Returns information about given effect, as an <a href=\"#types-itemdata\">itemdata</a> userdata.",
+			"ex": "print(effectinfo(13).sizeinpixels)",
+			"exDescription": "Will print in the console the size in pixels the effect of ID 13 (healing) takes on screen."
+		}
+	]
+}

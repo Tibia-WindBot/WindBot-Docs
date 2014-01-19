@@ -1,0 +1,10 @@
+{
+	"name": "resetexpcounter",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [],
+			"description": "Will reset <a href=\"#variables-expgained\">$expgained</a>."
+		}
+	]
+}

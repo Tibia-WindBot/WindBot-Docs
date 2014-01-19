@@ -1,0 +1,10 @@
+{
+	"name": "createtexture",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [],
+			"description": "Creates a texture to be drawn on; this can be though of as a separate HUD, on the same HUD script. Returns a <i>textureid</i> which should be used when invoking <a href="#huds-selecthud">selecthud</a> in order to be able to draw on it."
+		}
+	]
+}

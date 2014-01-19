@@ -1,0 +1,17 @@
+{
+	"name": "outfitinfo",
+	"invocations": [
+		{
+			"rettype": "itemdata",
+			"args": [
+				{
+					"type": "number",
+					"name": "outfitid"
+				}
+			],
+			"description": "Returns information about given outfit, as an <a href=\"#types-itemdata\">itemdata</a> userdata.",
+			"ex": "print(outfitinfo($self.outfit).sizeinpixels)",
+			"exDescription": "Will print in the console the size in pixels your current outfit takes on screen."
+		}
+	]
+}
