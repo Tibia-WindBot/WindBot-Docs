@@ -10,7 +10,7 @@
 				}
 			],
 			"description": "Sets the background color of the element to <i>color</i>. This function should only be used if you're using Windows XP.",
-			"ex": "init start\n\tif $windowsxp then\n\t\tsetbkgcolor(0xFFFFFF)\netend\ninit end\nauto(200)\nsetfontstyle('MS Serif', 9, 100, 0x000000)\ndrawtext('testing...', 0, 0)",
+			"ex": "init start\n\tif $windowsxp then\n\t\tsetbkgcolor(0xFFFFFF)\n\tend\ninit end\nauto(200)\nsetfontstyle('MS Serif', 9, 100, 0x000000)\ndrawtext('testing...', 0, 0)",
 			"exDescription": "Will set the background color to white if you are using Windows XP, and will draw a testing text with color black."
 		}
 	]
