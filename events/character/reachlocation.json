@@ -15,9 +15,13 @@
 				{
 					"type": "number",
 					"name": "z"
+				},
+				{
+					"type": "optional number",
+					"name": "dist"
 				}
 			],
-			"description": "Moves your character near the specified coordinates <i>x</i>, <i>y</i> and <i>z</i> without actually stepping on them.",
+			"description": "Moves your character near the specified coordinates <i>x</i>, <i>y</i> and <i>z</i> without actually stepping on them. Optionally you can pass a dist parameter, to say how many square meters you want to stay from that location.",
 			"ex": "reachlocation(12345, 54321, 7)",
 			"exDescription": "Will move your character close to the location x:12345, y:54321, z:7."
 		}
