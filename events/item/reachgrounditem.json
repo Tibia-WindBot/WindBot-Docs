@@ -7,9 +7,13 @@
 				{
 					"type": "number",
 					"name": "itemid"
-				}
+				},
+                                {
+                                        "type": "optional number",
+                                        "name": "dist"
+                                }
 			],
-			"description": "Moves your character to stand next to the closest item of id <i>itemid</i> found on the screen.",
+			"description": "Moves your character to stand next to the closest item of id <i>itemid</i> found on the screen. Optionally you can pass a <i>dist</i> parameter, to say how many square meters you want to stay from that item.",
 			"ex": "reachgrounditem(itemid('gold coin')) wait(300, 500)\nmoveitems('gold coin', '0', 'ground')",
 			"exDescription": "Will reach a pile of 'gold coins' on the ground and pick it up."
 		},
