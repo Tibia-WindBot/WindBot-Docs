@@ -1,9 +1,0 @@
-{
-        "name": "$hunttime",
-        "invocations": [
-                {
-                        "rettype": "number",
-                        "description": "Returns the time in milliseconds since you started hunting with cavebot."
-                }
-        ]
-}

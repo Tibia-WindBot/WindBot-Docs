@@ -1,9 +1,9 @@
 {
-        "name": ".lastpage",
-        "invocations": [
-                {
-                        "rettype": "number",
-                        "description": "Returns the last page numeration of the container."
-                }
-        ]
+	"name": ".lastpage",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the last page numeration of the container."
+		}
+	]
 }

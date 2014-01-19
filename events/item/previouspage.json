@@ -1,35 +1,35 @@
 {
-        "name": "previouspage",
-        "invocations": [
-                {
-                        "rettype": null,
-                        "args": [
-                                {
-                                        "type": "string",
-                                        "name": "containername"
-                                }
-                        ],
-                        "description": "Switches to the previous container page on container <i>containername</i>."
-                },
-                {
-                        "rettype": null,
-                        "args": [
-                                {
-                                        "type": "number",
-                                        "name": "containerid"
-                                }
-                        ],
-                        "description": "Switches to the previous container page on container <i>containerid</i>."
-                },
-                {
-                        "rettype": null,
-                        "args": [
-                                {
-                                        "type": "number",
-                                        "name": "containerindex"
-                                }
-                        ],
-                        "description": "Switches to the previous container page on container <i>containerindex</i>."
-                }
-        ]
+	"name": "previouspage",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "containername"
+				}
+			],
+			"description": "Switches to the previous container page on container <i>containername</i>."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "containerid"
+				}
+			],
+			"description": "Switches to the previous container page on container <i>containerid</i>."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "containerindex"
+				}
+			],
+			"description": "Switches to the previous container page on container <i>containerindex</i>."
+		}
+	]
 }
