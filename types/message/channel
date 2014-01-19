@@ -1,0 +1,9 @@
+{
+        "name": ".channel",
+        "invocations": [
+                {
+                        "rettype": "string",
+                        "description": "Returns the channel name where the message came from or 'Status' if it is a message on the bottom of client."
+                }
+        ]
+}
