@@ -1,0 +1,9 @@
+{
+        "name": ".index",
+        "invocations": [
+                {
+                        "rettype": "number",
+                        "description": "Returns the container's index order."
+                }
+        ]
+}
