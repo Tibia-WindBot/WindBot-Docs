@@ -9,7 +9,7 @@
                                         "name": "containername"
                                 }
                         ],
-                        "description": "Switches to the previous container page on container containername."
+                        "description": "Switches to the previous container page on container <i>containername</i>."
                 },
                 {
                         "rettype": null,
@@ -19,7 +19,7 @@
                                         "name": "containerid"
                                 }
                         ],
-                        "description": "Switches to the previous container page on container containerid."
+                        "description": "Switches to the previous container page on container <i>containerid</i>."
                 },
                 {
                         "rettype": null,
@@ -29,7 +29,7 @@
                                         "name": "containerindex"
                                 }
                         ],
-                        "description": "Switches to the previous container page on container containerindex."
+                        "description": "Switches to the previous container page on container <i>containerindex</i>."
                 }
         ]
 }
