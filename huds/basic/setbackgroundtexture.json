@@ -29,7 +29,7 @@
 					"name": "bottom"
 				}
 			],
-			"description": "Sets the texture of id <i>textureid</i> as the background of the whole HUD. Possible values for <i>sizemode</i> are 0 (do not resize), 1 (resize without anti-aliasing) and 2 (resize with anti-aliasing). The <i>left</i>, <i>top</i>, <i>right</i> and <i>bottom</i> optional parameters are offsets of where the texture should start and end.<br /><b>Note:</b> If you do not wish this to take the whole screen, <a href="#huds-setfixedsize">setfixedsize</a> must be called on the HUD before this."
+			"description": "Sets the texture of id <i>textureid</i> as the background of the whole HUD. Possible values for <i>sizemode</i> are 0 (do not resize), 1 (resize without anti-aliasing) and 2 (resize with anti-aliasing). The <i>left</i>, <i>top</i>, <i>right</i> and <i>bottom</i> optional parameters are offsets of where the texture should start and end.<br /><b>Note:</b> If you do not wish this to take the whole screen, <a href=\"#huds-setfixedsize\">setfixedsize</a> must be called on the HUD before this."
 		}
 	]
 }

@@ -9,7 +9,7 @@
 					"name": "filterevents"
 				}
 			],
-			"description": "Enables or disables the filtering of input events related to the <i>User Options</i> through the <i>inputevents(table e)</i> function which must be defined in the init block of the current script.",
+			"description": "Enables or disables the filtering of input events related to the <i>User Options</i> through the <i>inputevents(table e)</i> function which must be defined in the init block of the current script."
 		}
 	]
 }

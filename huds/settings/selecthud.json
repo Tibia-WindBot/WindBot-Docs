@@ -9,7 +9,7 @@
 					"name": "hudid"
 				}
 			],
-			"description": "Sets the current hud to id <i>hudid</i> and returns <i>true</i> if the hud switch was successful. It is important that you only draw to this hud window if this function has returned true because newly created hud windows may take some time to become available for drawing onto. If <i>hudid</i> is 0, the main hud is set as the current hud and the function always returns true.<br /><b>Note:</b> This is merely an alias to <a href="#huds-setcurrenthud">setcurrenthud</a>."
+			"description": "Sets the current hud to id <i>hudid</i> and returns <i>true</i> if the hud switch was successful. It is important that you only draw to this hud window if this function has returned true because newly created hud windows may take some time to become available for drawing onto. If <i>hudid</i> is 0, the main hud is set as the current hud and the function always returns true.<br /><b>Note:</b> This is merely an alias to <a href=\"#huds-setcurrenthud\">setcurrenthud</a>."
 		}
 	]
 }
