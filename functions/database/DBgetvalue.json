@@ -1,0 +1,21 @@
+{
+	"name": "DB:getvalue",
+	"invocations": [
+		{
+			"rettype": "various",
+			"args": [
+				{
+					"type": "string",
+					"name": "sectionname"
+				},
+				{
+					"type": "string",
+					"name": "varname"
+				}
+			],
+			"description": "Returns the value stored at var <i>varname<\/i>, located at section <i>sectionname<\/i>. To use this you must have opened a database first, or use one of the global databases ($botdb, $worlddb, $chardb).",
+			"ex": "local necrosKilled = $chardb:setvalue('counters', 'necroskilled')",
+			"exDescription": "This will retrieve from $chardb the value located at 'counters/necroskilled' and store it in the variable 'necrosKilled'."
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"name": "DB:setvalue",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "sectionname"
+				},
+				{
+					"type": "string",
+					"name": "varname"
+				},
+				{
+					"type": "string",
+					"name": "stringvalue"
+				}
+			],
+			"description": "Will set the value of the var <i>varname<\/i>, located at section <i>sectionname<\/i>, the value of <i>stringvalue<\/i>. To use this you must have opened a database first, or use one of the global databases ($botdb, $worlddb, $chardb).",
+			"ex": "$chardb:setvalue('mychars', 'mainchar', 'Bubble')",
+			"exDescription": "Will store the value 'Bubble' at $chardb, in the location: 'mychars/mainchar'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "sectionname"
+				},
+				{
+					"type": "string",
+					"name": "varname"
+				},
+				{
+					"type": "number",
+					"name": "value"
+				}
+			],
+			"description": "Will set the value of the var <i>varname<\/i>, located at section <i>sectionname<\/i>, the value of <i>value<\/i>. To use this you must have opened a database first, or use one of the global databases ($botdb, $worlddb, $chardb).",
+			"ex": "$chardb:setvalue('counters', 'necroskilled', 30)",
+			"exDescription": "Will store the value 30 at $chardb, in the location: 'counters/necroskilled'."
+		}
+	]
+}
