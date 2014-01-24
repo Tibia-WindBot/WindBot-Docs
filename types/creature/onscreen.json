@@ -1,0 +1,9 @@
+{
+	"name": ".onscreen",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns true if the creature is inside screen measurements, false otherwise."
+		}
+	]
+}
