@@ -4,7 +4,7 @@
 		{
 			"varName": "m",
 			"param": null,
-			"description": "Iterates through messages received in game, the values are stored in the variable <i>m</i>. For more information about messages, visit <a href=\"docs.html#types-message\">this</a>",
+			"description": "Iterates through new messages received in game, the values are stored in the variable <i>m</i>. For more information about messages, visit <a href=\"docs.html#types-message\">this</a>",
 			"ex": "auto(200)\nforeach newmessage m do\n\tif m.sender == 'Bubble' and m.content == 'sio me' then\n\t\tcast('exura sio \"Bubble')\n\tend\nend",
 			"exDescription": "Will cast 'heal friend' on Bubble if she asks for it."
 		}

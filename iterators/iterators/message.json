@@ -1,0 +1,10 @@
+{
+	"name": "message",
+	"invocations": [
+		{
+			"varName": "m",
+			"param": null,
+			"description": "Iterates through all the last messages, up to a maximum of 2000, received in game, the values are stored in the variable <i>m</i>. For more information about messages, visit <a href=\"docs.html#types-message\">this</a>"
+		}
+	]
+}
