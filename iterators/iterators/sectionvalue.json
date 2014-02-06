@@ -1,0 +1,12 @@
+{
+	"name": "sectionvalue",
+	"invocations": [
+		{
+			"varName": "v",
+			"param": "sectionName",
+			"description": "Iterates through a database section. The values are stored in the variable <i>v</i>, they have the properties <i>.name</i> and <i>.value</i>. You can specify the section name in the parameter <i>sectionName</i>. For more information about databases, visit <a href=\"docs.html#functions-DB:getvalue\">this</a>",
+			"ex": "foreach $chardb:sectionvalue v 'killCount' do\n\tprint(v.name, v.value)\nend",
+			"exDescription": "Will iterate through all the items in section 'killCount' of your character's database and print the item name and its value."
+		}
+	]
+}
