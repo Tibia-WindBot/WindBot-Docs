@@ -1,0 +1,17 @@
+{
+	"name": "keyevent",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "string",
+					"name": "key"
+				}
+			],
+			"description": "Press <i>key</i>. A list of keys and their virtual keys can be found <a href=\"http://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx\">here</a>",
+			"ex": "keyevent('ctrl+f3')",
+			"exDescription": "Will press CTRL + F3."
+		}
+	]
+}
