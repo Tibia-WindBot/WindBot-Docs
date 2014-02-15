@@ -1,9 +1,0 @@
-{
-	"name": ".timesrt",
-	"invocations": [
-		{
-			"rettype": "number",
-			"description": "Returns a string representation with the time of the message in the format 'hh:mm', e.g.: '10:32'."
-		}
-	]
-}

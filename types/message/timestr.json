@@ -1,0 +1,9 @@
+{
+	"name": ".timestr",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns a string representation of the time of the message in the format 'hh:mm'. e.g.: '10:32'."
+		}
+	]
+}
