@@ -1,0 +1,17 @@
+{
+	"name": "spellinfo",
+	"invocations": [
+		{
+			"rettype": "table",
+			"args": [
+				{
+					"type": "string",
+					"name": "rune"
+				}
+			],
+			"description": "Returns a table containing various information about rune <i>rune</i> which can be the spell name, cast area, damage type and other informations defined in the '/tibiadata/spells.xml' file.",
+			"ex": "local rune = runeinfo('avalanche rune')\nfor i,j in pairs(rune) do\n\tprint(i, j)\nend",
+			"exDescription": "Will print all of the information the bot has about 'Avalanche Rune'."
+		}
+	]
+}
