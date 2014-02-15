@@ -1,0 +1,23 @@
+{
+	"name": "setdelayedload",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "libName"
+				},
+				{
+					"type": "number",
+					"name": "priority"
+				},
+				{
+					"type": "table",
+					"name": "globalFunctionNamesTable"
+				}
+			],
+			"description": "Sets up a library to be 'delay loaded'. <i>libName</i> is the name of the lib inside /delayed folder, <i>priority</i> is the library's priority, and <i>globalFunctionNamesTable</i> is a list of functions the library will expose. For an example on how to use it, check <i>libs/sirmate.lua</i> or <i>libs/windConverterWrapper.lua.</i>",
+		}
+	]
+}

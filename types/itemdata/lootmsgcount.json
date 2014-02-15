@@ -1,0 +1,9 @@
+{
+	"name": ".lootmsgcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how many times an item showed up in loot messages from the server log."
+		}
+	]
+}
