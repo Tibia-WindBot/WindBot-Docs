@@ -1,0 +1,9 @@
+{
+	"name": "$simulatedcursor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Return the position of the simulated cursor, There's also a stardard HUD called: <i>SimulatedCursor</i>."
+		}
+	]
+}
