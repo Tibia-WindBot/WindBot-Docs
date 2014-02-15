@@ -1,0 +1,9 @@
+{
+	"name": ".time",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the type of the message received. The time is given in the number of seconds since epoch. Check <a href=\"http://www.lua.org/pil/22.1.html\">this</a> for more info."
+		}
+	]
+}

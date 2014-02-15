@@ -1,0 +1,11 @@
+{
+	"name": "$recoverytime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds remaining on the recovery spell.",
+			"ex": "auto(200)\nif $recoverytime <= 2000 then\n\tcast('utura gran') wait(300, 500)\nend",
+			"exDescription": "Will cast 'intense recovery' spell if you have less than 2 seconds left of recovery time."
+		}
+	]
+}

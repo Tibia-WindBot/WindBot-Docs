@@ -1,0 +1,23 @@
+{
+	"name": "tileclickable",
+	"invocations": [
+		{
+			"rettype": "string",
+			"args": [
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "This function is used to determine whether there's something on the upper floors that will block you from clicking on a certain SQM or not. It returns true if you can click on the tile at position <i>x:posx</i>, <i>y:posy</i>, <i>z:posz</i>; false otherwise.'.",
+		}
+	]
+}
