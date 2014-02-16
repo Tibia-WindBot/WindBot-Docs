@@ -2,8 +2,10 @@
 	"name": "$simulatedcursor",
 	"invocations": [
 		{
-			"rettype": "number",
-			"description": "Return the position of the simulated cursor, There's also a stardard HUD called: <i>SimulatedCursor</i>."
+			"rettype": "table",
+			"description": "Returns a table with the x and y coordinates of the simulated cursor on your screen.",
+			"ex": "auto(50)\n\nsetposition($simulatedcursor.x, $simulatedcursor.y)\ndrawicon(1003, 0, 0, 100, 0xFFFFFF, 0, 2)",
+			"exDescription": "A HUD that draws an icon, similar to a cursor, on your screen on the position the simulated cursor is. You can find this HUD on the list that already comes with the bot, it's named <i>SimulatedCursor</i>."
 		}
 	]
 }
