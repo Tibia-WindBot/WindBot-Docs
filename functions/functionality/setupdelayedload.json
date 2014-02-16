@@ -14,10 +14,12 @@
 				},
 				{
 					"type": "table",
-					"name": "globalFunctionNamesTable"
+					"name": "functionNames"
 				}
 			],
-			"description": "Sets up a library to be 'delay loaded'. <i>libName</i> is the name of the lib inside /delayed folder, <i>priority</i> is the library's priority, and <i>globalFunctionNamesTable</i> is a list of functions the library will expose. For an example on how to use it, check <i>libs/sirmate.lua</i> or <i>libs/windConverterWrapper.lua.</i>",
+			"description": "Sets up a library to be 'delay loaded'. <i>libName</i> is the name of the lib inside /delayed folder, <i>priority</i> is the library's priority, and <i>functionNames</i> is a list of functions the library will expose. For a real example on how to use it, check <i>libs/sirmate.lua</i> or <i>libs/windConverterWrapper.lua.</i>",
+			"ex": "setdalyedload('myNewLib.lua', 0, {\n\t'myfunction1',\n\t'myfunction2',\n\t'myfunction3'\n})",
+			"exDescription": "This sets up the <i>myNewLib.lua</i> library to be delay loaded in case <i>myfunction1</i>, <i>myfunction2</i> or <i>myfunction3</i> functions are found in the script."
 		}
 	]
 }

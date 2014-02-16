@@ -1,0 +1,27 @@
+{
+	"name": "getcreature",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "string",
+					"name": "name"
+				}
+			],
+			"description": "Returns a creature pointer to the creature named <i>name</i>. If the creature was not found it returns an empty creature.",
+			"ex": "local cre = getcreature('Captain Fearless')\nif cre.dist > 3 then\n\treachcreature(cre.name)waitping()\nend",
+			"exDescription": "Will reach <i>cre</i> if it's distance is more than 3 SQM from you."
+		},
+		{
+			"rettype": "creature",
+			"args": [
+				{
+					"type": "number",
+					"name": "id"
+				}
+			],
+			"description": "Returns a creature pointer to the creature wit id <i>id</i>. If the creature was not found it returns an empty creature."
+		}
+	]
+}

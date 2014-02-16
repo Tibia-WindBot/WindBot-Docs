@@ -1,9 +1,9 @@
 {
-	"name": "$ropeid",
+	"name": "$pickid",
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "returns the ID set for your pick in Cavebot/Settings."
+			"description": "Returns the ID set for your pick in <i>Cavebot/Settings</i>."
 		}
 	]
 }

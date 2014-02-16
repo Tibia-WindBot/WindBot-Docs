@@ -1,9 +1,9 @@
 {
-	"name": "$ropeid",
+	"name": "$macheteid",
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "returns the ID set for your machete in Cavebot/Settings."
+			"description": "Returns the ID set for your machete in <i>Cavebot/Settings</i>."
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "returns the ID set for your rope in Cavebot/Settings."
+			"description": "Returns the ID set for your rope in <i>Cavebot/Settings</i>."
 		}
 	]
 }
