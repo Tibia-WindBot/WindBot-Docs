@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "Returns the duration of the spell in milliseconds."
+			"description": "Returns the effect duration of the spell in milliseconds."
 		}
 	]
 }
