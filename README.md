@@ -14,4 +14,4 @@ Contributing
 
 
 
-© 2013 WindBot, Brazil. All rights reserved.
+© 2013-2014 WindBot, Brazil. All rights reserved.
