@@ -1,0 +1,9 @@
+{
+	"name": ".cooldown",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns how many milliseconds you must wait before being able to cast this spell again."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".level",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the minimum level needed to cast the spell."
+		}
+	]
+}

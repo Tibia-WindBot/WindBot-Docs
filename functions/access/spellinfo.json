@@ -2,16 +2,16 @@
 	"name": "spellinfo",
 	"invocations": [
 		{
-			"rettype": "table",
+			"rettype": "spellinfo",
 			"args": [
 				{
 					"type": "string",
 					"name": "spell"
 				}
 			],
-			"description": "Returns a table containing various information about spell <i>spell</i> which can be the spell name or the incantation words as defined in the '/tibiadata/spells.xml' file.",
-			"ex": "local spell = spellinfo('exura')\nfor i,j in pairs(spell) do\n\tprint(i, j)\nend",
-			"exDescription": "Will print all of the information the bot has about 'Light Healing' spell."
+			"description": "Returns a userdata of type <a href=\"docs.html#types-spellinfo\">spellinfo</a> containing various information about spell <i>spell</i> which can be the spell name or the incantation words as defined in the '/tibiadata/spells.xml' file.",
+			"ex": "local spell = spellinfo('exura')\nprint(spell.mp)",
+			"exDescription": "Will print the required mana to cast 'Light Healing' spell."
 		}
 	]
 }

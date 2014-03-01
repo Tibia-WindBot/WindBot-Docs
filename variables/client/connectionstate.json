@@ -1,0 +1,9 @@
+{
+	"name": "$connectionstate",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns a number that represents the state of your connection to the game. Known values are 0 for disconnected and 11 for connected."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".group",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the group the spell belongs to; possible values are 'None', 'Healing', 'Support', 'Attack' and 'Special'."
+		}
+	]
+}

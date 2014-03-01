@@ -1,0 +1,9 @@
+{
+	"name": ".specialeffect",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the special effect the spell causes; possible values are 'None', 'ConjureItem', 'Haste', 'Strength', 'ManaShield', 'Invisibility', 'Light', 'Enchantitem', 'SummonCreature', 'CancelInvisibility', 'CreatureIllusion', 'FindPerson', 'Levitate', 'MagicRope', 'MakeRune', 'Challenge' and 'HealParty'."
+		}
+	]
+}

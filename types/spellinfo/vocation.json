@@ -1,0 +1,9 @@
+{
+	"name": ".vocation",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns a string separated list of the vocations that can cast the spell."
+		}
+	]
+}

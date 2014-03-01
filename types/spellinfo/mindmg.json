@@ -1,0 +1,9 @@
+{
+	"name": ".mindmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the minimum damage your character can deal (or heal) with that spell, based on your character's stats."
+		}
+	]
+}

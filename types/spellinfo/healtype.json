@@ -1,0 +1,9 @@
+{
+	"name": ".healtype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns a string separated list of the conditions the spell heals; possible values are 'None', 'Health', 'Mana', 'Poison', 'Burning', 'Electrified', 'Bleeding', 'Cursed', 'Paralysis', 'Haste', 'ManaShield', 'Invisible', 'Strengthened' and 'OverTime'."
+		}
+	]
+}

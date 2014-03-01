@@ -1,0 +1,9 @@
+{
+	"name": ".price",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "If the spell is a rune or a potion, returns the cost of it on the npc, else returns the amount of gold need to learn it."
+		}
+	]
+}

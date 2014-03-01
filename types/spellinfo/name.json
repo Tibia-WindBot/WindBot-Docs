@@ -1,0 +1,9 @@
+{
+	"name": ".name",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the name of the spell."
+		}
+	]
+}

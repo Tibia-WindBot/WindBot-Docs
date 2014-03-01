@@ -1,0 +1,9 @@
+{
+	"name": ".cancast",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns true if your character can cast the spell (based on your current mp, vocation, soul, etc), false otherwise."
+		}
+	]
+}

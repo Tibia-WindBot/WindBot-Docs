@@ -1,0 +1,9 @@
+{
+	"name": ".soul",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of soul points needed to cast the spell."
+		}
+	]
+}

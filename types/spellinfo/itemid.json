@@ -1,0 +1,9 @@
+{
+	"name": ".itemid",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the ID of an item; if the spell is instantaneous, it's the ID of the item required to cast that spell; if it's a rune or potion, it's the rune's/potion's ID."
+		}
+	]
+}

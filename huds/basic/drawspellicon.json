@@ -1,0 +1,27 @@
+{
+	"name": "drawspellicon",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "spelliconid"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "optional number",
+					"name": "zoom"
+				}
+			],
+			"description": "Draws a spell icon from the game with id <i>spelliconid</i> at position x: <i>x</i>, y: <i>y</i>. The value <i>zoom</i> is used to resize the icon, if you pass it as 100, it will be drawn without any resizing, 50 will draw it with half the size, and so on; the default size is 20x20 px for all icons."
+		}
+	]
+}

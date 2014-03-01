@@ -1,0 +1,9 @@
+{
+	"name": ".avgdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the average damage your character can deal (or heal) with that spell, based on your character's stats."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".mp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of mana points needed to cast the spell."
+		}
+	]
+}

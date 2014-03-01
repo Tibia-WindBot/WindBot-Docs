@@ -1,0 +1,9 @@
+{
+	"name": "$worldvisible",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the game world is visible, <i>false</i> otherwise."
+		}
+	]
+}

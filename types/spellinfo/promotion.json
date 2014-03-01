@@ -1,0 +1,9 @@
+{
+	"name": ".promotion",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns whether it is needed to have a promotion to cast the spell."
+		}
+	]
+}

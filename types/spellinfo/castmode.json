@@ -1,0 +1,9 @@
+{
+	"name": ".castmode",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns a string separated list of the modes the spell can be cast; possible values are 'None', 'Ground', 'Item', 'Target', 'Self', 'Word', 'SummonableCreature' and 'ConvinceableCreature'."
+		}
+	]
+}

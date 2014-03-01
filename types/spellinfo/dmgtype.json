@@ -1,0 +1,9 @@
+{
+	"name": ".dmgtype",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the type of damage the spell deals; possible values are 'None', 'Physical', 'Holy', 'Energy', 'Fire', 'Ice', 'Earth', 'Death', 'Blood', 'LifeDrain' and 'ManaDrain'."
+		}
+	]
+}

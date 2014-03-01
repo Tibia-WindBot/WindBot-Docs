@@ -1,0 +1,10 @@
+{
+	"name": "spellinfo",
+	"invocations": [
+		{
+			"varName": "s",
+			"param": "spellType",
+			"description": "Iterates through spells of the given <i>spellType</i> type, the values are stored in the variable <i>s</i>. This same information can also be gathered for an individual spell using the command <a href=\"/docs.html#functions-spellinfo\">spellinfo</a>, for more information about it, visit <a href=\"docs.html#types-spellinfo\">this</a>."
+		}
+	]
+}

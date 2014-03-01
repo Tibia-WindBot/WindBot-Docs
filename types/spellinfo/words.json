@@ -1,0 +1,9 @@
+{
+	"name": ".words",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the words used to cast the spell."
+		}
+	]
+}

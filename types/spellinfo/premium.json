@@ -1,0 +1,9 @@
+{
+	"name": ".premium",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns whether it is needed to have a premium account to cast the spell."
+		}
+	]
+}

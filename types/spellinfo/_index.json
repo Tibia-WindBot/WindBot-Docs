@@ -1,0 +1,5 @@
+{
+	"id": "spellinfo",
+	"name": "spellinfo",
+	"description": "Holds information about any spell (runes and potions included); this comes both from spells.xml and from the Tibia client itself."
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the type the \"spell\"; possible values are 'Instant', 'Rune' and 'Potion'."
+		}
+	]
+}
