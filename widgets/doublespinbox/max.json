@@ -1,0 +1,11 @@
+{
+	"name": "max",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "The maximum value that should be accepted; if none is provided, 100 is assumed.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Math\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"doublespinbox\",\n\t\t\t\"name\"        : \"pi\",\n\t\t\t\"text\"        : \"PI\",\n\t\t\t\"description\" : \"Ya hungry?\",\n\t\t\t\"min\"         : 3.14,\n\t\t\t\"max\"         : 3.14,\n\t\t\t\"value\"       : 3.14\n\t\t}\n\t]\n}",
+			"exImage": "doubleSpinboxExample1.png"
+		}
+	]
+}

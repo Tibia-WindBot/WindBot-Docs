@@ -1,0 +1,11 @@
+{
+	"name": "value",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "The default value for the field.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Information\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"   : \"spinbox\",\n\t\t\t\"name\"   : \"age\",\n\t\t\t\"text\"   : \"Age:\",\n\t\t\t\"suffix\" : \" years\",\n\t\t\t\"min\"    : 16,\n\t\t\t\"value\"  : 18\n\t\t}\n\t]\n}",
+			"exImage": "spinboxExample1.png"
+		}
+	]
+}

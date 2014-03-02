@@ -1,0 +1,11 @@
+{
+	"name": "text",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The label to be displayed inside the button; if none is provided, <i>name<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"I'm a Group Box\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"button\",\n\t\t\t\"name\"        : \"myButton\",\n\t\t\t\"text\"        : \"Click me, please...\",\n\t\t\t\"description\" : \"Hey, I'm a button!\"\n\t\t}\n\t]\n}",
+			"exImage": "buttonExample1.png"
+		}
+	]
+}

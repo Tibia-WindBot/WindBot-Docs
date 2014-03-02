@@ -1,0 +1,11 @@
+{
+	"name": "description",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "The description to be displayed on info box; if none is provided, <i>text<\/i> is used.",
+			"ex": "{\n\t\"type\"        : \"group\",\n\t\"name\"        : \"Example\",\n\t\"description\" : \"I love descriptions!\",\n\t\"column\"      : 2,\n\t\"children\"    : [\n\t\t{\n\t\t\t\"type\"  : \"checkbox\",\n\t\t\t\"name\"  : \"math\",\n\t\t\t\"text\"  : \"Is 2 + 2 = 4?\",\n\t\t\t\"value\" : true\n\t\t}\n\t]\n}",
+			"exImage": "groupExample3.png"
+		}
+	]
+}

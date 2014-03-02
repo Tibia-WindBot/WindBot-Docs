@@ -1,0 +1,11 @@
+{
+	"name": "placeholder",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The placeholder for the widget.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Example\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"lineedit\",\n\t\t\t\"name\"        : \"supplybp\",\n\t\t\t\"text\"        : \"Supply BP:\",\n\t\t\t\"placeholder\" : \"Supply Backpack\"\n\t\t}\n\t]\n}",
+			"exImage": "lineEditExample3.png"
+		}
+	]
+}

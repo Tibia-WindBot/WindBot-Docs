@@ -1,0 +1,11 @@
+{
+	"name": "text",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The label to be displayed beside the spinbox; if none is provided, <i>name<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"More Math\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"  : \"doublespinbox\",\n\t\t\t\"name\"  : \"numbah\",\n\t\t\t\"text\"  : \"Some Numbah\",\n\t\t\t\"min\"   : 0,\n\t\t\t\"value\" : 2.71\n\t\t}\n\t]\n}",
+			"exImage": "doubleSpinboxExample2.png"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "description",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The description to be displayed on info box; if none is provided, <i>text<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Moar Info\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"  : \"rangespinbox\",\n\t\t\t\"name\"  : \"ammoRefill\",\n\t\t\t\"text\"  : \"Min. Ammo to Refill\",\n\t\t\t\"min\"   : 0,\n\t\t\t\"max\"   : 100,\n\t\t\t\"value\" : 5\n\t\t}\n\t]\n}",
+			"exImage": "rangeSpinboxExample2.png"
+		}
+	]
+}

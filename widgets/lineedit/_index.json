@@ -1,0 +1,5 @@
+{
+	"id": "line-edit",
+	"name": "Line Edit",
+	"description": "This is one of the simplest widgets. It's basically a text field, in which you can input any text. It could be used to get the name of a special character, some backpacks for the setup or even a safelist, if handled correctly."
+}

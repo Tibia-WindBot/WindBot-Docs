@@ -1,0 +1,5 @@
+{
+	"id": "spinbox",
+	"name": "Spinbox",
+	"description": "This is the <a href=\"\/docs.html#widgets-line-edit\">Line Edit Widget<\/a>, but for integers. It's good for those situations were you only want to get numbers, like when asking for the amount of supplies to buy or with how much cap the script should leave the cave."
+}

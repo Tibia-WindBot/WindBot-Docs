@@ -1,0 +1,11 @@
+{
+	"name": "description",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The description to be displayed on info box; if none is provided, <i>text<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Stuff\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"combobox\",\n\t\t\t\"name\"        : \"vocation\",\n\t\t\t\"text\"        : \"Vocation\",\n\t\t\t\"description\" : \"Which vocation should be chosen?\",\n\t\t\t\"items\"       : [\"Knight\", \"Paladin\", \"Sorcerer\", \"Druid\"]\n\t\t}\n\t]\n}",
+			"exImage": "comboboxExample2.png"
+		}
+	]
+}

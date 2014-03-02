@@ -1,0 +1,5 @@
+{
+	"id": "double-spinbox",
+	"name": "Double Spinbox",
+	"description": "This is exactly like <a href=\"\/docs.html#widgets-spinbox\">Spinbox Widget<\/a>, but for doubles; that is, numbers that have a fractional part. It's probably good for lots of stuff, but I really can't think of anything right now."
+}

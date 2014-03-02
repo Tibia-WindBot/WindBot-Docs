@@ -1,0 +1,5 @@
+{
+	"id": "group",
+	"name": "Group",
+	"description": "This is our main widget. It's inside it that we place all the other widgets."
+}

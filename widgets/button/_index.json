@@ -1,0 +1,5 @@
+{
+	"id": "button",
+	"name": "Button",
+	"description": "A button; as simple as that. When it's clicked, it usses an event with its <i>name<\/i> which be be captured through a <i>inputevents<\/i> function."
+}

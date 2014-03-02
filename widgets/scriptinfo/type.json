@@ -1,0 +1,10 @@
+{
+	"name": "type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The widget type; 'spinbox' in this case.",
+			"ex": "{\n\t\"type\": \"scriptinfo\",\n\t\"name\": \"Water Elementals\",\n\t\"version\": \"0.1.0\"\n}"
+		}
+	]
+}

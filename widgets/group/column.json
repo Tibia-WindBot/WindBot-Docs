@@ -1,0 +1,11 @@
+{
+	"name": "column",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "The column the group box should be place on; 1 for first column, 2 for second.",
+			"ex": "{\n\t\"type\"        : \"group\",\n\t\"name\"        : \"Example\",\n\t\"description\" : \"I love descriptions!\",\n\t\"column\"      : 2,\n\t\"children\"    : [\n\t\t{\n\t\t\t\"type\"  : \"checkbox\",\n\t\t\t\"name\"  : \"math\",\n\t\t\t\"text\"  : \"Is 2 + 2 = 4?\",\n\t\t\t\"value\" : true\n\t\t}\n\t]\n}",
+			"exImage": "groupExample3.png"
+		}
+	]
+}

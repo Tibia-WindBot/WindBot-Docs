@@ -1,0 +1,11 @@
+{
+	"name": "min",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "The minimum value that should be accepted; if none is provided, 0 is assumed.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Survey\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"spinbox\",\n\t\t\t\"name\"        : \"grade\",\n\t\t\t\"text\"        : \"Tutorial's Grade\",\n\t\t\t\"description\" : \"It's over nine thousand!\",\n\t\t\t\"prefix\"      : \"It's \",\n\t\t\t\"min\"         : 9000,\n\t\t\t\"max\"         : 10000,\n\t\t\t\"value\"       : 9001\n\t\t}\n\t]\n}",
+			"exImage": "spinboxExample2.png"
+		}
+	]
+}

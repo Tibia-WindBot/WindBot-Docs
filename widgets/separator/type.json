@@ -1,0 +1,11 @@
+{
+	"name": "type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The widget type; 'separator' in this case.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Haters Gonna Hate\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"  : \"checkbox\",\n\t\t\t\"name\"  : \"hater1\",\n\t\t\t\"text\"  : \"I hate him \\\\/\",\n\t\t\t\"value\" : true\n\t\t},\n\t\t{\n\t\t\t\"type\"  : \"separator\"\n\t\t},\n\t\t{\n\t\t\t\"type\"  : \"checkbox\",\n\t\t\t\"name\"  : \"hater2\",\n\t\t\t\"text\"  : \"I hate him /\\\\\",\n\t\t\t\"value\" : true\n\t\t}\n\t]\n}",
+			"exImage": "separatorExample1.png"
+		}
+	]
+}

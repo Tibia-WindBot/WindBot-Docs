@@ -1,0 +1,11 @@
+{
+	"name": "suffix",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The string to be appended to the number.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Information\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"rangespinbox\",\n\t\t\t\"name\"        : \"waitSpawn\",\n\t\t\t\"text\"        : \"Spawn Wait Time:\",\n\t\t\t\"description\" : \"How long should the bot stand still to wait for the creatures to respawn? It's a random value in the selected range.\",\n\t\t\t\"suffix\"      : \" ms\",\n\t\t\t\"min\"         : 1000,\n\t\t\t\"max\"         : 30000,\n\t\t\t\"value\"       : 10000\n\t\t}\n\t]\n}",
+			"exImage": "rangeSpinboxExample1.png"
+		}
+	]
+}

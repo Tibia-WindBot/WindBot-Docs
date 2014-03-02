@@ -1,0 +1,11 @@
+{
+	"name": "checkable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Whether the widget should be checkable; a checkbox will appear beside it and checking/unchecking enables/disables the groupbox and its children.",
+			"ex": "{\n\t\"type\"      : \"group\",\n\t\"name\"      : \"General Information\",\n\t\"checkable\" : true,\n\t\"children\"  : [\n\t\t{\n\t\t\t\"type\"        : \"lineedit\",\n\t\t\t\"name\"        : \"account\",\n\t\t\t\"text\"        : \"Account:\",\n\t\t\t\"description\" : \"Your account name.\",\n\t\t\t\"value\"       : \"myaccount\"\n\t\t},\n\t\t{\n\t\t\t\"type\"        : \"lineedit\",\n\t\t\t\"name\"        : \"password\",\n\t\t\t\"text\"        : \"Password:\",\n\t\t\t\"description\" : \"Your account's password.\",\n\t\t\t\"value\"       : \"mysecretpassword\"\n\t\t},\n\t\t{\n\t\t\t\"type\"        : \"lineedit\",\n\t\t\t\"name\"        : \"charList\",\n\t\t\t\"text\"        : \"Chars. List:\",\n\t\t\t\"description\" : \"The name of your characters, comma separated.\",\n\t\t\t\"value\"       : \"John, Bob, Ann, Joe, Mary\"\n\t\t},\n\t\t{\n\t\t\t\"type\"        : \"checkbox\",\n\t\t\t\"name\"        : \"relog\",\n\t\t\t\"text\"        : \"Log on the next char\",\n\t\t\t\"description\" : \"Should the bot log on the next character once the current one finishes?\",\n\t\t\t\"value\"       : true\n\t\t}\n\t]\n}",
+			"exImage": "groupExample2.png"
+		}
+	]
+}

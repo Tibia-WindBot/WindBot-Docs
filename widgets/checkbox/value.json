@@ -1,0 +1,11 @@
+{
+	"name": "value",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "The default value for the field; true or false.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Waddup\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"checkbox\",\n\t\t\t\"name\"        : \"raphael\",\n\t\t\t\"text\"        : \"Does Raphael rock?\",\n\t\t\t\"description\" : \"Undeniable truth.\",\n\t\t\t\"value\"       : true\n\t\t}\n\t]\n}",
+			"exImage": "checkboxExample2.png"
+		}
+	]
+}

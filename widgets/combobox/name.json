@@ -1,0 +1,11 @@
+{
+	"name": "name",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The name of the widget. It's used to retrieve its current value.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Information\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"combobox\",\n\t\t\t\"name\"        : \"city\",\n\t\t\t\"text\"        : \"City\",\n\t\t\t\"description\" : \"What city should be chosen?\",\n\t\t\t\"items\"       : [\"Ankrahmun\", \"Edron\", \"Darashia\", \"Liberty Bay\", \"Port Hope\", \"Ab'Dendriel\", \"Carlin\", \"Thais\", \"Venore\"]\n\t\t}\n\t]\n}",
+			"exImage": "comboboxExample1.png"
+		}
+	]
+}

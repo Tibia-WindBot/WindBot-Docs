@@ -1,0 +1,10 @@
+{
+	"name": "version",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The version of the script; this, along with the <i>name<\/i> identifies the script on the database.",
+			"ex": "{\n\t\"type\": \"scriptinfo\",\n\t\"name\": \"Water Elementals\",\n\t\"version\": \"0.1.0\"\n}"
+		}
+	]
+}

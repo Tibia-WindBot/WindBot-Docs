@@ -1,0 +1,11 @@
+{
+	"name": "type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The widget type; 'group' in this case.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"groupName\",\n\t\"text\"     : \"Title\",\n\t\"children\" : []\n}",
+			"exImage": "groupExample1.png"
+		}
+	]
+}

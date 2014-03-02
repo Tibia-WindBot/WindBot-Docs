@@ -1,0 +1,11 @@
+{
+	"name": "type",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The widget type; 'checkbox' in this case.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Information\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"  : \"checkbox\",\n\t\t\t\"name\"  : \"dostuff\",\n\t\t\t\"text\"  : \"Do some stuff?\"\n\t\t}\n\t]\n}",
+			"exImage": "checkboxExample1.png"
+		}
+	]
+}

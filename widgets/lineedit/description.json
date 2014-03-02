@@ -1,0 +1,11 @@
+{
+	"name": "description",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The description to be displayed on info box; if none is provided, <i>text<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"General Information\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"        : \"lineedit\",\n\t\t\t\"name\"        : \"account\",\n\t\t\t\"text\"        : \"Account:\",\n\t\t\t\"description\" : \"Your account name.\",\n\t\t\t\"value\"       : \"myaccount\"\n\t\t}\n\t]\n}",
+			"exImage": "lineEditExample1.png"
+		}
+	]
+}

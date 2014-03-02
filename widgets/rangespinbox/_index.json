@@ -1,0 +1,5 @@
+{
+	"id": "range-spinbox",
+	"name": "Range Spinbox",
+	"description": "You're probably tired of this already, but this is exactly like <a href=\"\/docs.html#widgets-spinbox\">Spinbox Widget<\/a>, works for ranges; that is, it asks for two numbers instead of one. It's good for those situations where you need a maximum and minimum value, so you can make it random, like some waiting time before taking some action."
+}

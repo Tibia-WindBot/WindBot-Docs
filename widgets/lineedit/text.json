@@ -1,0 +1,11 @@
+{
+	"name": "text",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The title of the group box; if none is provided, <i>name<\/i> is used.",
+			"ex": "{\n\t\"type\"     : \"group\",\n\t\"name\"     : \"Cool Title\",\n\t\"children\" : [\n\t\t{\n\t\t\t\"type\"  : \"lineedit\",\n\t\t\t\"name\"  : \"safelist\",\n\t\t\t\"text\"  : \"Safe List:\"\n\t\t}\n\t]\n}",
+			"exImage": "lineEditExample2.png"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "prefix",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "The string to be prepended to the number."
+		}
+	]
+}
