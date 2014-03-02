@@ -1,0 +1,9 @@
+{
+	"name": ".duration",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the effect duration of the spell in milliseconds."
+		}
+	]
+}
