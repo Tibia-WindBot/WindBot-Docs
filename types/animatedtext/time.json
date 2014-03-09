@@ -1,5 +1,5 @@
 {
-	"name": ".timems",
+	"name": ".time",
 	"invocations": [
 		{
 			"rettype": "number",
