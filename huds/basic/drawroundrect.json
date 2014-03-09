@@ -30,7 +30,7 @@
 				}
 			],
 			"description": "Draws a rectangle with rounded corners. <i>xradius</i> and <i>yradius</i> specify the radius of the ellipsis defining the corners of the rounded rectangle.",
-			"ex": "drawroundrect(25, 25, 50, 50, 4, 4",
+			"ex": "drawroundrect(25, 25, 50, 50, 4, 4)",
 			"exDescription": "Draws a 50x50 rectangle, starting at position x: 25, y: 25. The corners will have a radius of 4 pixels horizontally and 4 pixels vertically."
 		}
 	]
