@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</> if the creature can block the SQM from being walked, <i>false</> otherwise."
 		}
 	]
 }

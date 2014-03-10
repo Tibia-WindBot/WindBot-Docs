@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": "Returns <i>true</i> if the creature is currently moving from on SQM to another, <i>false</i> otherwise."
+			"description": "Returns <i>true</i> if the creature is currently moving from one SQM to another, <i>false</i> otherwise."
 		}
 	]
 }

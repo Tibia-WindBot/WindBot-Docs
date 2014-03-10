@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the time, in milliseconds, since you received the last attack of a creature."
 		}
 	]
 }

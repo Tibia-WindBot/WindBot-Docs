@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the creature is a non player character (NPC), <i>false</i> otherwise."
 		}
 	]
 }

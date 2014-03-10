@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the creature is reachable, <i>false</i> otherwise."
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the maximum distance in either x or y of the creature from your character."
 		}
 	]
 }
