@@ -26,7 +26,7 @@
 				}
 			],
 			"description": "Draws an effect from the game with id <i>effectid</i> at position x: <i>x</i>, y: <i>y</i>. The value <i>zoom</i> is used to resize the effect, if you pass it as 100, it will be drawn without any resizing, 50 will draw it with half the size, and so on. If you set <i>phase</i> to -1 it will animate the image.",
-			"ex": "for i = 1, 80 do\n\tlocal j = i - 1\n\tdrawitem(i, (j % 10) * 64, math.floor(j / 10) * 64, 100, -1)\nend",
+			"ex": "for i = 1, 80 do\n\tlocal j = i - 1\n\tdraweffect(i, (j % 10) * 64, math.floor(j / 10) * 64, 100, -1)\nend",
 			"exDescription": "Draws all effects on your screen, animating them."
 		}
 	]
