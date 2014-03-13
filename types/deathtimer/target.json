@@ -1,0 +1,9 @@
+{
+	"name": ".target",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the target's name."
+		}
+	]
+}

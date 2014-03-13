@@ -1,0 +1,9 @@
+{
+	"name": ".killer",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the killer's name."
+		}
+	]
+}

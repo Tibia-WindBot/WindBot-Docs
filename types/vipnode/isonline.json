@@ -1,0 +1,9 @@
+{
+	"name": ".isonline",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the vip entry is online, <i>false</i> otherwise."
+		}
+	]
+}

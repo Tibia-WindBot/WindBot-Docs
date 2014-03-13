@@ -1,0 +1,9 @@
+{
+	"name": ".notify",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</> if the vip is marked to notify you when it logs in, <i>false</i> otherwise."
+		}
+	]
+}

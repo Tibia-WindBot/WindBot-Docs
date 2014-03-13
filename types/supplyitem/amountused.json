@@ -1,9 +1,0 @@
-{
-	"name": ".amountused",
-	"invocations": [
-		{
-			"rettype": "number",
-			"description": "Returns how many units of the supply were used. The supply must be visible on your backpack for it to be counted correctly."
-		}
-	]
-}

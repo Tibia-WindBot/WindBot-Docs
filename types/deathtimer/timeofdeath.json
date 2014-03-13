@@ -1,0 +1,9 @@
+{
+	"name": ".timeofdeath",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the time in milliseconds when the kill happened."
+		}
+	]
+}
