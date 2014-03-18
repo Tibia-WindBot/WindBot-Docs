@@ -1,0 +1,9 @@
+{
+	"name": ".hitpercentmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's distance hit percent modifier."
+		}
+	]
+}

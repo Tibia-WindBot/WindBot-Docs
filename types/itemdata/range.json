@@ -1,0 +1,9 @@
+{
+	"name": ".range",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's minimum range to use an attack on a target."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".leaveat",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of item's set to leave the hunt on the supplies tab."
+		}
+	]
+}

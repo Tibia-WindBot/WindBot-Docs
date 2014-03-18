@@ -1,0 +1,9 @@
+{
+	"name": ".z",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the <i>z</i> tile position of the mouse."
+		}
+	]
+}

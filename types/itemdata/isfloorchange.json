@@ -1,0 +1,9 @@
+{
+	"name": ".isfloorchange",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

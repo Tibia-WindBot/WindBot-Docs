@@ -1,0 +1,9 @@
+{
+	"name": ".ignoreextradata",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

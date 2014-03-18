@@ -1,0 +1,9 @@
+{
+	"name": ".destination",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the item's destination name."
+		}
+	]
+}

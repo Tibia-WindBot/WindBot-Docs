@@ -1,0 +1,9 @@
+{
+	"name": ".isheight",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".automapcolor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

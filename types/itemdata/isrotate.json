@@ -1,0 +1,9 @@
+{
+	"name": ".isrotate",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".amounttobuy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of items to buy."
+		}
+	]
+}

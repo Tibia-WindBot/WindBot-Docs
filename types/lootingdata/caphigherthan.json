@@ -1,0 +1,9 @@
+{
+	"name": ".caphigherthan",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the value capacity higher than set on the looting tab."
+		}
+	]
+}

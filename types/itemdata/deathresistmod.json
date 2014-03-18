@@ -1,0 +1,9 @@
+{
+	"name": ".deathresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the items's resistance against death effect."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".patternx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".uptocount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's amount up to you want to refill."
+		}
+	]
+}

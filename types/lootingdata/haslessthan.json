@@ -1,0 +1,9 @@
+{
+	"name": ".haslessthan",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's "Has less than" amount value."
+		}
+	]
+}

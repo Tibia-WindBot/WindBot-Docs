@@ -1,0 +1,9 @@
+{
+	"name": ".patterny",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

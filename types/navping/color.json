@@ -1,0 +1,9 @@
+{
+	"name": ".color",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the navping sender's avatar main color."
+		}
+	]
+}

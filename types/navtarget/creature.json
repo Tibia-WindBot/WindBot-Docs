@@ -1,0 +1,9 @@
+{
+	"name": ".creature",
+	"invocations": [
+		{
+			"rettype": "creature",
+			"description": "Returns a creature structure for the nav target."
+		}
+	]
+}

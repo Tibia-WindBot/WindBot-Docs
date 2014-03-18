@@ -1,0 +1,9 @@
+{
+	"name": ".sizeinpixels",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's image sprite pixels size."
+		}
+	]
+}

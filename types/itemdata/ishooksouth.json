@@ -1,0 +1,9 @@
+{
+	"name": ".ishooksouth",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

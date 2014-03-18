@@ -1,0 +1,9 @@
+{
+	"name": ".conditionvalue",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the looting condition value of the item."
+		}
+	]
+}

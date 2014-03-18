@@ -1,0 +1,9 @@
+{
+	"name": ".status",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the player team status."
+		}
+	]
+}

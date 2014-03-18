@@ -1,0 +1,9 @@
+{
+	"name": ".count",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the top item count on the mouse position."
+		}
+	]
+}

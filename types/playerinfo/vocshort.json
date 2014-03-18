@@ -1,0 +1,9 @@
+{
+	"name": ".vocshort",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the player vocation's initials."
+		}
+	]
+}

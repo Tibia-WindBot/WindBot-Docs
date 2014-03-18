@@ -1,0 +1,9 @@
+{
+	"name": ".manadrainresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against mana drain effect."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".iscumulative",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the item is cumulative, <i>false</i> otherwise."
+		}
+	]
+}

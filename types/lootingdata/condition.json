@@ -1,0 +1,9 @@
+{
+	"name": ".condition",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the loot condition ID of the item."
+		}
+	]
+}

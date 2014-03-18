@@ -1,0 +1,9 @@
+{
+	"name": ".isunpass",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the item cannot be walked over, <i>false</i> otherwise."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".attack",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's attack points."
+		}
+	]
+}

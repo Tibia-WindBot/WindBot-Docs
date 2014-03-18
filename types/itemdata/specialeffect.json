@@ -1,0 +1,9 @@
+{
+	"name": ".specialeffect",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

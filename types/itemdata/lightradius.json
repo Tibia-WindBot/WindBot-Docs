@@ -1,0 +1,9 @@
+{
+	"name": ".lightradius",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

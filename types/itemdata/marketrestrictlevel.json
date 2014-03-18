@@ -1,0 +1,9 @@
+{
+	"name": ".marketrestrictlevel",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's market minimum restrict level."
+		}
+	]
+}

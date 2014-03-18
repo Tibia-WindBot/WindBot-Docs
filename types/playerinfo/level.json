@@ -1,0 +1,9 @@
+{
+	"name": ".level",
+	"invocations": [
+		{
+			"rettype": "level",
+			"description": "Returns the player's level."
+		}
+	]
+}

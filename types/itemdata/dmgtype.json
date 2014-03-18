@@ -1,0 +1,9 @@
+{
+	"name": ".dmgtype",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

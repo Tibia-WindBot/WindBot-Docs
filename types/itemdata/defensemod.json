@@ -1,0 +1,9 @@
+{
+	"name": ".defensemod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's defense resistance modifier."
+		}
+	]
+}

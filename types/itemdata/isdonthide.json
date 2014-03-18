@@ -1,0 +1,9 @@
+{
+	"name": ".isdonthide",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

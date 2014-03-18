@@ -1,0 +1,9 @@
+{
+	"name": ".marketcategory",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's market category ID."
+		}
+	]
+}

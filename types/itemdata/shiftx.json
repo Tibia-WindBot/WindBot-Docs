@@ -1,0 +1,9 @@
+{
+	"name": ".shiftx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

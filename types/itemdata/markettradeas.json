@@ -1,0 +1,9 @@
+{
+	"name": ".markettradeas",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".defaultaction",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

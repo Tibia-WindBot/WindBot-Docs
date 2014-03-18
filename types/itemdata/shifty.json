@@ -1,0 +1,9 @@
+{
+	"name": ".shifty",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

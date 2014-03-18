@@ -1,0 +1,9 @@
+{
+	"name": ".guild",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the player guild's name."
+		}
+	]
+}

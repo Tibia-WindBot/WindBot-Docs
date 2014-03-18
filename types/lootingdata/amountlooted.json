@@ -1,0 +1,9 @@
+{
+	"name": ".amountlooted",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of items looted."
+		}
+	]
+}

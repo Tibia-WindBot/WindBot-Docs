@@ -1,0 +1,9 @@
+{
+	"name": ".amountused",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of items used."
+		}
+	]
+}

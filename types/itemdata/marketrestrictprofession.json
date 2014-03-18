@@ -1,0 +1,9 @@
+{
+	"name": ".marketrestrictprofession",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".isbottom",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

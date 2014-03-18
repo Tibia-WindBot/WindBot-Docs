@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "Returns the type of the projectile."
+			"description": "Returns the type ID of the projectile."
 		}
 	]
 }

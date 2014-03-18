@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "Returns the item's id."
+			"description": "Returns the item's ID."
 		}
 	]
 }

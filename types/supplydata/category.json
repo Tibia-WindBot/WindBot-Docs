@@ -1,0 +1,9 @@
+{
+	"name": ".category",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the category or categories combination that the item is appended to."
+		}
+	]
+}

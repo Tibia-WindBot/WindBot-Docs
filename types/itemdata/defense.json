@@ -1,0 +1,9 @@
+{
+	"name": ".defense",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's defense points."
+		}
+	]
+}

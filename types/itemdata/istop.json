@@ -1,0 +1,9 @@
+{
+	"name": ".istop",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

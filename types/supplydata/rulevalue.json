@@ -1,0 +1,9 @@
+{
+	"name": ".rulevalue",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

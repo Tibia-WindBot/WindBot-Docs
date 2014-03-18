@@ -1,0 +1,9 @@
+{
+	"name": ".iceresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against frozen effect."
+		}
+	]
+}

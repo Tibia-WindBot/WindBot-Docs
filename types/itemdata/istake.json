@@ -1,0 +1,9 @@
+{
+	"name": ".istake",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

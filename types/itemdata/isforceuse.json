@@ -1,0 +1,9 @@
+{
+	"name": ".isforceuse",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

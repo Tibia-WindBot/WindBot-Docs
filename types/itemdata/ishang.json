@@ -1,0 +1,9 @@
+{
+	"name": ".ishang",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

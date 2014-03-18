@@ -1,0 +1,9 @@
+{
+	"name": ".priority",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the player's priority."
+		}
+	]
+}

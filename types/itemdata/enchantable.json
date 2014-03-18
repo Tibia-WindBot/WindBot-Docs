@@ -1,0 +1,9 @@
+{
+	"name": ".enchantable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the item is enchantable, <i>false</i> otherwise."
+		}
+	]
+}

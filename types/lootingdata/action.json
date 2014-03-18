@@ -1,0 +1,9 @@
+{
+	"name": ".action",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

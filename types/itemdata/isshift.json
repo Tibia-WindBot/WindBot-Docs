@@ -1,0 +1,9 @@
+{
+	"name": ".isshift",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

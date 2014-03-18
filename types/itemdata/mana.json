@@ -1,0 +1,9 @@
+{
+	"name": ".mana",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

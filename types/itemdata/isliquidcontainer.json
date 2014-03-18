@@ -1,0 +1,9 @@
+{
+	"name": ".isliquidcontainer",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

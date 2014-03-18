@@ -1,0 +1,9 @@
+{
+	"name": ".isfullbank",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

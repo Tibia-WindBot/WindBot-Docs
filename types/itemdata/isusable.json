@@ -1,0 +1,9 @@
+{
+	"name": ".isusable",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

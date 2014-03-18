@@ -1,0 +1,9 @@
+{
+	"name": ".walkheight",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

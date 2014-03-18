@@ -1,0 +1,9 @@
+{
+	"name": ".patterndepth",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

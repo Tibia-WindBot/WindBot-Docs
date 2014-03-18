@@ -1,0 +1,9 @@
+{
+	"name": ".lifedrainresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against life drain effect."
+		}
+	]
+}

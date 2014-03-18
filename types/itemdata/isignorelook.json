@@ -1,0 +1,9 @@
+{
+	"name": ".isignorelook",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

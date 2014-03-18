@@ -1,0 +1,9 @@
+{
+	"name": ".color",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target avatar's main color."
+		}
+	]
+}

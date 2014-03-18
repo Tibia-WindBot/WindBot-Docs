@@ -1,0 +1,9 @@
+{
+	"name": ".ismultiuse",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

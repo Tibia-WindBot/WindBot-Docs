@@ -1,0 +1,9 @@
+{
+	"name": ".maxdmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the maximum damage the item can deal."
+		}
+	]
+}

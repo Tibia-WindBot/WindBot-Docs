@@ -1,0 +1,9 @@
+{
+	"name": ".attackmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's attack modifier."
+		}
+	]
+}

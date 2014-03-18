@@ -1,0 +1,9 @@
+{
+	"name": ".isavoid",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

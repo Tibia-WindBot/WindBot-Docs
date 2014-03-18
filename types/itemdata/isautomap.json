@@ -1,0 +1,9 @@
+{
+	"name": ".isautomap",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

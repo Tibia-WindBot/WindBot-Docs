@@ -1,0 +1,9 @@
+{
+	"name": ".marketshowas",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

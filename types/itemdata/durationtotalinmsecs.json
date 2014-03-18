@@ -1,0 +1,9 @@
+{
+	"name": ".durationtotalinmsecs",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".islight",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": "Returns the time in milliseconds when the kill happened."
+			"description": "Returns, in milliseconds, the death's expiring time."
 		}
 	]
 }

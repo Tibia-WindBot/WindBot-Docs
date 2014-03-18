@@ -1,0 +1,9 @@
+{
+	"name": ".isclip",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

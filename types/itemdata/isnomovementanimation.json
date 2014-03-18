@@ -1,0 +1,9 @@
+{
+	"name": ".isnomovementanimation",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

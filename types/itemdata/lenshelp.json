@@ -1,0 +1,9 @@
+{
+	"name": ".lenshelp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's lens help information ID."
+		}
+	]
+}

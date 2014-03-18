@@ -1,0 +1,9 @@
+{
+	"name": ".energyresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against energy effect."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".comment",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the player's commentary."
+		}
+	]
+}

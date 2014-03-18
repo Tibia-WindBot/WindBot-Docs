@@ -1,0 +1,9 @@
+{
+	"name": ".ismarket",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the item is listed on the market, <i>false</i> otherwise."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".count",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's current amount."
+		}
+	]
+}

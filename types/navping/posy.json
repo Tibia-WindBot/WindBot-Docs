@@ -1,0 +1,9 @@
+{
+	"name": ".posy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the navping sender's y coordinate."
+		}
+	]
+}

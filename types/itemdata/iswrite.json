@@ -1,0 +1,9 @@
+{
+	"name": ".iswrite",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

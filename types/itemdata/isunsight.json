@@ -1,0 +1,9 @@
+{
+	"name": ".isunsight",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

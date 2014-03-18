@@ -1,0 +1,9 @@
+{
+	"name": ".mindmg",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the minimum damage the item can deal."
+		}
+	]
+}

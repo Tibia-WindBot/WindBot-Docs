@@ -1,0 +1,9 @@
+{
+	"name": ".sellprice",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's selling price."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".armor",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's armor points."
+		}
+	]
+}

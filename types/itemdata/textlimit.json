@@ -1,0 +1,9 @@
+{
+	"name": ".textlimit",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

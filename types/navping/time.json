@@ -1,0 +1,9 @@
+{
+	"name": ".time",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the navping alert time."
+		}
+	]
+}

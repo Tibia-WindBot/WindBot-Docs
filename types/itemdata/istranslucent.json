@@ -1,0 +1,9 @@
+{
+	"name": ".istranslucent",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

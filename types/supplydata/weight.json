@@ -1,0 +1,9 @@
+{
+	"name": ".weight",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's weight."
+		}
+	]
+}

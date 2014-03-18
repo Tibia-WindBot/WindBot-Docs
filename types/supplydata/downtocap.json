@@ -1,0 +1,9 @@
+{
+	"name": ".downtocap",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's down to capacity value as seen on the supplies tab."
+		}
+	]
+}

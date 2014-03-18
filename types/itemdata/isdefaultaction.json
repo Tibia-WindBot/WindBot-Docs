@@ -1,0 +1,9 @@
+{
+	"name": ".isdefaultaction",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".fireresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against fire effect."
+		}
+	]
+}

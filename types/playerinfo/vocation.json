@@ -1,0 +1,9 @@
+{
+	"name": ".vocation",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the player vocation's name."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".iswriteonce",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}

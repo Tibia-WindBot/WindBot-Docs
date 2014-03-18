@@ -1,0 +1,9 @@
+{
+	"name": ".category",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item category ID."
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"name": ".physicalresistmod",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's resistance against physical effect."
+		}
+	]
+}

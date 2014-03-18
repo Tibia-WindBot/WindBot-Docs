@@ -1,0 +1,9 @@
+{
+	"name": ".clothslot",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": ""
+		}
+	]
+}

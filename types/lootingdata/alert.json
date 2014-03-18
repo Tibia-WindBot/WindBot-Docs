@@ -1,0 +1,9 @@
+{
+	"name": ".alert",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the item is marked to alert when it drops, <i>false</i> otherwise."
+		}
+	]
+}

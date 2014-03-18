@@ -1,0 +1,9 @@
+{
+	"name": ".ismount",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": ""
+		}
+	]
+}
