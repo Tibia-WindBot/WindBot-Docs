@@ -1,0 +1,9 @@
+{
+	"name": ".isleader",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the nav target is a leader, <i>false<i> otherwise."
+		}
+	]
+}

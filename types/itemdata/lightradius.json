@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the radius of the light emitted by the item."
 		}
 	]
 }

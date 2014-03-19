@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item forces you to use it, <i>false</i> otherwise."
 		}
 	]
 }

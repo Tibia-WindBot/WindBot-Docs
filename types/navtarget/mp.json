@@ -1,0 +1,9 @@
+{
+	"name": ".mp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the mana points of the nav target. Only players connected to your navigation room will have this property."
+		}
+	]
+}

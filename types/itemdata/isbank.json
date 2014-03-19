@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item is always drawn on the ground (ground items, roof edges, etc), <i>false</i> otherwise."
 		}
 	]
 }

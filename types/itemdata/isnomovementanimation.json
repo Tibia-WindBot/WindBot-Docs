@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the creature doesn't animate when moving, <i>false</i> otherwise."
 		}
 	]
 }

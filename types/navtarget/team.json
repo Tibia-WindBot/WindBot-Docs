@@ -1,0 +1,9 @@
+{
+	"name": ".team",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's team ID."
+		}
+	]
+}

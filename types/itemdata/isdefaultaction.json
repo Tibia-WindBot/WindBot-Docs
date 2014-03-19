@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item has a default action, <i>false</i> otherwise."
 		}
 	]
 }

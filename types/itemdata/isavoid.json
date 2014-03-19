@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item forces your character to avoid it on autowalk (parcels, crates, boxes), <i>false</i> otherwise."
 		}
 	]
 }

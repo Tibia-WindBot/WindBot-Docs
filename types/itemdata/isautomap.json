@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item is shown on the automap, <i>false</i> otherwise."
 		}
 	]
 }

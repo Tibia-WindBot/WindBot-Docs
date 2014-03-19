@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the ID as the item should be traded as on the market."
 		}
 	]
 }

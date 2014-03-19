@@ -1,0 +1,9 @@
+{
+	"name": ".posy",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's <i>y</i> position coordinates."
+		}
+	]
+}

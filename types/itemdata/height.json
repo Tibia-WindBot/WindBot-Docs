@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the item's sprite height, 1 for normal items and 2 for items that are drawn on 2 SQMs."
 		}
 	]
 }

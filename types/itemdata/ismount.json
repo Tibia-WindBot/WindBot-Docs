@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the outfit belong to a mountable creature, <i>false</i> otherwise."
 		}
 	]
 }

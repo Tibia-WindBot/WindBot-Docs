@@ -1,0 +1,9 @@
+{
+	"name": ".voc",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's vocation ID. Only players connected to your navigation room will have this property."
+		}
+	]
+}

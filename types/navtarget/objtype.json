@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "string",
-			"description": "Returns a string containing this userdata's type: 'animtext'."
+			"description": "Returns a string containing this userdata's type: 'navtarget'."
 		}
 	]
 }

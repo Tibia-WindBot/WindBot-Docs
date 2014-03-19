@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item allows you to hook hangable items from the east side (walls), <i>false</i> otherwise."
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item has extra data (armor, attack, defense ..), <i>false</i> otherwise."
 		}
 	]
 }

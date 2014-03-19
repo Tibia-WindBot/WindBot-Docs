@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item blocks your sight, <i>false</i> otherwise."
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if you can't look at the item (roof edges), <i>false</i> otherwise."
 		}
 	]
 }

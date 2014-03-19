@@ -1,0 +1,9 @@
+{
+	"name": ".realname",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's character name. Only players connected to your navigation room will have this property."
+		}
+	]
+}

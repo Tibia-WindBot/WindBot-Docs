@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns a value for the item's special effect."
 		}
 	]
 }

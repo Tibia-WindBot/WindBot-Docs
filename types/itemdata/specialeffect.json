@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns a number that represents an special effect for the item (Regeneration, mana shield protection and others)."
 		}
 	]
 }

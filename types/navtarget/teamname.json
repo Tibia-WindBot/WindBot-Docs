@@ -1,0 +1,9 @@
+{
+	"name": ".teamname",
+	"invocations": [
+		{
+			"rettype": "string",
+			"description": "Returns the nav target's team name. Can be 'ally', 'enemy', 'leader' or 'self'."
+		}
+	]
+}

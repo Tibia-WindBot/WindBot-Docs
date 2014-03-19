@@ -1,0 +1,9 @@
+{
+	"name": ".icon",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's icon ID."
+		}
+	]
+}

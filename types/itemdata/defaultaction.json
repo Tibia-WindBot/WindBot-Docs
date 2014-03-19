@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the default action for the item. None = 0, look = 1, use = 2, open = 3 and walk = 4."
 		}
 	]
 }

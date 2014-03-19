@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item is translucent, lets you see the under floor, <i>false</i> otherwise."
 		}
 	]
 }

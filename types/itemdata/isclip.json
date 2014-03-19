@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item is always drawn clipping to the ground (border items), <i>false</i> otherwise."
 		}
 	]
 }

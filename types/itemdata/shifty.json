@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns how many pixels the item shifts vertically."
 		}
 	]
 }

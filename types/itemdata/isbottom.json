@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "Returns <i>true</i> if the item is always drawn on the bottom (walls and some other items), <i>false</i> otherwise."
 		}
 	]
 }

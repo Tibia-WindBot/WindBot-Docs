@@ -1,0 +1,9 @@
+{
+	"name": ".posz",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's <i>z</i> position coordinates."
+		}
+	]
+}

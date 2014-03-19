@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns the value of the item loss (amulet of loss)."
 		}
 	]
 }

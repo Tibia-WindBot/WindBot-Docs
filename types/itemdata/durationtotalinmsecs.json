@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "number",
-			"description": ""
+			"description": "Returns, in milliseconds, the item's duration."
 		}
 	]
 }

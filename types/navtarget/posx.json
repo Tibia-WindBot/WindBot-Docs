@@ -1,0 +1,9 @@
+{
+	"name": ".posx",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the nav target's <i>x</i> position coordinates."
+		}
+	]
+}

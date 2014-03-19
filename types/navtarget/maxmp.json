@@ -1,0 +1,9 @@
+{
+	"name": ".maxmp",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the maximum mana points of the nav target. Only players connected to your navigation room will have this property."
+		}
+	]
+}

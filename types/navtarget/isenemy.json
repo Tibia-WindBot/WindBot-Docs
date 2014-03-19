@@ -1,0 +1,9 @@
+{
+	"name": ".isenemy",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the nav target is an enemy, <i>false<i> otherwise."
+		}
+	]
+}

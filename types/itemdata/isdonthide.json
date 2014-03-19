@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": ""
+			"description": "returns <i>true</i> if the item has the dont hide property, <i>false</i> otherwise"
 		}
 	]
 }
