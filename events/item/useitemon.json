@@ -46,7 +46,7 @@
 				}
 			],
 			"description": "Uses the item <i>itemusedname</i> on item with id <i>idusedon</i>, which can be 0 if its location is the ground. If you don't want the usedon item to be looked for in all open backpacks, you can specify its location in the string <i>locationusedon</i>. Same thing for the item being used except that you would do so in the string <i>locationused</i>.",
-			"ex": "useitemon('scythe', 0, ground($posx, $posy + 1, $podz))",
+			"ex": "useitemon('scythe', 0, ground($posx, $posy + 1, $posz))",
 			"exDescription": "Will use a 'scythe' on the SQM south of you."
 		}
 	]
