@@ -14,7 +14,7 @@
 				}
 			],
 			"description": "Looks for a hotkey in the game client which is bound to a spell with <i>incantation</i> similar to incantation and returns it as a string representation of the keys in the format 'F1', 'Shift+F5', or 'Ctrl+F12'. Optionally, you can specify a type by passing 'manual' or 'automatic' as the type paramter if you're looking for a certain type specifically. Otherwise, any type will be looked for.",
-			"ex": "auto(200)\nif clientspellhotkey('exura') == '' then\n\ttraymessage('', 'WARNING! You don\\'t have a hotkey on the client to use light healing spell', 2000) wait(1000)\nend",
+			"ex": "auto(200)\nif clientspellhotkey('exura') == 'not found' then\n\ttraymessage('', 'WARNING! You don\\'t have a hotkey on the client to use light healing spell', 2000) wait(1000)\nend",
 			"exDescription": "Will show a warning if you don't have a hotkey on the client to use light healing spell."
 		}
 	]
