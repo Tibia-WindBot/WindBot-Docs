@@ -14,7 +14,7 @@
 				}
 			],
 			"description": "Looks for a hotkey in the game client which is bound to the item with id <i>itemid</i> and returns it as a string representation of the keys in the format 'F1', 'Shift+F5', or 'Ctrl+F12', and 'not found' if there is no such hotkey. Optionally, you can specify a type by passing 'self', 'target' or 'crosshair' as the type paramter if you're looking for a certain type specifically. Otherwise, any type will be looked for.",
-			"ex": "auto(200)\nif clientitemhotkey(268, 'self') == '' then\n\ttraymessage('', 'WARNING! You don\\'t have a hotkey on the client to use mana potions', 2000) wait(1000)\nend",
+			"ex": "auto(200)\nif clientitemhotkey(268, 'self') == 'not found' then\n\ttraymessage('', 'WARNING! You don\\'t have a hotkey on the client to use mana potions', 2000) wait(1000)\nend",
 			"exDescription": "Will show a warning if you don't have a hotkey on the client to use mana potions on yourself."
 		}
 	]
