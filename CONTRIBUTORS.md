@@ -3,3 +3,4 @@
 - [jakub](http://forums.tibiawindbot.com/member.php?55-jakub)
 - [Colandus](http://forums.tibiawindbot.com/member.php?1569-Colandus)
 - [Donatello](http://forums.tibiawindbot.com/member.php?15-Donatello)
+- [gallinf](http://forums.tibiawindbot.com/member.php?19195-gallinf)
