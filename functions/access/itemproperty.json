@@ -15,7 +15,7 @@
 			],
 			"description": "Returns <i>true</i> if the bit <i>flagtocheck</i> is set on the flags of the item <i>itemname</i>. Otherwise, it returns <i>false</i>.",
 			"ex": "print(itemproperty('gold coin', ITEMPROPERTIES_STACKABLE))",
-			"exDescription": "Will check if the 'stackable' property is set on the item 'gold coin'. Same example as provided for <a href=\"lua-functions.html#itemflags\">itemflags.</a>"
+			"exDescription": "Will check if the 'stackable' property is set on the item 'gold coin'. Same example as provided for <a href=\"docs.html#function-itemflags\">itemflags.</a>"
 		}
 	]
 }

@@ -23,7 +23,7 @@
 			],
 			"description": "Returns <i>true</i> if you are able to reach the specified location by walking there, <i>false</i> otherwise. Only the tiles on screen are considered unless you set the optional parameter <i>fullreach</i> to true in which case the bot will try to find a path through the tiles in a 256x256 box around your location, which is much slower.",
 			"ex": "if not tilereachable($attacked.posx, $attacked.posy, $attacked.posz) then\n\tignorecreature($attacked)\nend",
-			"exDescription": "Will ignore the currently attacked creature if it's not reachable. Be careful, because it will only unignore it when you call <a href=\"lua-functions.html#ignorecreature\"><b>ignorecreature</b></a> again"
+			"exDescription": "Will ignore the currently attacked creature if it's not reachable. Be careful, because it will only unignore it when you call <a href=\"docs.html#functions-ignorecreature\"><b>ignorecreature</b></a> again"
 		}
 	]
 }
