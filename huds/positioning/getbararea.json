@@ -9,7 +9,7 @@
 					"name": "creaturepointer"
 				}
 			],
-			"description": "Returns a table with the coordinates of the rectangular area (<i>.left</i>, <i>.right</i>, <i>.top</i>, <i>.bottom</i>, <i>.centerx</i> and <i>.centery</i>) right below the health bar of the creature <i>creaturepointer</i> is drawn. It's position is relative to <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.left and <a href=\"lua-variables.html#$worldwin\">$worldwin</a>.top.",
+			"description": "Returns a table with the coordinates of the rectangular area (<i>.left</i>, <i>.right</i>, <i>.top</i>, <i>.bottom</i>, <i>.centerx</i> and <i>.centery</i>) right below the health bar of the creature <i>creaturepointer</i> is drawn. It's position is relative to <a href=\"docs.html#variables-worldwin\">$worldwin</a>.left and <a href=\"docs.html#variables-worldwin\">$worldwin</a>.top.",
 			"ex": "auto(200)\nsetposition($worldwin.left, $worldwin.top)\nsetbordercolor(-1)\n\nlocal r = getbararea($self)\nif ( r ) then\n\tlocal mppc = $mppc/100\n\tsetfillstyle('color', 0)\n\tdrawrect(r.left, r.top, 26, 3)\n\n\tsetfillstyle('color', 0x02266FF)\n\tdrawrect(r.left + 1, r.top + 1, 24*mppc, 1)\nend",
 			"exDescription": "Draws a mana bar right below your health bar."
 		}

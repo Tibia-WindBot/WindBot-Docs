@@ -9,7 +9,7 @@
 					"name": "opentype"
 				}
 			],
-			"description": "Asks the Open windows at login system to reopen your 'back' item and all openable items within. Optionally, you can specify 'open', 'minimized', 'small' as the <i>opentype</i> parameter to indicate the action to be performed after opening each container. This function returns immediately as it doesn't perform the events itself. To find out if the open backpacks system is currently opening windows, check the <a href=\"lua-variables.html#$openingbps\">$openingbps</a> variable.",
+			"description": "Asks the Open windows at login system to reopen your 'back' item and all openable items within. Optionally, you can specify 'open', 'minimized', 'small' as the <i>opentype</i> parameter to indicate the action to be performed after opening each container. This function returns immediately as it doesn't perform the events itself. To find out if the open backpacks system is currently opening windows, check the <a href=\"docs.html#variables-openingbps\">$openingbps</a> variable.",
 			"ex": "reopenwindows('small')\nwhile $openingbps do\n\twait(300, 500)\nend",
 			"exDescription": "Will start opening your backpacks, resizing them to small, and wait until it's done."
 		}
