@@ -1,0 +1,21 @@
+{
+  "name": "WindDocs",
+  "version": "0.0.0",
+  "description": "WindBot Documentation",
+  "devDependencies": {
+    "walk": "2.3.3",
+    "utest": "0.0.8",
+    "string.prototype.endswith": "0.2.0"
+  },
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmobis/WindBot-Docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmobis/WindBot-Docs/issues"
+  },
+  "homepage": "http://tibiawindbot.com/docs.html"
+}
