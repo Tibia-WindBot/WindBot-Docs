@@ -17,8 +17,8 @@
 					"name": "name2, ..."
 				}
 			],
-			"description": "Returns the best ground position to shoot a 4x4 area rune and the amount of creatures on its range. Optionally, you can specify as many names as you want to only be considered as the following <i>namex</i> parameters.",
-			"ex": "auto(200, 400)\nlocal pos = getarearunetile(false, "Dragon", "Dragon Lord")\nif pos.amount >= 3 then\n\tuseitemon("Avalanche Rune", 0, pos.tile) waitping(1, 2)\nend",
+			"description": "Returns the best ground position to shoot a 3x3 area rune and the amount of creatures on its range. Optionally, you can specify as many names as you want to only be considered as the following <i>namex</i> parameters.",
+			"ex": "auto(200, 400)\nlocal pos = getarearunetile(false, \"Dragon\", \"Dragon Lord\")\nif pos.amount >= 3 then\n\tuseitemon("Avalanche Rune", 0, pos.tile) waitping(1, 2)\nend",
 			"exDescription": "Will shoot an avalanche on the best spot where 3 or more dragons can be hit."
 		}
 	]
