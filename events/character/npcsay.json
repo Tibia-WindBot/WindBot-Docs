@@ -1,0 +1,17 @@
+{
+	"name": "npcsay",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "message"
+				}
+			],
+			"description": "Types the specified <i>message</i> NPCs channel.",
+			"ex": "npcsay('hi')\nwaitping()\nnpcsay('venore')\nwaitping()\nnpcsay('yes')",
+			"exDescription": "Will travel to Venore."
+		}
+	]
+}

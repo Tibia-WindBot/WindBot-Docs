@@ -1,0 +1,21 @@
+{
+	"name": "say",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "optional string",
+					"name": "channel"
+				},
+				{
+					"type": "string",
+					"name": "message"
+				}
+			],
+			"description": "Types the specified <i>message</i> in the specified <i>channel</i>. <i>channel</i> defaults to Local Chat.",
+			"ex": "say('how are you?')",
+			"exDescription": "Will ask your comrade how he is doing."
+		}
+	]
+}

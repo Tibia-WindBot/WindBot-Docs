@@ -1,0 +1,17 @@
+{
+	"name": "cast",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "message"
+				}
+			],
+			"description": "Casts the specified <i>message</i> Local Chat; uses a hotkey if there's any available.",
+			"ex": "if $hppc < 80 then\n\tcast('exura')\n\twait(200)\nend",
+			"exDescription": "Will cast exura if your HP drops below 80%."
+		}
+	]
+}
