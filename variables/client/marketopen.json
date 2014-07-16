@@ -1,0 +1,9 @@
+{
+	"name": "$marketopen",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the 'market window' is open, <i>false</i> otherwise."
+		}
+	]
+}

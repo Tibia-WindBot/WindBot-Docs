@@ -1,0 +1,15 @@
+{
+	"name": "removespecialarea",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "areaname"
+				}
+			],
+			"description": "Removes the special area named <i>areaname</i>."
+		}
+	]
+}

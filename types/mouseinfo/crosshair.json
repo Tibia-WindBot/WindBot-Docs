@@ -1,0 +1,9 @@
+{
+	"name": ".crosshair",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item ID that is currently assigned to the crosshair."
+		}
+	]
+}

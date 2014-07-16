@@ -1,0 +1,27 @@
+{
+	"name": "addspecialarea",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "type"
+				},
+				{
+					"type": "number",
+					"name": "posx"
+				},
+				{
+					"type": "number",
+					"name": "posy"
+				},
+				{
+					"type": "number",
+					"name": "posz"
+				}
+			],
+			"description": "Adds a special area of type <i>type</i> at position x: <i>posx</i>, y: <i>posy</i>, z: <i>posz</i>. Possible values for <i>type</i> are 'none', 'cavebot', 'targeting' or 'cavebot & targeting'."
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"name": "sellitemsmarket",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "price"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "optional bool",
+					"name": "createoffer"
+				},
+				{
+					"type": "optional bool",
+					"name": "offeranonymous"
+				}
+			],
+			"description": "Sell <i>amount</i> units of item <i>itemname</i> on market. It will always pick the best offer (most expensive item), that costs at least <i>price</i>. If you set <i>createoffer</i> to <i>true</i> it will create an offer for the item at price <i>price</i> if a good offer wasn't found on the current offers list. <i>offeranonymous</i> gives you the option to create an offer anonymously or not (defaults to true)."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "price"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				},
+				{
+					"type": "string",
+					"name": "character"
+				}
+			],
+			"description": "Allows you to sell an item on market from a specific <i>character</i> name."
+		}
+	]
+}

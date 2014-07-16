@@ -1,0 +1,15 @@
+{
+	"name": "removewaypoint",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "wptid"
+				}
+			],
+			"description": "Removes the waypoint with ID <i>wptid</i> from the waypoints list."
+		}
+	]
+}

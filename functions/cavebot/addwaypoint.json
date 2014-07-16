@@ -2,7 +2,7 @@
 	"name": "addwaypoint",
 	"invocations": [
 		{
-			"rettype": "string",
+			"rettype": null,
 			"args": [
 				{
 					"type": "string",
