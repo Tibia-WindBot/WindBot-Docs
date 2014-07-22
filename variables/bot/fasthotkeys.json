@@ -1,0 +1,9 @@
+{
+	"name": "$fasthotkeys",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if the client has fast hotkeys enabled (if it was enabled by wind addons), <i>false</i> otherwise."
+		}
+	]
+}
