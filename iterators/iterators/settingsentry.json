@@ -5,7 +5,7 @@
 			"varName": "e",
 			"param": "botSection",
 			"description": "Iterates through settings entry in the given <i>botSection</i>, the values are stored in the variable <i>e</i>. You can then access its settings by calling <a href=\"/docs.html#functions-getsetting\">getsetting</a> or <a href=\"/docs.html#functions-setsetting\">setsetting</a>, passing <i>e</i> as first parameter. <i>botSection</i> possible values are 'Cavebot/Waypoints', 'Cavebot/SpecialAreas' and 'Targeting/Creatures'.",
-			"ex": "local labels = {}\n\nforeach settingsentry e 'Cavebot/Waypoints' do\n\tlocal label = getsetting(e, 'Label')\n\n\tif label ~= '' then\n\t\ttable.insert(label)\n\tend\nend",
+			"ex": "local labels = {}\n\nforeach settingsentry e 'Cavebot/Waypoints' do\n\tlocal label = getsetting(e, 'Label')\n\n\tif label ~= '' then\n\t\ttable.insert(labels, label)\n\tend\nend",
 			"exDescription": "Will iterate through all waypoints and save all existing labels in the <i>labels</i> table."
 		}
 	]
