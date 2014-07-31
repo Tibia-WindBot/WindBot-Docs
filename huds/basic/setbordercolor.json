@@ -12,6 +12,16 @@
 			"description": "Will set the ARGB color for the border to be drawn around shapes. If you don't want a border for shapes pass -1 as the color. This function also sets the border color for texts, if a border width has been specified in the <a href=\"#setfontstyle\">setfontstyle</a> function.",
 			"ex": "setbordercolor(0xFFFFFF)\ndrawshape('rect', 0, 0, 40, 40)",
 			"exDescription": "Will draw a rectangle with a white border."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "colorname"
+				}
+			],
+			"description": "Will set the ARGB name for the border to be drawn around shapes. As <i>colorname</i> you can use 'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 'olive', 'pink', 'purple', 'red', 'silver', 'teal', 'white' or 'yellow'."
 		}
 	]
 }

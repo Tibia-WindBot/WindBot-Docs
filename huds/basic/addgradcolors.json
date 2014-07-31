@@ -28,6 +28,32 @@
 			"description": "Adds any amount of ARGB colors to a gradient, each at position ranging from 0.0 to 1.0.",
 			"ex": "addgradcolors(0, 0x666666, 1.0, 0xCCCCCC)\nsetfillstyle('gradient', 'linear', 0, 0, 0, 0, 40)\ndrawshape('rect', 0, 0, 60, 40)",
 			"exDescription": "Draws a 60x40 rectangle  using gradients. The colors will go from 'dark grey' to 'light grey'."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "pos1"
+				},
+				{
+					"type": "string",
+					"name": "color1"
+				},
+				{
+					"type": "number",
+					"name": "pos2"
+				},
+				{
+					"type": "string",
+					"name": "color2"
+				},
+				{
+					"type": "",
+					"name": "..."
+				}
+			],
+			"description": "Adds any amount of ARGB colors to a gradient, each at position ranging from 0.0 to 1.0. As color names you can use 'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 'olive', 'pink', 'purple', 'red', 'silver', 'teal', 'white' or 'yellow'."
 		}
 	]
 }

@@ -9,7 +9,17 @@
 					"name": "color"
 				}
 			],
-			"description": "Sets the font coor to <i>color</i>"
+			"description": "Sets the font color to <i>color</i>."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "colorname"
+				}
+			],
+			"description": "Sets the font color to <i>colorname</i>. As <i>colorname</i> you can use 'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 'olive', 'pink', 'purple', 'red', 'silver', 'teal', 'white' or 'yellow'."
 		}
 	]
 }

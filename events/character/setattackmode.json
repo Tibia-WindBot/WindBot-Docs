@@ -13,7 +13,7 @@
 					"name": "chasemode"
 				}
 			],
-			"description": "Sets the attack mode to <i>attackmode</i> and chase mode to <i>chasemod</i>. <i>attackmode</i> can be 'offensive', 'balanced' or 'defensive'. <i>chasemode</i> can be 'stand' or 'chase'.",
+			"description": "Sets the attack mode to <i>attackmode</i> and chase mode to <i>chasemode</i>. <i>attackmode</i> can be 'offensive', 'balanced' or 'defensive'. <i>chasemode</i> can be 'stand' or 'chase'.",
 			"ex": "setattackmode('offensive', 'chase')",
 			"exDescription": "Sets the client's attack mode to chase/offensive."
 		}

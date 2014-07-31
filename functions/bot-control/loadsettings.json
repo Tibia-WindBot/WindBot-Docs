@@ -1,0 +1,15 @@
+{
+	"name": "loadsettings",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "filexml"
+				}
+			],
+			"description": "Loads your settings from a WindBot XML file (\".xmlc\" and \".xml\" files will be loaded from your <i>cavebotsettings</i> folder, and \".xmls\" will be loaded from your <i>playersettings</i> folder."
+		}
+	]
+}

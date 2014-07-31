@@ -9,7 +9,7 @@
 					"name": "spell"
 				}
 			],
-			"description": "Return the amount of time in milliseconds until you can cast spell <i>spell</i> or 0 if you can cast it right away. The <i>spell</i> parameter can be either the spell name or the incantation.",
+			"description": "Return the amount of time in milliseconds until you can cast spell <i>spell</i> or 0 if you can cast it right away. The <i>spell</i> parameter can be the spell name, its incantation or spell group name.",
 			"ex": "if cooldown('exori max frigo') == 0 then\n\tcast('exori max frigo')\nelseif cooldown('strong ice strike') == 0 then\n\tcast('exori gran frigo')\nelse\n\tcast('exori frigo')\nend",
 			"exDescription": "Will try to cast 'ultimate ice strike', or 'strong ice strike' or 'ice strike'. Based on the spell's cooldown."
 		}

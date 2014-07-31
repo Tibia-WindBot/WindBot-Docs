@@ -22,6 +22,22 @@
 			"args": [
 				{
 					"type": null,
+					"name": "'color'"
+				},
+				{
+					"type": "string",
+					"name": "colorname"
+				}
+			],
+			"description": "Fills the drawn shapes with color <i>colorname</i>. As <i>colorname</i> you can use 'aqua', 'black', 'blue', 'fuchsia', 'gray', 'green', 'lime', 'maroon', 'navy', 'olive', 'pink', 'purple', 'red', 'silver', 'teal', 'white' or 'yellow'.",
+			"ex": "setfillstyle('color', 'pink')\ndrawshape('circle', 0, 0, 40, 40)",
+			"exDescription": "Draws a circle with diameter 40px. It will be filled with a 'pink' color."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": null,
 					"name": "'image'"
 				},
 				{

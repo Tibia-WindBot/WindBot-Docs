@@ -1,0 +1,9 @@
+{
+	"name": "$addons",
+	"invocations": [
+		{
+			"rettype": "table",
+			"description": "Returns a table containing the <i>profilename</i> as on Laucher Profile, the <i>clientid</i> it was attached and telling if it's <i>enabled</i> or not."
+		}
+	]
+}

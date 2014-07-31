@@ -1,0 +1,33 @@
+{
+	"name": "increaseamountused",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items <i>itemname</i> you used by <i>amount</i> units."
+		},
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "itemid"
+				},
+				{
+					"type": "number",
+					"name": "amount"
+				}
+			],
+			"description": "Will increase the amount of items with id <i>itemid</i> you used by <i>amount</i> units."
+		}
+	]
+}

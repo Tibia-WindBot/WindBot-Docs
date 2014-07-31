@@ -2,7 +2,7 @@
 	"name": "tileclickable",
 	"invocations": [
 		{
-			"rettype": "string",
+			"rettype": "boolean",
 			"args": [
 				{
 					"type": "number",

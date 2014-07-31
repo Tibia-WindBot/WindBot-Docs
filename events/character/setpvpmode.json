@@ -1,0 +1,19 @@
+{
+	"name": "setpvpmode",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "security"
+				},
+				{
+					"type": "string",
+					"name": "pvpmode"
+				}
+			],
+			"description": "Sets the pvp security to <i>security</i> and pvp mode to <i>pvpmode</i>. <i>security</i> can be 'normal' (when you want to attack other players), 'secure' (when you want to avoid miss clicks) or 'none' (don't change). <i>pvpmode</i> can be 'dove', 'white', 'yellow', 'red' or 'none'."
+		}
+	]
+}

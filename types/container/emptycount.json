@@ -1,0 +1,9 @@
+{
+	"name": ".emptycount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the container's empty slots capacity."
+		}
+	]
+}

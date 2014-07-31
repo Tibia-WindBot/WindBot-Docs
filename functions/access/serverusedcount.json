@@ -1,0 +1,15 @@
+{
+	"name": "serverusedcount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the count of items used with name <i>itemname</i> as seen in the 'Using one of <i>itemname</i>...' messages."
+		}
+	]
+}
