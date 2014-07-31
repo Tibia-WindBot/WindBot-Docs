@@ -19,6 +19,10 @@
 				{
 					"type": "optional string",
 					"name": "charname"
+				},
+				{
+					"type": "optional boolean",
+					"name": "usectrlg"
 				}
 			],
 			"description": "Reconnects the character named <i>charname</i> on the same account it was last used to the game world."
