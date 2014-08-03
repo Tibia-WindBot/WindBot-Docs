@@ -9,9 +9,9 @@
 					"name": "msg"
 				}
 			],
-			"description": "Will broadcast a message with content <i>msg</i> at your current navigation channel. You must be in a navi channel to use this function.",
-			"ex": "navsay('healme')",
-			"exDescription": "Will send everyone a message containing the message 'healme', possibly asking someone to heal you."
+			"description": "Will broadcast a message with content <i>msg</i> at your current navigation channel. You must be in a navi channel to use this function. To read a received message you must setup a <i>navmessages</i> function.",
+			"ex": "init start\n\tfunction navmessages(msg)\n\t\tprint(msg) -- will print information about the message you just received\n\tend\ninit end\n\nnavsay('healme')",
+			"exDescription": "Will send everyone a message containing the message 'healme', possibly asking someone to heal you.  And it will print every message you receive on your current navigation channel."
 		}
 	]
 }
