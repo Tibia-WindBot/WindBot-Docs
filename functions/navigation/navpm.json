@@ -13,9 +13,9 @@
 					"name": "msg"
 				}
 			],
-			"description": "Will send a private message with content <i>msg</i> using the navigation system to the character <i>charname</i>. The character must be in the same navigation channel as you, and you must be in a navi channel to use this function.",
-			"ex": "navpm('bubble', 'combo ' .. $attacked.name)",
-			"exDescription": "Will send a private message to Bubble asking him to issue a combo at your currently attacked creature."
+			"description": "Will send a private message with content <i>msg</i> using the navigation system to the character <i>charname</i>. The character must be in the same navigation channel as you, and you must be in a navi channel to use this function. To read a received message you must setup a <i>navmessages</i> function.",
+			"ex": "init start\n\tfunction navmessages(msg)\n\t\tprint(msg) -- will print information about the message you just received\n\tend\ninit end\n\nnavpm('bubble', 'combo ' .. $attacked.name)",
+			"exDescription": "Will send a private message to Bubble asking him to issue a combo at your currently attacked creature. And it will print every message you receive on your current navigation channel."
 		}
 	]
 }
