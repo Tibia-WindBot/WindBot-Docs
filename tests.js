@@ -4,7 +4,7 @@ var fs     = require('fs'),
     test   = require('utest'),
     walk   = require('walk'),
     assert = require('assert'),
-    walker = walk.walk(__dirname, {filters: ['node_modules', '.git']});
+    walker = walk.walk(__dirname, {filters: ['node_modules', '.git', '_build']});
 
 var tests = {},
     testFunction = function(filePath) {

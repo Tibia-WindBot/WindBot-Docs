@@ -5,7 +5,9 @@
   "devDependencies": {
     "walk": "2.3.3",
     "utest": "0.0.8",
-    "string.prototype.endswith": "0.2.0"
+    "markdown": "0.5.0",
+    "string.prototype.endswith": "0.2.0",
+    "string.prototype.startswith": "0.2.0"
   },
   "scripts": {
     "test": "node tests.js"
