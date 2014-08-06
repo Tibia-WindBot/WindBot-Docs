@@ -6,16 +6,7 @@ var fs     = require('fs'),
     assert = require('assert'),
     walker = walk.walk(__dirname, {filters: ['node_modules', '.git', '_build']});
 
-var tests = {},
-    testFunction = function(filePath) {
-    	console.log('hi1');
-    	fs.readFile(filePath, function(err, data) {
-    		if (err) throw err;
-
-    		JSON.parse(data);
-    		console.log('hi2');
-    	});
-    };
+var tests = {};
 
 walker.on('file', function(root, fileStats, next) {
 	if (fileStats.name.endsWith('.json')) {
