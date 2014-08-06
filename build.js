@@ -5,13 +5,13 @@ var fs  = require('fs'),
 	cry = require('crypto');
 
 function requireItem(pathPieces) {
-	pathPieces.unshift(__dirname + '/..');
+	pathPieces.unshift(__dirname);
 	return require(pathPieces.join('/'));
 }
 
 function replaceHashInFile(filePath, key, value) {
 	var hash = cry.createHash('md5').update(key).digest('hex'),
-	    fileContent = fs.readFileSync('_' + filePath).toString();
+	    fileContent = fs.readFileSync(filePath.replace('.', '_.')).toString();
 
 	fs.writeFileSync(
 		filePath,
@@ -22,7 +22,7 @@ function replaceHashInFile(filePath, key, value) {
 
 var docsData = []
 
-var moduleDirs = fs.readdirSync(__dirname + '/..');
+var moduleDirs = fs.readdirSync(__dirname);
 moduleDirs.forEach(function (moduleDir) {
 	if (moduleDir.indexOf('.') === -1) { // This is a directory
 
@@ -36,7 +36,7 @@ moduleDirs.forEach(function (moduleDir) {
 		var curModule = requireItem([moduleDir, '_index.json']);
 		curModule.items = [];
 
-		var sectionDirs = fs.readdirSync(__dirname + '/../' + moduleDir);
+		var sectionDirs = fs.readdirSync(__dirname + '/' + moduleDir);
 		sectionDirs.forEach(function (sectionDir) {
 			if (sectionDir !== '_index.json') {
 
@@ -44,7 +44,7 @@ moduleDirs.forEach(function (moduleDir) {
 				var curSection = requireItem([moduleDir, sectionDir, '_index.json']);
 				curSection.items = [];
 
-				var entryFiles = fs.readdirSync(__dirname + '/../' + moduleDir + '/' + sectionDir);
+				var entryFiles = fs.readdirSync(__dirname + '/' + moduleDir + '/' + sectionDir);
 				entryFiles.forEach(function (entryFile) {
 					if (entryFile !== '_index.json') {
 						curSection.items.push(requireItem([moduleDir, sectionDir, entryFile]));
@@ -61,14 +61,14 @@ moduleDirs.forEach(function (moduleDir) {
 
 // Replace docsData
 replaceHashInFile(
-	'docs.js',
+	'_build/docs.js',
 	'docsData',
 	JSON.stringify(docsData)
 );
 
 // Replace contributors list
 replaceHashInFile(
-	'docs.html',
+	'_build/docs.html',
 	'contributors',
-	md.toHTML(fs.readFileSync(__dirname + '/../CONTRIBUTORS.md').toString())
+	md.toHTML(fs.readFileSync(__dirname + '/CONTRIBUTORS.md').toString())
 );
