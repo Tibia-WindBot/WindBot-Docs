@@ -1,0 +1,12 @@
+{
+	"name": "deadcreature",
+	"invocations": [
+		{
+			"varName": "c",
+			"param": null,
+			"description": "Iterates through  through each new dead creature, storeing its pointer in the variable <i>c</i>. For more information, visit <a href=\"docs.html#types-creature\">this</a>.",
+			"ex": "auto(100)\n\nforeach deadcreature c do\n\tprint(c.name .. ' died on ' .. table.concat({c.posx, c.posy, c.posz}, ', '))\nend",
+			"exDescription": "As soon as a creature dies, prints its name and the position where the body can be found."
+		}
+	]
+}

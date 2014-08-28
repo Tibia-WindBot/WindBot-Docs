@@ -1,0 +1,39 @@
+{
+	"name": "drawimage",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "spelliconid"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "optional number",
+					"name": "srcx"
+				},
+				{
+					"type": "optional number",
+					"name": "srcy"
+				},
+				{
+					"type": "optional number",
+					"name": "srcw"
+				},
+				{
+					"type": "optional number",
+					"name": "srch"
+				}
+			],
+			"description": "Draws the image named <i>filename</i> (from your WindBot/images folder) at coordinates x, y; <i>srcx</i>, <i>srcy</i> can be used to draw the image using an offset, good for sprite images; <i>srcw</i> and <i>srch</i> are the sprite image's width and height respectively."
+		}
+	]
+}

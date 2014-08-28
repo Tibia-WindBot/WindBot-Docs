@@ -6,18 +6,26 @@
 			"args": [
 				{
 					"type": "number",
-					"name": "posx"
+					"name": "tox"
 				},
 				{
 					"type": "number",
-					"name": "posy"
+					"name": "toy"
 				},
 				{
 					"type": "number",
-					"name": "posz"
+					"name": "toz"
+				}
+				{
+					"type": "optional number",
+					"name": "fromx"
+				},
+				{
+					"type": "optional number",
+					"name": "fromy"
 				}
 			],
-			"description": "Returns <i>true</i> if nothing is obstructing the throw/shoot path between you and the tile at location x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>, <i>false</i> otherwise..",
+			"description": "Returns <i>true</i> if nothing is obstructing the throw/shoot path between the tile at <i>fromx</i> and <i>fromy</i> and the tile at location x:<i>posx</i>, y:<i>posy</i>, z:<i>posz</i>, <i>false</i> otherwise; <i>fromx</i> and <i>fromy</i> default to your current location.",
 			"ex": "if tileshootable($attacked.posx, $attacked.posy, $attacked.posz) then\n\tuseoncreature('sudden death rune', $attacked)\nend",
 			"exDescription": "Will shoot a 'sudden death rune' on the current attacked creature if there's nothing obstructing the path."
 		}
