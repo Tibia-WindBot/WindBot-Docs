@@ -15,7 +15,7 @@
 				{
 					"type": "number",
 					"name": "toz"
-				}
+				},
 				{
 					"type": "optional number",
 					"name": "fromx"
