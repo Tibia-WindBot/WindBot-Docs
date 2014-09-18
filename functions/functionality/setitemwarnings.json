@@ -10,8 +10,8 @@
 				}
 			],
 			"description": "Will enable item warnings for the scripts that calls this function if <i>val</i> is equals to <i>true</i>, and disable it otherwise. The item warnings are warnings in the console if you tried to get item info of an item that doesn't exist in the database. For example: itemid('goldddcoin'). This would raise a warning message, because 'goldddcoin' wasn't found in the bot's database.",
-			"ex": "setitemwarnings",
-			"exDescription": "Will connect your character to the game-world. Once started, the script can take up to 25 seconds to be executed."
+			"ex": "setitemwarnings(false)\nif itemcount(\"Abyssador Slash\") > 0 then\n\tbeep()\nend\nsetitemwarnings(true)",
+			"exDescription": "This will beep if the item 'Abyssador Slash' has been found in your backpack, however this item doesn't exist, it was spelled wrong (the correct name is \"Abyssador's Lash\"). But setitemwarnings disabled the item error message, so the console didn't show it. By default, item warnings are always enabled in the bot."
 		}
 	]
 }
