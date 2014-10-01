@@ -9,9 +9,9 @@
 					"name": "direction"
 				}
 			],
-			"description": "Moves your character in the specified direction. <i>direction</i> can be: 'n', 'e', 's', 'w', 'ne', 'se', 'sw' or 'nw'.",
+			"description": "Moves your character 1 tile in the specified direction. Possible values for <i>direction</i> are 'n', 'e', 's', 'w', 'ne', 'se', 'sw' and 'nw'.",
 			"ex": "auto(100)\nif (paround(9) > 0 and not $pzone) then\n\tmove('s') wait(300,500)\nend",
-			"exDescription": "Checks if there are players on your screen and if you are in a protection zone. If there are players around and you aren't in a protection zone, it will move you to the south."
+			"exDescription": "Performs a check every 100 milliseconds if there are players on your screen and if you are in a protection zone. If there are players around and you aren't in a protection zone, it will move you to the south."
 		}
 	]
 }
