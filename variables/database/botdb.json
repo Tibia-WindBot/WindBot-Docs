@@ -3,7 +3,9 @@
 	"invocations": [
 		{
 			"rettype": "database",
-			"description": "Used to access the general bot database (/data/windbot.db)."
+			"description": "Used to access the general bot database (/data/windbot.db). This database is shared between all characters the bot is use for. This database applies to all bots, not just the instance writing to a database (i.e. opening another WindBot for another client will have the $botdb shared.)",
+			"ex": "init start\nlocal accounts = {\n    { \"1234567\", \"mypassword2\", \"Bubble\" }\n}\nlocal TIME_HOUR = (1000 * 60 * 60)\ninit end\n\nauto(1000, 2000)\nfor key, account in ipairs(accounts) do\n    local time = tonumber($botdb:getvalue(\"loggedin\", account[3])) or \"0\")\n    if (time <= (os.time() - (2 * TIME_HOUR))) then\n        connect(account[1], account[2], account[3])\n        $botdb:setvalue(tostring(os.time()))\n    end\nend\n",
+			"exDescription": "Will check the database for a stored last login time of Bubble, and if greater than 2 hours ago, log in that character and overwrite the database with the new time."
 		}
 	]
 }
