@@ -9,9 +9,9 @@
 					"name": "message"
 				}
 			],
-			"description": "Types the specified <i>message</i> NPCs channel.",
-			"ex": "npcsay('hi')\nwaitping()\nnpcsay('venore')\nwaitping()\nnpcsay('yes')",
-			"exDescription": "Will travel to Venore."
+			"description": "Types and sends <i>message</i> in the NPCs channel. The channel must be opened first.",
+			"ex": "-- we don't know if the NPCs channel is open\nif (ischannel(\"NPCs\")) then npcsay(\"hi\") else say(\"hi\") end\nwaitping()\n-- the npc channel should be open because the NPC spoke to us\nnpcsay(\"venore\")\nwaitping()\nnpcsay(\"yes\")",
+			"exDescription": "Will travel to Venore, when said to a boat NPC. The first line of code will check if the NPCs channel is open. If not, it will open it by prompting a response from an NPC with the Local Chat greeting."
 		}
 	]
 }
