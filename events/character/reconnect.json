@@ -9,9 +9,9 @@
 					"name": "usectrlg"
 				}
 			],
-			"description": "Reconnects you to the game world on last character played. If you pass <i>true</i> for <i>usectrlg</i>, it will reconnect by pressing Ctrl+G; this is specially useful when your connection times out and you're not sent back to the login screen.",
+			"description": "Reconnects you to the game server on the last character played. If <i>usectrlg</i> is <i>true</i> it will connect using Ctrl+G. This is useful when your connection times out and you're not sent back to the login screen.",
 			"ex": "auto(2500)\nif not $connected then\n\treconnect()\nend",
-			"exDescription": "Each 2500 milliseconds, it will check if you are connected. If not, it will reconnect to the last character you logged in."
+			"exDescription": "Each 2500 milliseconds, it will check if you are connected. If you are not, it will reconnect to the last character you logged in."
 		},
 		{
 			"rettype": null,
@@ -25,7 +25,7 @@
 					"name": "usectrlg"
 				}
 			],
-			"description": "Reconnects the character named <i>charname</i> on the same account it was last used to the game world."
+			"description": "Reconnects to the game server on the character <i>charname</i> which is on the same account as the character that was last played."
 		}
 	]
 }
