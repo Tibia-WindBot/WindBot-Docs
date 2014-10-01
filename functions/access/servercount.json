@@ -9,9 +9,9 @@
 					"name": "itemname"
 				}
 			],
-			"description": "Returns the count of item with name <i>itemname</i> as seen in the latest 'Using one of <i>itemname</i>...' message. It's called a server count because the server is counting the items for you while they don't have to be visible.",
+			"description": "Returns the last count of item <i>itename</i> provided by the server (as \"Using one of <i>itemname</i>...\"). Returns 0 if there has been no server count, if the <i>itemname</i> is not recognized or if the item has no distinguishable plural form  (\"Using one of <i>meat</i>...\") . To obtain a server count, assign an item to a hotkey and activate the hotkey (e.g. with useitem(<i>itemname</i>). The item does not need to be visible to count items this way.",
 			"ex": "auto(200)\nlistas('Mana Potions: ' ..servercount('mana potion')",
-			"exDescription": "Will show how many 'mana potions' you still have, based on the 'Using one of X mana potions...' message."
+			"exDescription": "Will show how many 'mana potions' you have, based on the last \"Using one of X mana potions...\" message. If the mana potion was used successfully then it will actually be 1 less than this amount."
 		}
 	]
 }
