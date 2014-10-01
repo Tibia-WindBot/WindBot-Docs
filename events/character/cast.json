@@ -9,8 +9,8 @@
 					"name": "message"
 				}
 			],
-			"description": "Casts the specified <i>message</i> Local Chat; uses a hotkey if there's any available.",
-			"ex": "if $hppc < 80 then\n\tcast('exura')\n\twait(200)\nend",
+			"description": "Casts the specified <i>message</i> in Local Chat. Uses a hotkey if available, otherwise types the string out.",
+			"ex": "auto(100, 200)\nif $hppc < 80 then\n\tcast('exura')\n\twait(200)\nend",
 			"exDescription": "Will cast exura if your HP drops below 80%."
 		}
 	]
