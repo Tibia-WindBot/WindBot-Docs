@@ -9,9 +9,9 @@
 					"name": "level"
 				}
 			],
-			"description": "If <i>level</i> is not specified, returns the amount of exp left for next level (same as <b>$exptonextlevel</b>). Otherwise, returns the amount of exp left for level <i>level</i>.",
-			"ex": "auto(2000)\nlistas(exptolevel())",
-			"exDescription": "Will show how much of experience is left to the next level."
+			"description": "Returns the experience to reach level <i>level</i>, or 0 if <i>level</i> is less than or equal to the character's level. If <i>level</i> is undefined it will return the experience to reach the next level, the same as <b>$exptonextlevel</b>.",
+			"ex": "auto(2000)\nlistas(exptolevel(8))",
+			"exDescription": "Will show how much experience you require to reach level 8."
 		}
 	]
 }
