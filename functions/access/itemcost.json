@@ -9,7 +9,7 @@
 					"name": "itemname"
 				}
 			],
-			"description": "Returns the best price to buy <i>itemname</i> from an NPC. This value is stored in the local (/tibiadata/items.xml) file. If <i>itemname</i> cannot be bought from any NPC it will return 0. If the mentioned file does not contain information on <i>itemname</i> it will throw an error and return 0. The error is caused by an internal call to itemid(<i>string</i>), making this essentially a sorter way to write <code>itemcost(itemid(<i>itemname</i>))</code>.",
+			"description": "Returns the best price to buy <i>itemname</i> from an NPC. This value is stored in the local (/tibiadata/items.xml) file. If <i>itemname</i> cannot be bought from any NPC it will return 0. If the mentioned file does not contain information on <i>itemname</i> it will throw an error and return 0. The error is caused by an internal call to itemid(<i>string</i>), making this essentially a shorter way to write <code>itemcost(itemid(<i>itemname</i>))</code>.",
 			"ex": "print(itemcost('mana potion'))",
 			"exDescription": "Will print '50' on the console."
 		},
