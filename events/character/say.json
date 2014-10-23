@@ -13,9 +13,9 @@
 					"name": "message"
 				}
 			],
-			"description": "Types the specified <i>message</i> in the specified <i>channel</i>. <i>channel</i> defaults to Local Chat.",
-			"ex": "say('how are you?')",
-			"exDescription": "Will ask your comrade how he is doing."
+			"description": "Sends <i>message</i> in the chat channel <i>channel</i>, or Local Chat if <i>channel</i> is unspecified. The <i>channel</i> must be exactly as it appears on the client interface, including any ellipses.",
+			"ex": "auto(120000, 180000)\nsay('Advertising', 'Selling boots of haste!')",
+			"exDescription": "Posts an advertisement for boots of haste in Advertising every 2-3 minutes."
 		}
 	]
 }
