@@ -3,7 +3,7 @@
 	"invocations": [
 		{
 			"rettype": "boolean",
-			"description": "Returns <i>true</i> if the creature can be hit with a distance weapon from your character current position, <i>false</i> otherwise."
+			"description": "Returns <i>true</i> if the creature can be hit with a distance weapon from your character's current position, <i>false</i> otherwise."
 		}
 	]
 }
