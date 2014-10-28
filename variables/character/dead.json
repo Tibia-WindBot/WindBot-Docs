@@ -1,0 +1,11 @@
+{
+	"name": "$dead",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if your character died, <i>false</i> otherwise.",
+			"ex": "auto(1000, 2500)\nif $dead then \n\tsetcavebot('off')\nend",
+			"exDescription": "Each 1000~2500 milliseconds, it will check you are dead and if it happens it'll turn the cavebot off."
+		}
+	]
+}

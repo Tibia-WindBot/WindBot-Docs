@@ -1,0 +1,11 @@
+{
+	"name": "$premium",
+	"invocations": [
+		{
+			"rettype": "boolean",
+			"description": "Returns <i>true</i> if you have a premium account, <i>false</i> otherwise.",
+			"ex": "auto(1000, 2500)\nif not $premium then \n\tbuyitemsmarket('premium scroll', 700000, 1, true, true)\nend",
+			"exDescription": "Each 1000~2500 milliseconds, check if you're premium and if you're not it'll buy a premium scroll in the market."
+		}
+	]
+}
