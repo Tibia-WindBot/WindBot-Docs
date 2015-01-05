@@ -4,7 +4,7 @@
 		{
 			"rettype": "string",
 			"description": "Returns the currently written text in the 'Edit text' window.",
-			"ex": "if $writtentext != 'Bubble\\nVenore' then\n\tprinterror('The label destination is wrong!')\nend",
+			"ex": "if $writtentext ~= 'Bubble\\nVenore' then\n\tprinterror('The label destination is wrong!')\nend",
 			"exDescription": "Will print an error if the label destination isn't written to 'Bubble', at 'Venore'. NOTE: new lines are indicated by the characters '\\n'."
 		}
 	]
