@@ -5,8 +5,8 @@
 			"rettype": "number",
 			"args": [
 				{
-					"type": "number",
-					"name": "spelliconid"
+					"type": "string",
+					"name": "filename"
 				},
 				{
 					"type": "number",
