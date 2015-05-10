@@ -5,7 +5,7 @@
 			"varName": "p",
 			"param": "creatureType",
 			"description": "Iterates through creatures in the client, the values are stored in the variable <i>p</i>. Optionally, you can specify kinds of creatures to consider. Possibilities are: <i>p</i> for players, <i>m</i> for monsters, <i>n</i> for NPCs, <i>u</i> for summons, <i>f</i> for creatures on the same floor as you, <i>s</i> for creatures on your screen, <i>t</i> for shootable creatures, <i>r</i> for reachable creatures, <i>x</i> not you. You can group as many categories as you want. For more information about creatures, visit <a href=\"docs.html#types-creature\">this</a>",
-			"ex": "local lowestHealth\nforeach creature m 'ms' do\n\tif not lowestHealth or m.hppc < lowestHealth.hppc do\n\t\tlowestHealth = m\n\tend\nend\n\nprint('Monster with lowest health: '.. m.name ..', ID: '.. m.id ..', HPPC: '.. m.hppc)",
+			"ex": "local lowestHealth\nforeach creature m 'ms' do\n\tif not lowestHealth or m.hppc < lowestHealth.hppc then\n\t\tlowestHealth = m\n\tend\nend\n\nprint('Monster with lowest health: '.. m.name ..', ID: '.. m.id ..', HPPC: '.. m.hppc)",
 			"exDescription": "Will iterate through all the monsters ('m') on your screen ('s'). For each monster, it will check if its health is lower than the health of the monster store in the variable lowestHealth. In the end it will print the name of the monster with the lowest health."
 		}
 	]
