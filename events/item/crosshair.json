@@ -1,0 +1,21 @@
+{
+	"name": "crosshair",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "itemid"
+				},
+				{
+					"type": "optional number",
+					"name": "liquidtype"
+				}
+			],
+			"description": "Will make the bot only press the hotkey and show a crosshair, so you can use the item wherever you like, if WindAddons is enabled it'll create any item for you, otherwise only items previously set in the hotkeys will work. Optionally you specify the <i>liquidtype</i> you want to create if the <i>itemid</i> given is liquid container.",
+			"ex": "crosshair('vial', LIQUID_WATER)",
+			"exDescription": "Will create a crosshair of a 'vial of water' to use wherever you want."
+		}
+	]
+}

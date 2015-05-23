@@ -70,8 +70,8 @@
 				}
 			],
 			"description": "Uses item with id <i>idused</i> on item with id <i>idusedon</i>, which can be 0 if its location is the ground. If you don't want the usedon item to be looked for in all open backpacks, you can specify its location in the string <i>locationusedon</i>. Optionally you can specify the <i>idindex</i> which is the container position of the item you are going to use, if you have more than one with the same name.",
-			"ex": "local keycount = itemcount(\'silver key\')\nfor index=1,keycount do\n\tuseitemon(\'silver key\', 0, ground($posx-1, $posy, $posz), \'\', index) wait(300, 500) -- door located at your left\nend",
-			"exDescription": "It\'ll use all the silver keys you have in the door on your left side."
+			"ex": "local keycount = itemcount('silver key')\nfor index=1,keycount do\n\tuseitemon('silver key', 0, ground($posx-1, $posy, $posz), '', index) wait(300, 500) -- door located at your left\nend",
+			"exDescription": "It'll use all the silver keys you have in the door on your left side."
 		},
 		{
 			"rettype": null,
@@ -93,9 +93,9 @@
 					"name": "liquidtype"
 				}
 			],
-			"description": "Uses item with id <i>idused</i> on item with id <i>idusedon</i>, which can be 0 if its location is the ground. If you don't want the usedon item to be looked for in all open backpacks, you can specify its location in the string <i>locationusedon</i>. Optionally you can specify the <i>liquidtype</i> if the item you\'re going to use is liquid container (vials, mugs, cups).",
-			"ex": "useitemon(\'vial\', 0, ground(12345, 54321, 7), \'\', LIQUID_BLOOD)",
-			"exDescription": "It\'ll use a vial containing <i>blood</i> on the position coordinates 12345, 54321, 7."
+			"description": "Uses item with id <i>idused</i> on item with id <i>idusedon</i>, which can be 0 if its location is the ground. If you don't want the usedon item to be looked for in all open backpacks, you can specify its location in the string <i>locationusedon</i>. Optionally you can specify the <i>liquidtype</i> if the item you're going to use is liquid container (vials, mugs, cups).",
+			"ex": "useitemon('vial', 0, ground(12345, 54321, 7), '', LIQUID_BLOOD)",
+			"exDescription": "It'll use a vial containing <i>blood</i> on the position coordinates 12345, 54321, 7."
 		}
 	]
 }
