@@ -1,0 +1,41 @@
+{
+	"name": "drawicon",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "number",
+					"name": "iconid"
+				},
+				{
+					"type": "number",
+					"name": "x"
+				},
+				{
+					"type": "number",
+					"name": "y"
+				},
+				{
+					"type": "number",
+					"name": "zoom"
+				},
+				{
+					"type": "optional number",
+					"name": "fillcolor"
+				},
+				{
+					"type": "optional number",
+					"name": "shadowcolor"
+				},
+				{
+					"type": "optional number",
+					"name": "shadowdepth"
+				}
+			],
+			"description": "Draws an icon from WindBot with id <i>iconid</i> at position x: <i>x</i>, y: <i>y</i>. The value <i>zoom</i> is used to resize the icon, if you pass it as 100, it will draw without any resizing, 50 will draw it with 50% the size, and so on. Optionally you can set the <i>fillcolor</i> for the icon aswell its shadow color and depth.",
+			"ex": "setposition($simulatedcursor.x, $simulatedcursor.y)\ndrawicon(1003, 0, 0, 100, 0xFFFFFF, 0, 2)\nauto(50)",
+			"exDescription": "Draw a white pointer icon indicating where the simulated mouse cursor is."
+		}
+	]
+}
