@@ -4,7 +4,7 @@
 		{
 			"rettype": "number",
 			"description": "Returns your character's vocation flags. None: 0; No-Vocation: 1; Knight: 2; Paladin: 4; Sorcerer: 8; Druid: 16.",
-			"ex": "if $voc == 2 then\n\tcast('exura ico') wait(300, 500)\nelseif $voc == 2 then\n\tcast('exura') wait(300, 500)\nend",
+			"ex": "if $voc == 2 then\n\tcast('exura ico') wait(300, 500)\nelseif $voc == 4 then\n\tcast('exura') wait(300, 500)\nend",
 			"exDescription": "Will cast 'wound cleansing' spell if you are a 'knight'. And 'light healing' spell if you are a 'paladin'."
 		}
 	]
