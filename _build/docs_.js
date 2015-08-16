@@ -126,7 +126,7 @@
     });
 
     if (window.location.hash) {
-        var $target = $(window.location.hash);
+        var $target = $(window.location.hash.replace(/:/g, '\\:'));
         if ($target.length === 1) {
             $target.find('> a').trigger('click');
             setTimeout(function() {
@@ -148,7 +148,7 @@
 
     $('#docs-search-results').on('click', 'a', function(e) {
         e.preventDefault();
-        var $target = $($(this).attr('href'));
+        var $target = $($(this).attr('href').replace(/:/g, '\\:'));
         if ($target.length === 1) {
             $('#docs-container li').removeClass('open');
             $target.find('> a').trigger('click');
