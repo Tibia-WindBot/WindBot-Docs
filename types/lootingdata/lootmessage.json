@@ -1,0 +1,9 @@
+{
+	"name": ".lootmessage",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the amount of items dropped. This differs from <a href=\"docs.html#types-lootingitem-amountlooted\">.amountlooted</a> in that this doesn't take into account whether you actually looted the item or not."
+		}
+	]
+}
