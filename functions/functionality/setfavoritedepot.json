@@ -1,0 +1,17 @@
+{
+	"name": "setfavoritedepot",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "number",
+					"name": "index"
+				}
+			],
+			"description": "Sets the value of the <a href=\"docs.html#variables-favoritedepot\">$favoritedepot</a> variable.",
+			"ex": "setfavoritedepot(1)\nopendepot()",
+			"exDescription": "Will set your favorite depot to 1 and open it."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "$favoritedepot",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your favorite depot index. This may be used by functions such as <i>opendepot</i> to determine which depot index should be used by default.",
+			"ex": "openitem(22796 + $favoritedepot)",
+			"exDescription": "Opens your favorite depot."
+		}
+	]
+}
