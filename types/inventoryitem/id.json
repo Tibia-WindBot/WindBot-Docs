@@ -1,0 +1,9 @@
+{
+	"name": ".id",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the item's ID.\n\n<div class=\"alert alert-danger\" role=\"alert\"><b>Warning:</b> this feature is only available in Tibia 11. For more information on Tibia 11 see <a target=\"_blank\" href=\"https://forums.tibiawindbot.com/showthread.php?111975-New-Game-Client-FAQ&p=462252#post462252\">this thread.</a></div>"
+		}
+	]
+}
