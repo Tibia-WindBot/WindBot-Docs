@@ -1,5 +1,5 @@
 {
 	"id": "custom-type",
 	"name": "Types",
-	"description": "These structures hold information about a specific type of data; they are only available on Tibia 11."
+	"description": "These structures hold information about a specific type of data; they are only available on Tibia 11. The new types are:\n\n<a target=\"_blank\" href=\"#inventoryitem\">inventoryitem</a>\n"
 }
