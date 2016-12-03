@@ -194,7 +194,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span1">
-						<a href="https://www.tibiawindbot.com/#"><img src="https://www.tibiawindbot.com/img/logo-footer.png" title="" alt=""></a>
+						<a href="#"><img src="https://www.tibiawindbot.com/img/logo-footer.png" title="" alt=""></a>
 					</div>
 					<div class="span7">
 						Lucas Terra, Brazil<br>
@@ -232,7 +232,7 @@
 					<ul class="docs-list">
 						{{#each items}}
 							<li id="{{../id}}-{{id}}">
-								<a href="https://www.tibiawindbot.com/#{{../id}}-{{id}}" class="docs-subheader" data-docs-id="{{docsId}}">
+								<a href="#{{../id}}-{{id}}" class="docs-subheader" data-docs-id="{{docsId}}">
 									<img class="down-arrow" src="https://www.tibiawindbot.com/img/chevron-down.png" alt="">
 									<img class="right-arrow" src="https://www.tibiawindbot.com/img/chevron-right.png" alt="">
 									{{name}}
@@ -242,7 +242,7 @@
 									{{#each items}}
 										{{#ifEq type 'custom-type'}}
 											<li id="{{../../../id}}-{{../../id}}-{{clearName ../name}}">
-												<a href="https://www.tibiawindbot.com/#{{../../../id}}-{{../../id}}-{{clearName ../name}}" class="docs-item" data-docs-id="{{../docsId}}">
+												<a href="#{{../../../id}}-{{../../id}}-{{clearName ../name}}" class="docs-item" data-docs-id="{{../docsId}}">
 													<img class="circle" src="https://www.tibiawindbot.com/img/circle.png" alt="">
 													{{name}}
 												</a>
@@ -250,14 +250,14 @@
 										{{else}}
 											{{#ifEq type 'widget'}}
 												<li id="{{../../../../id}}-{{../../../id}}-{{clearName ../../name}}">
-													<a href="https://www.tibiawindbot.com/#{{../../../../id}}-{{../../../id}}-{{clearName ../../name}}" class="docs-item" data-docs-id="{{../../docsId}}">
+													<a href="#{{../../../../id}}-{{../../../id}}-{{clearName ../../name}}" class="docs-item" data-docs-id="{{../../docsId}}">
 														<img class="circle" src="https://www.tibiawindbot.com/img/circle.png" alt="">
 														{{name}}
 													</a>
 												</li>
 											{{else}}
 												<li id="{{../../../../id}}-{{clearName ../../name}}">
-													<a href="https://www.tibiawindbot.com/#{{../../../../id}}-{{clearName ../../name}}" class="docs-item" data-docs-id="{{../../docsId}}">
+													<a href="#{{../../../../id}}-{{clearName ../../name}}" class="docs-item" data-docs-id="{{../../docsId}}">
 														<img class="circle" src="https://www.tibiawindbot.com/img/circle.png" alt="">
 														{{name}}
 													</a>
@@ -324,7 +324,7 @@
 		<p class="docs-desc">{{{description}}}</p>
 		<ul class="docs-group-list">
 			{{#each items}}
-				<li><a href="https://www.tibiawindbot.com/#{{../parentId}}-{{clearName name}}" data-docs-id="{{docsId}}">{{name}}</a></li>
+				<li><a href="#{{../parentId}}-{{clearName name}}" data-docs-id="{{docsId}}">{{name}}</a></li>
 			{{/each}}
 		</ul>
 	</script>
@@ -369,7 +369,7 @@
 			{{#each this}}
 				{{#ifEq type 'custom-type'}}
 					<li>
-						<a href="https://www.tibiawindbot.com/#{{../parentId}}-{{../groupId}}-{{clearName ../name}}" class="docs-subheader docs-search-item">
+						<a href="#{{../parentId}}-{{../groupId}}-{{clearName ../name}}" class="docs-subheader docs-search-item">
 							<img class="circle" src="https://www.tibiawindbot.com/img/circle.png" alt="">
 							<img class="type" src="https://www.tibiawindbot.com/img/{{image}}" alt="">
 							{{name}}
@@ -377,7 +377,7 @@
 					</li>
 				{{else}}
 					<li>
-						<a href="https://www.tibiawindbot.com/#{{../parentId}}-{{clearName ../name}}" class="docs-subheader docs-search-item">
+						<a href="#{{../parentId}}-{{clearName ../name}}" class="docs-subheader docs-search-item">
 							<img class="circle" src="https://www.tibiawindbot.com/img/circle.png" alt="">
 							<img class="type" src="https://www.tibiawindbot.com/img/{{image}}" alt="">
 							{{name}}
