@@ -3,3 +3,5 @@
  node_js:
    - "6.9.1"
    - "7.2.0"
+ notifications:
+   slack: windbot:VR83YRFqeF9kdL82PjAf8xfJ
