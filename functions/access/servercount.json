@@ -9,25 +9,9 @@
 					"name": "itemname"
 				}
 			],
-			"description": "Returns the last count of item <i>itename</i> in your inventory and equipment slots. Returns 0 if <i>itemname</i> is not recognized. The item does not need to be visible to count items this way.",
-			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount('Crystalline Arrow')",
-			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will count items in your equipment slots."
-		},
-		{
-			"rettype": "number",
-			"args": [
-				{
-					"type": "string",
-					"name": "itemname"
-				},
-				{
-					"type": "bool",
-					"name": "ignoreequips"
-				}
-			],
-			"description": "Returns the last count of item <i>itename</i>. Returns 0 if the <i>itemname</i> is not recognized. The item does not need to be visible to count items this way. If you pass true it will to ignoreequips it won't count your equipment slots.",
-			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount('Crystalline Arrow', true)",
-			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will not count the ones in your equipment slots.\n\n<div class=\"alert alert-danger\" role=\"alert\"><b>Warning:</b> this feature is only available with ignoreequips in Tibia 11. For more information on Tibia 11 see <a target=\"_blank\" href=\"https://forums.tibiawindbot.com/showthread.php?111975-New-Game-Client-FAQ&p=462252#post462252\">this thread.</a></div>"
+			"description": "Returns the last count of item <i>itename</i> provided by the server (as \"Using one of <i>itemname</i>...\"). Returns 0 if there has been no server count, if the <i>itemname</i> is not recognized or if the item has no distinguishable plural form  (\"Using one of <i>meat</i>...\") . To obtain a server count, assign an item to a hotkey and activate the hotkey (e.g. with useitem(<i>itemname</i>). The item does not need to be visible to count items this way.",
+			"ex": "auto(200)\nlistas('Mana Potions: ' ..servercount('mana potion')",
+			"exDescription": "Will show how many 'mana potions' you have, based on the last \"Using one of X mana potions...\" message. If the mana potion was used successfully then it will actually be 1 less than this amount."
 		}
 	]
 }
