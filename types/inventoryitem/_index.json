@@ -1,0 +1,5 @@
+{
+	"id": "inventoryitem",
+	"name": "inventoryitem",
+	"description": "An inventoryitem holds information about items in your inventory. It does not need to be in an opened container to access the information about it."
+}
