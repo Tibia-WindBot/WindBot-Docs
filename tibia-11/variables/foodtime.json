@@ -1,0 +1,11 @@
+{
+	"name": "$foodtime",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns the number of milliseconds for which you are fed.",
+			"ex": "auto(5000)\nif $foodtime <= 1000 * 60 then\n\tuseitem(\"brown mushroom\")\nend",
+			"exDescription": "This persistent hotkey script will check if you have less than 1 minute of food left. If you do not it will eat a brown mushroom."
+		}
+	]
+}

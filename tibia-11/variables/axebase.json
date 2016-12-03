@@ -1,0 +1,9 @@
+{
+	"name": "$axebase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's axe fighting skill without equipment or status modifiers."
+		}
+	]
+}

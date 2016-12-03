@@ -1,0 +1,9 @@
+{
+	"name": "$fistbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's fist fighting skill without equipment or status modifiers."
+		}
+	]
+}
