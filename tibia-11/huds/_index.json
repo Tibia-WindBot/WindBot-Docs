@@ -1,0 +1,5 @@
+{
+	"id": "hud",
+	"name": "HUDs",
+	"description": "These functions are used to enhance HUD experience; they are only available on Tibia 11."
+}

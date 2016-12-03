@@ -1,0 +1,5 @@
+{
+	"id": "event",
+	"name": "Events",
+	"description": "These functions issue an event; they are only available on Tibia 11."
+}

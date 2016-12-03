@@ -345,7 +345,36 @@
 							{{#ifEq ../../../../type 'custom-type'}}
 								{{{include "docs-custom-type" parent=../../../../..}}}
 							{{else}}
-								{{{include "docs-widget" parent=../../../../..}}}
+								{{#ifEq ../../../../../type 'widget'}}
+									{{{include "docs-widget" parent=../../../../../..}}}
+								{{else}}
+
+
+									{{#ifEq ../../../../../../groupId 'function'}}
+										{{{include "docs-function" parent=../../../../../../..}}}
+									{{else}}
+										{{#ifEq ../../../../../../../groupId 'hud'}}
+											{{{include "docs-function" parent=../../../../../../../..}}}
+										{{else}}
+											{{#ifEq ../../../../../../../../groupId 'event'}}
+												{{{include "docs-function" parent=../../../../../../../../..}}}
+											{{else}}
+												{{#ifEq ../../../../../../../../groupId 'variable'}}
+													{{{include "docs-variable" parent=../../../../../../../../../..}}}
+												{{else}}
+													{{#ifEq ../../../../../../../../groupId 'iterator'}}
+														{{{include "docs-iterator" parent=../../../../../../../../../../..}}}
+													{{else}}
+														{{{include "docs-custom-type" parent=../../../../../../../../../../..}}}
+													{{/ifEq}}
+												{{/ifEq}}
+											{{/ifEq}}
+										{{/ifEq}}
+									{{/ifEq}}
+
+
+
+								{{/ifEq}}
 							{{/ifEq}}
 						{{/ifEq}}
 					{{/ifEq}}
@@ -354,7 +383,7 @@
 			<p class="lua-description">{{{description}}}</p>
 			{{#if ex}}
 				{{#if exImage}}
-					<img src="img/{{exImage}}" style="margin: 0 auto; display: block;"/>
+					<img src="https://www.tibiawindbot.com/img/{{exImage}}" style="margin: 0 auto; display: block;"/>
 				{{/if}}
 				<pre class="prettyprint lang-lua linenums">{{ex}}</pre>
 				<p class="lua-description">{{{exDescription}}}</p>
