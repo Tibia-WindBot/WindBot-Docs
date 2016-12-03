@@ -10,7 +10,7 @@
 				}
 			],
 			"description": "Returns the last count of item <i>itename</i> in your depot and mail inbox. Returns 0 if <i>itemname</i> is not recognized. The item does not need to be visible to count items this way.",
-			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..depotcount(15793)",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..depotcount(15793))",
 			"exDescription": "Will show how many 'Crystalline Arrows' you have in your depot. Will count items in your equipment slots.\n\n<div class=\"alert alert-info\" role=\"alert\"><b>Info:</b> In order to use this function you must first open the market. If you modify the contents of the depot, this function will not update until the market is opened again.</div>"
 		},
 		{
@@ -22,7 +22,7 @@
 				}
 			],
 			"description": "Returns the last count of item <i>itename</i> in your depot and mail inbox. Returns 0 if <i>itemname</i> is not recognized. The item does not need to be visible to count items this way.",
-			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..depotcount('Crystalline Arrow')",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..depotcount('Crystalline Arrow'))",
 			"exDescription": "Will show how many 'Crystalline Arrows' you have in your depot. Will count items in your equipment slots.\n\n<div class=\"alert alert-info\" role=\"alert\"><b>Info:</b> In order to use this function you must first open the market. If you modify the contents of the depot, this function will not update until the market is opened again.</div>"
 		}
 	]
