@@ -359,10 +359,10 @@
 											{{#ifEq ../../../../../../../../groupId 'event'}}
 												{{{include "docs-function" parent=../../../../../../../../..}}}
 											{{else}}
-												{{#ifEq ../../../../../../../../groupId 'variable'}}
+												{{#ifEq ../../../../../../../../../groupId 'variable'}}
 													{{{include "docs-variable" parent=../../../../../../../../../..}}}
 												{{else}}
-													{{#ifEq ../../../../../../../../groupId 'iterator'}}
+													{{#ifEq ../../../../../../../../../../groupId 'iterator'}}
 														{{{include "docs-iterator" parent=../../../../../../../../../../..}}}
 													{{else}}
 														{{{include "docs-custom-type" parent=../../../../../../../../../../..}}}
