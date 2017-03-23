@@ -1,0 +1,9 @@
+{
+	"name": "$swordbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's sword fighting skill without equipment or status modifiers."
+		}
+	]
+}

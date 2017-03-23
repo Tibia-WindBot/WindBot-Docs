@@ -1,0 +1,17 @@
+{
+	"name": "cloudmessage",
+	"invocations": [
+		{
+			"rettype": null,
+			"args": [
+				{
+					"type": "string",
+					"name": "msg"
+				}
+			],
+			"description": "Will send a message with content <i>msg</i> to WindCloud. You must have WindCloud enabled for your character to use this function. The message will be displayed in your WindCloud messages.",
+			"ex": "cloudmessage('Hello, world!')",
+			"exDescription": "Will send a message containing the message 'Hello, world!' to WindCloud."
+		}
+	]
+}

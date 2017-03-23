@@ -1,0 +1,9 @@
+{
+	"name": "$fishingbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's fishing skill without equipment or status modifiers."
+		}
+	]
+}

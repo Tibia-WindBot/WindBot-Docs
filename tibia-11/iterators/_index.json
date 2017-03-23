@@ -1,0 +1,5 @@
+{
+	"id": "iterator",
+	"name": "Iterators",
+	"description": "These foreach iterators allow you to iterate through a list of data, like creatures, messages, effects, projectiles, etc; they are only available on Tibia 11."
+}

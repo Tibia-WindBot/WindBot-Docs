@@ -1,0 +1,9 @@
+{
+	"name": "$mlevelbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's magic level without equipment or status modifiers."
+		}
+	]
+}

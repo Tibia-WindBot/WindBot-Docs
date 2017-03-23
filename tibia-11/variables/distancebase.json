@@ -1,0 +1,9 @@
+{
+	"name": "$distancebase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's distance fighting skill without equipment or status modifiers."
+		}
+	]
+}

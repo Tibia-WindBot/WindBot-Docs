@@ -1,0 +1,9 @@
+{
+	"name": "$clubbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's club fighting skill without equipment or status modifiers."
+		}
+	]
+}

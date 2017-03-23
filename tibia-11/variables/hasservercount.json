@@ -1,0 +1,11 @@
+{
+	"name": "$hasservercount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns true if the server supports servercount(). This is mostly used to make scripts compatible with OT servers. For more information on servercount() see <a href=\"docs.html#functions-servercount\">this</a>",
+			"ex": "if $hasservercount then\n\tprint(servercount(\"mana potion\"))\nelse\n\tprint(itemcount(\"mana potion\"))\nend ",
+			"exDescription": "This action script will check if the server supports server count. If it does it will print the servercount of mana potions. If it does not it will print the itemcount of mana potions."
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"id": "variable",
+	"name": "Variables",
+	"description": "These variables are used to access information about the bot and the client; they are only available on Tibia 11."
+}

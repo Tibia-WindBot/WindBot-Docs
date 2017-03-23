@@ -1,0 +1,11 @@
+{
+	"name": "$money",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's current money in your inventory. Includes all containers (open or closed).",
+			"ex": "if $money >= 1 then\n\tgotolabel('depositgold')\nend",
+			"exDescription": "This action script will check if the money in your inventory is greater than or equal to 1. If so, it will go to label 'depositgold'."
+		}
+	]
+}

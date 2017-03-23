@@ -1,0 +1,11 @@
+{
+	"name": "$hungry",
+	"invocations": [
+		{
+			"rettype": "bool",
+			"description": "Returns true if you are currently hungry.",
+			"ex": "auto(5000)\nif $hungry then\n\twhile $foodtime < 1000 * 60 * 5 do\n\t\tuseitem(\"brown mushroom\")\n\tend\nend",
+			"exDescription": "This persistent hotkey script will check if you are hungry. If you are it will eat brown mushrooms until you have eaten 5 minutes worth of food."
+		}
+	]
+}

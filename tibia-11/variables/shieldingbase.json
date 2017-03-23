@@ -1,0 +1,9 @@
+{
+	"name": "$shieldingbase",
+	"invocations": [
+		{
+			"rettype": "number",
+			"description": "Returns your character's shielding skill without equipment or status modifiers."
+		}
+	]
+}

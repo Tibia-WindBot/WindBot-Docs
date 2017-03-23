@@ -1,0 +1,10 @@
+{
+	"name": "depotitem",
+	"invocations": [
+		{
+			"varName": "i",
+			"param": null,
+			"description": "Iterates through all items in your depot, visible or not, as an inventoryitem object. For more information about inventory items visit <a href=\"docs.html#types-inventoryitem\">this</a>."
+		}
+	]
+}

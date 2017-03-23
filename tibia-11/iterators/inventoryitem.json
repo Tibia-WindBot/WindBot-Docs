@@ -1,0 +1,10 @@
+{
+	"name": "inventoryitem",
+	"invocations": [
+		{
+			"varName": "i",
+			"param": null,
+			"description": "Iterates through all items in your inventory, visible or not. For more information about inventory items visit <a href=\"docs.html#types-inventoryitem\">this</a>."
+		}
+	]
+}

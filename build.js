@@ -72,3 +72,10 @@ replaceHashInFile(
 	'contributors',
 	md.toHTML(fs.readFileSync(__dirname + '/CONTRIBUTORS.md').toString())
 );
+
+// Replace contributors list on local build
+replaceHashInFile(
+	'_build/local-docs.html',
+	'contributors',
+	md.toHTML(fs.readFileSync(__dirname + '/CONTRIBUTORS.md').toString())
+);

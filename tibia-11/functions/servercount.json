@@ -1,0 +1,61 @@
+{
+	"name": "servercount",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				}
+			],
+			"description": "Returns the last count of item <i>itename</i> in your inventory and equipment slots. Returns 0 if <i>itemname</i> is not recognized. The item does not need to be visible to count items this way.",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount('Crystalline Arrow'))",
+			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will count items in your equipment slots."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "int",
+					"name": "itemid"
+				}
+			],
+			"description": "Returns the last count of item with ID <i>itemid</i> in your inventory and equipment slots. Returns 0 if <i>itemid</i> is not recognized. The item does not need to be visible to count items this way.",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount(15793))",
+			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will count items in your equipment slots."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "itemname"
+				},
+				{
+					"type": "bool",
+					"name": "ignoreequips"
+				}
+			],
+			"description": "Returns the last count of item <i>itename</i>. Returns 0 if the <i>itemname</i> is not recognized. The item does not need to be visible to count items this way. If you pass true it will to ignoreequips it won't count your equipment slots.",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount('Crystalline Arrow', true))",
+			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will not count the ones in your equipment slots."
+		},
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "int",
+					"name": "itemid"
+				},
+				{
+					"type": "bool",
+					"name": "ignoreequips"
+				}
+			],
+			"description": "Returns the last count of item <i>itemid</i>. Returns 0 if the <i>itemid</i> is not recognized. The item does not need to be visible to count items this way. If you pass true it will to ignoreequips it won't count your equipment slots.",
+			"ex": "auto(200)\nlistas('Crystalline Arrows: ' ..servercount(15793, true))",
+			"exDescription": "Will show how many 'Crystalline Arrows' you have in your inventory. Will not count the ones in your equipment slots."
+		}
+	]
+}

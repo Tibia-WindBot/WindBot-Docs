@@ -1,0 +1,17 @@
+{
+	"name": "gettool",
+	"invocations": [
+		{
+			"rettype": "number",
+			"args": [
+				{
+					"type": "string",
+					"name": "tooltype"
+				}
+			],
+			"description": "Returns the ID of the tool as selected in the WindBot tools cavebot options. Tool type can be any of 'rope', 'shovel', 'machete', or 'pick'. If the selected tool is not available, it will look for one in your inventory. If there is still no tool available, returns 0.",
+			"ex": "auto(200)\nlistas('Shovel to Use: ' ..tooltype('shovel'))",
+			"exDescription": "Will show which shovel the user has opted to use if available, else one which is available, else 0."
+		}
+	]
+}
