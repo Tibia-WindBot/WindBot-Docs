@@ -5,3 +5,4 @@
 - [Donatello](http://forums.tibiawindbot.com/member.php?15-Donatello)
 - [gallinf](http://forums.tibiawindbot.com/member.php?19195-gallinf)
 - [Alanc](https://forums.tibiawindbot.com/member.php?41880-Alanc)
+- [Ashwalker](https://forums.tibiawindbot.com/member.php?208669-Ashwalker)

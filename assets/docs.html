@@ -32,19 +32,14 @@
 	<![endif]-->
 	
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico" >
-	<!-- Styles -->
-	<link href="css/styles.css" rel="stylesheet">
-	<!-- Styles -->
-	<link href="css/prettify.css" rel="stylesheet">
-	<!-- Font Avesome Styles -->
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
-  	<!--[if IE 7]><link href="font-awesome/css/font-awesome-ie7.css" rel="stylesheet"><![endif]-->
+	<link rel="shortcut icon" href="./img/favicon.ico" />
 
-	<!-- FlexSlider Style -->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
-	<!-- Docs -->
-	<link rel="stylesheet" href="css/docs.css">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/libs.css" />
+
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="./css/docs.css" />
+
 	<!-- Web Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet" type="text/css">
@@ -52,6 +47,7 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
 </head>
 <body>
 	<!-- Header -->
@@ -61,7 +57,7 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<!-- Logo -->
-					<a class="logo" href="index.html"><img src="img/logo-header.png" title="" alt=""></a>
+					<a class="logo" href="index.html"><img src="./img/logo-header.png" title="" alt=""></a>
 					<!-- Menu -->
 					<ul class="nav">
 						<li><a href="index.html" title="">Home</a></li>
@@ -94,8 +90,8 @@
 		</nav>
 	</header>
 	<!-- Header End-->
-	<!-- Content -->
 
+	<!-- Content -->
 	<div class="anchor" style="position:fixed; top: 0;"></div>
 
 	<div id="content">
@@ -130,7 +126,9 @@
 								<p class="docs-desc">
 									All these people have directly contributed to this project. We thank you all.
 								</p>
-								a8b2e39951bba535f313f563f6abaef6
+								<span class="auto-generated auto-generated-contributors">
+									a8b2e39951bba535f313f563f6abaef6
+								</span>
 							</div>
 						</div>
 					</span>
@@ -139,9 +137,8 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!-- End Content -->
+
 	<!-- Footer -->
 	<footer id="footer">
 		<div id="bottom-1">
@@ -150,33 +147,34 @@
 					<div class="span4">
 						<div class="footer-title">ABOUT US</div>
 						WindBot is a high quality automation and enhancement software that functions alongside the Tibia client. It works by sending mouse clicks and keyboard strokes, displaying it's own visuals on top, facilitating player communication and is customizable in many many ways.
-						<br><br>
+						<br /><br />
 						It was created by Lucas Terra, one of the main minds behind the success of NeoBot and ElfBot. It took several months of work and tests before...
-						<br><br>
+						<br /><br />
 						<a href="about-us.html" class="blue">Read more »</a>
 					</div>
 					<div class="span4">
 						<!-- Sections -->
 						<div class="footer-title">SECTIONS</div>
-						<a href="news.html">» News</a><br><br>
-						<a href="features.html">» Features</a><br><br>
-						<a href="download.html">» Download</a><br><br>
-						<a href="purchase.html">» Purchase</a><br><br>
-						<a href="lua-variables.html">» Documentation</a><br><br>
+						<a href="news.html">» News</a><br /><br />
+						<a href="features.html">» Features</a><br /><br />
+						<a href="download.html">» Download</a><br /><br />
+						<a href="purchase.html">» Purchase</a><br /><br />
+						<a href="lua-variables.html">» Documentation</a><br /><br />
 						<a href="http://forums.tibiawindbot.com">» Forums</a>
 					</div>
 					<div class="span4">
 						<!-- Get Social -->
 						<div class="footer-title">GET SOCIAL</div>
-							<p>
-								<a href="http://www.facebook.com/windbot" rel="external" class="social-network facebook"></a>
-					<a href="http://www.twitter.com/tibiawindbot" rel="external" class="social-network twitter"></a>
-								<a href="http://www.youtube.com/tibiawindbot" rel="external" class="social-network youtube"></a>
-							</p>
+						<p>
+							<a href="http://www.facebook.com/windbot" rel="external" class="social-network facebook"></a>
+							<a href="http://www.twitter.com/tibiawindbot" rel="external" class="social-network twitter"></a>
+							<a href="http://www.youtube.com/tibiawindbot" rel="external" class="social-network youtube"></a>
+						</p>
+
 						<!-- Newsletter -->
 						<div class="footer-title">NEWSLETTER</div>
 						<div class="newsletter-container">
-							<img class="ajax-loader" src="img/ajax-loader.gif" alt="">
+							<img class="ajax-loader" src="./img/ajax-loader.gif" alt="">
 							<form method="post" id="newsletter-f">
 								<input type="text" name="newsletter" placeholder="Your e-mail address">
 								<button type="submit" id="newsletter-subscribe" class="icon-ok"></button>
@@ -194,22 +192,24 @@
 			<div class="container">
 				<div class="row">
 					<div class="span1">
-						<a href="#"><img src="img/logo-footer.png" title="" alt=""></a>
+						<a href="#"><img src="./img/logo-footer.png" title="" alt=""></a>
 					</div>
 					<div class="span7">
-						Lucas Terra, Brazil<br>
+						Lucas Terra, Brazil<br />
 						E-mail: <a href="mailto:contact@tibiawindbot.com" class="blue" rel="external">contact@tibiawindbot.com</a>
 					</div>
 					<div class="span4 right">
-						&copy; 2015 WindBot, Brazil. All rights reserved.<br>
+						&copy; 2015 WindBot, Brazil. All rights reserved.<br />
 						<a href="terms.html">Terms of service</a> | <a href="privacy.html">Privacy Policy</a> | <a href="refund.html">Refund Policy</a></br>
 						<a href="https://www.tibiawindbot.com" class="blue" rel="external">https://www.tibiawindbot.com</a>
 					</div>
 				</div>
+				
 				<div class="row">
 					<div class="span12 center">
-				<br>
-				<i class="icon-warning-sign"></i> This website is not associated with CipSoft GmbH. and WindBot may be against their TOS/EULA
+						<br />
+						<i class="icon-warning-sign"></i>
+						This website is not associated with CipSoft GmbH. and WindBot may be against their TOS/EULA
 					</div>
 				</div>
 			</div>
@@ -416,19 +416,12 @@
 			{{/each}}
 		</ul>
 	</script>
-	<!-- Javascript -->
-	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/prettify.js"></script>
-	<script type="text/javascript" src="js/lang-lua.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/handlebars-v1.2.0.js"></script>
-	<script type="text/javascript" defer src="js/jquery.flexslider-min.js"></script>
 
-	<script type="text/javascript" src="js/polyfill/indexOf.js"></script>
-	<script type="text/javascript" src="js/polyfill/objectKeys.js"></script>
-	<script type="text/javascript" src="js/searcher.js"></script>
-	<script type="text/javascript" src="js/docs.js"></script>
+	<!-- Javascript -->
+	<script type="text/javascript" src="./js/libs.js"></script>
+	<script type="text/javascript" src="./js/polyfills.js"></script>
+
+	<script type="text/javascript" src="./js/searcher.js"></script>
+	<script type="text/javascript" src="./js/docs.js"></script>
 </body>
 </html>
