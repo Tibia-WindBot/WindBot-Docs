@@ -1,0 +1,3 @@
+[submodule "raphael-library"]
+	path = raphael-library
+	url = https://github.com/Tibia-WindBot/raphael-library
