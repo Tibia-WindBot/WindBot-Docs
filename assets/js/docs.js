@@ -1,8 +1,27 @@
+
 (function() {
-    var data = 04ffa3837e10c181cfa8335a104a9f1e,
-        docsData = [],
-        searchData = [],
-        groupsData = [];
+
+	var data = getData();
+
+	var docsData = [];
+	var searchData = [];
+	var groupsData = [];
+
+	function getData () {
+
+		var data = {
+			'auto-generated': '04ffa3837e10c181cfa8335a104a9f1e'
+		};
+
+		data = data['auto-generated'];
+
+		if (typeof data === 'string') {
+			throw 'Bad data';
+		}
+
+		return data;
+
+	}
 
     $.each(data, function(_, value) {
         $.map(value.items, function(group) {
@@ -156,4 +175,5 @@
         $(this).parent().parent().find('.active').removeClass('active');
         $(this).addClass('active');
     });
-})();
+
+}());
