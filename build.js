@@ -38,6 +38,7 @@ require('string.prototype.startswith');
 
 		replaceDocsData();
 		replaceContributorsList();
+		replaceResourcesPath();
 
 	}
 
@@ -54,14 +55,14 @@ require('string.prototype.startswith');
 	function replaceDocsData () {
 
 		// Replace docsData
-		replaceHashInFile({
+		replaceInFile({
 			sourceFilePath: config.templatesDir + 'js/docs.js',
 			destFilePath:   config.resultsDir   + 'js/docs.js',
 
-			hashKey: 'docsData',
-			hashKeyTemplate: "'{{ hash }}'",
+			valueToReplace: cry.createHash('md5').update('docsData').digest('hex'),
+			valueToSet: JSON.stringify(getDocsData()),
+			valueTemplate: "'{{ value }}'"
 
-			valueToSet: JSON.stringify(getDocsData())
 		});
 
 	}
@@ -69,33 +70,57 @@ require('string.prototype.startswith');
 	function replaceContributorsList () {
 
 		// Replace contributors list
-		replaceHashInFile({
+		replaceInFile({
 			sourceFilePath: config.templatesDir + 'docs.html',
 			destFilePath:   config.resultsDir   + 'docs.html',
 
-			hashKey: 'contributors',
-
+			valueToReplace: cry.createHash('md5').update('contributors').digest('hex'),
 			valueToSet: md.toHTML(fs.readFileSync(__dirname + '/CONTRIBUTORS.md').toString())
 		});
 
 	}
 
-	function replaceHashInFile (options) {
+	function replaceResourcesPath () {
 
-		if (!options || !options.sourceFilePath || !options.destFilePath || !options.hashKey || !options.valueToSet) {
+		var pattern = '{{ resourcesPath }}';
+
+		// resources for local
+		replaceInFile({
+			sourceFilePath: config.templatesDir + 'docs.html',
+			destFilePath:   config.resultsDir   + 'docs_local.html',
+
+			valueToReplace: pattern,
+			valueToSet: 'https://www.tibiawindbot.com/'
+		});
+
+		// resources for production
+		replaceInFile({
+			sourceFilePath: config.templatesDir + 'docs.html',
+			destFilePath:   config.resultsDir   + 'docs.html',
+
+			valueToReplace: pattern,
+			valueToSet: ''
+		});
+
+	}
+
+	function replaceInFile (options) {
+
+		if (!options || !options.sourceFilePath || !options.destFilePath || !options.valueToReplace || !options.hasOwnProperty('valueToSet')) {
 			throw 'Bad options';
 		}
 
-		var hash = cry.createHash('md5').update(options.hashKey).digest('hex');
 		var fileContent = fs.readFileSync(options.sourceFilePath).toString();
 
-		if (options.hashKeyTemplate) {
-			hash = options.hashKeyTemplate.replace('{{ hash }}', hash);
+		if (options.valueTemplate) {
+			options.valueToReplace = options.valueTemplate.replace('{{ value }}', options.valueToReplace);
 		}
+
+		fs.createFileSync(options.destFilePath);
 
 		fs.outputFile(
 			options.destFilePath,
-			fileContent.replace(hash, options.valueToSet)
+			fileContent.replace(new RegExp(options.valueToReplace, 'g'), options.valueToSet)
 		);
 
 	}
